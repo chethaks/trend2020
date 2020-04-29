@@ -61,11 +61,39 @@ section {
 
 .bg.bg-banner {
   /* The image used */
-  background-image: url("../images/TB_PS-header image-01.jpg");
+  background-image: url("../images/TB_PS-header-image-01.jpg");
 }
 
 .bg.market-bg-1 {
   background-image: url("../images/market-trend-bg1.jpg");
+}
+
+.bg.market-bg-2 {
+  background-image: url("../images/TB_PS-banner-end-user-01.jpg");
+}
+
+.bg.market-bg-3 {
+  background-image: url("../images/TB_PS-vertical-banner-01.jpg");
+}
+
+.bg.market-bg-4 {
+  background-image: url("../images/TB_PS-competitor-header1.jpg");
+}
+
+.bg.market-bg-5 {
+  background-image: url("../images/TB_PS-channel-header-01.jpg");
+}
+
+.bg.market-bg-6 {
+  background-image: url("../images/TB_PS-product-header.jpg");
+}
+
+.bg.covid-bg-1 {
+  background-image: url("../images/TB_PS-covid-header-01.jpg");
+}
+
+.bg.market-bg-svg1 {
+  background-image: url("../images/TB_PS-header-image.svg");
 }
 
 .bg-trend .bg-trend-header {
@@ -147,8 +175,10 @@ section {
 
 .common-image-bg .market-trend-content {
   position: absolute;
-  top: 90%;
-  left: 40%;
+  top: 50%;
+  left: 45%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 .common-image-bg .market-trend-content h1 {
@@ -159,6 +189,37 @@ section {
 
 .common-image-bg .market-trend-content h2 {
   color: #ffffff;
+  font-size: 60px;
+  width: 60%;
+}
+
+.common-image-bg .market-trend-content h3 {
+  font-size: 39px;
+  font-weight: 900;
+  color: #F7F7F7;
+  width: 60%;
+  padding-top: 4rem;
+}
+
+.common-section .global-header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 15%;
+}
+
+.common-section .global-header .border-b1 {
+  border-bottom: 1px solid #2266b0;
+}
+
+.common-section .global-header h1 {
+  color: #2266b0;
+  font-weight: 900;
+  font-size: 30px;
+  letter-spacing: 5px;
+  width: 35%;
+  margin: 0;
+  border-bottom: 3px solid #2266b0;
 }
 
 /* Change navbar styling on scroll */
