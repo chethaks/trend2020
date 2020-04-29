@@ -1,0 +1,172 @@
+/* Color Variables*/
+$background: #e5e5e5;
+$primary-color: #5bcae6;
+$secondary-color: #2266b0;
+$white: #ffffff;
+$black: #000000;
+
+/* Fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+body,
+html {
+  font-family: "Open Sans", sans-serif;
+  background-color: $background;
+}
+section {
+  position: relative;
+  //height: 100vh;
+}
+.navbar {
+  transition: all 0.4s;
+
+  .nav-link {
+    color: $white;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    &:hover,
+    &:focus {
+      color: $white;
+      text-decoration: none;
+    }
+  }
+
+  .navbar-brand {
+    color: $white;
+  }
+
+  &.active {
+    background: $white;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+
+    .nav-link {
+      color: $black;
+
+      &:hover,
+      &:focus {
+        color: $black;
+        text-decoration: none;
+      }
+    }
+
+    .navbar-brand {
+      color: $black;
+    }
+  }
+}
+.bg {
+  /* Full height */
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  &.bg-banner {
+    /* The image used */
+    background-image: url("../images/TB_PS-header image-01.jpg");
+  }
+  &.market-bg-1 {
+    background-image: url("../images/market-trend-bg1.jpg");
+  }
+}
+
+.bg-trend {
+  .bg-trend-header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    h1 {
+      color: $white;
+      font-size: 75px;
+      font-weight: bold;
+      letter-spacing: 10px;
+    }
+    h6 {
+      color: $white;
+      font-size: 16px;
+    }
+  }
+  .bg-trend-cta {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color: $white;
+    .market-trend-cta {
+      background-color: $primary-color;
+      height: 120px;
+    }
+    .covid-19-cta {
+      background-color: $secondary-color;
+      height: 120px;
+    }
+  }
+}
+.common-image-bg {
+  .market-breadcrumb {
+    color: $white;
+    padding: 10%;
+    text-align: right;
+  }
+  .market-trend-area {
+    background-color: $white;
+    width: 22%;
+    height: 450px;
+    position: absolute;
+    top: 20%;
+    z-index: 2;
+    min-width: 340px;
+    color: $secondary-color;
+    padding: 3rem 3rem 0 5rem;
+    h5{
+        font-weight: bold;
+        font-size: 24px;
+    }
+    ul{
+        li{
+            list-style: none;
+            font-size: 18px;
+            padding: 1rem 0;
+        }
+    }
+  }
+  .blue-card {
+    background-color: $secondary-color;
+    width: 22%;
+    position: absolute;
+    left: 5%;
+    bottom: 0;
+    height: 450px;
+    min-width: 340px;
+  }
+  .market-trend-content {
+    position: absolute;
+    top: 90%;
+    left: 40%;
+    h1 {
+      color: $primary-color;
+      font-size: 60px;
+      font-weight: bold;
+    }
+    h2 {
+      color: $white;
+    }
+  }
+}
+
+/* Change navbar styling on scroll */
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+  .navbar {
+    background: $white;
+
+    .navbar-brand,
+    .nav-link {
+      color: $black;
+    }
+  }
+}
