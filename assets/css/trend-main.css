@@ -96,6 +96,15 @@ section {
   background-image: url("../images/TB_PS-header-image.svg");
 }
 
+.covid-bg {
+  background-image: url("../images/TB-PS-background.svg");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-size: cover;
+}
+
 .bg-trend .bg-trend-header {
   position: absolute;
   top: 50%;
@@ -196,7 +205,7 @@ section {
 .common-image-bg .market-trend-content h3 {
   font-size: 39px;
   font-weight: 900;
-  color: #F7F7F7;
+  color: #f7f7f7;
   width: 60%;
   padding-top: 4rem;
 }
@@ -220,6 +229,131 @@ section {
   width: 35%;
   margin: 0;
   border-bottom: 3px solid #2266b0;
+}
+
+.common-covid-section {
+  padding: 10% 0;
+}
+
+.common-covid-section .covid-left-section {
+  border-left: 1rem solid #2266b0;
+  position: relative;
+}
+
+.common-covid-section .covid-left-section ul {
+  background-color: #ffffff;
+  margin: 0 10% 10% 10%;
+  padding: 4%;
+}
+
+.common-covid-section .covid-left-section ul li {
+  list-style: none;
+  font-size: 21px;
+  color: #2266b0;
+  padding: 20px;
+}
+
+.common-covid-section .covid-left-section .covid-primary-card {
+  width: 315px;
+  background-color: #5bcae6;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.common-covid-section .covid-left-section .covid-primary-card h2 {
+  color: #f7f7f7;
+  font-size: 36px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  padding: 15%;
+  letter-spacing: 0.5rem;
+}
+
+.common-covid-section .covid-middle-section {
+  position: relative;
+}
+
+.common-covid-section .covid-middle-section ul {
+  background-color: #ffffff;
+  margin: 0 10% 10% 10%;
+  padding: 4% 20%;
+}
+
+.common-covid-section .covid-middle-section ul li {
+  list-style: none;
+  font-size: 21px;
+  color: #2266b0;
+  padding: 20px;
+}
+
+.common-covid-section .covid-middle-section .covid-middle-card {
+  width: 435px;
+  height: 175px;
+  background-color: #00A1E8;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.common-covid-section .covid-middle-section .covid-middle-card h2 {
+  color: #f7f7f7;
+  font-size: 36px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  padding: 15%;
+  letter-spacing: 0.5rem;
+}
+
+.common-covid-section .covid-right-section {
+  border-right: 1rem solid #5bcae6;
+  position: relative;
+}
+
+.common-covid-section .covid-right-section ul {
+  background-color: #ffffff;
+  margin: 0 10%;
+  padding: 4% 15%;
+}
+
+.common-covid-section .covid-right-section ul li {
+  list-style: none;
+  font-size: 21px;
+  color: #2266b0;
+  padding: 20px;
+}
+
+.common-covid-section .covid-right-section .covid-secondary-card {
+  width: 315px;
+  background-color: #2266b0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.common-covid-section .covid-right-section .covid-secondary-card h2 {
+  color: #f7f7f7;
+  font-size: 36px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  padding: 15%;
+  letter-spacing: 0.5rem;
+}
+
+.closing-text h1 {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 0.5rem;
+  position: absolute;
+  top: 20%;
+  text-align: center;
+  padding: 10%;
 }
 
 /* Change navbar styling on scroll */

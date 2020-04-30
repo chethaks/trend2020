@@ -4,7 +4,7 @@ $primary-color: #5bcae6;
 $secondary-color: #2266b0;
 $white: #ffffff;
 $black: #000000;
-$sub-head: #F7F7F7;
+$sub-head: #f7f7f7;
 
 /* Fonts */
 
@@ -94,6 +94,16 @@ section {
   }
 }
 
+.covid-bg {
+  background-image: url("../images/TB-PS-background.svg");
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-size: cover;
+}
+
 .bg-trend {
   .bg-trend-header {
     position: absolute;
@@ -143,16 +153,16 @@ section {
     min-width: 340px;
     color: $secondary-color;
     padding: 3rem 3rem 0 5rem;
-    h5{
-        font-weight: bold;
-        font-size: 24px;
+    h5 {
+      font-weight: bold;
+      font-size: 24px;
     }
-    ul{
-        li{
-            list-style: none;
-            font-size: 18px;
-            padding: 1rem 0;
-        }
+    ul {
+      li {
+        list-style: none;
+        font-size: 18px;
+        padding: 1rem 0;
+      }
     }
   }
   .blue-card {
@@ -179,7 +189,7 @@ section {
       font-size: 60px;
       width: 60%;
     }
-    h3{
+    h3 {
       font-size: 39px;
       font-weight: 900;
       color: $sub-head;
@@ -188,16 +198,16 @@ section {
     }
   }
 }
-.common-section{
-  .global-header{
+.common-section {
+  .global-header {
     position: absolute;
     left: 0;
     right: 0;
     top: 15%;
-    .border-b1{
+    .border-b1 {
       border-bottom: 1px solid $secondary-color;
     }
-    h1{
+    h1 {
       color: $secondary-color;
       font-weight: 900;
       font-size: 30px;
@@ -206,6 +216,118 @@ section {
       margin: 0;
       border-bottom: 3px solid $secondary-color;
     }
+  }
+}
+
+.common-covid-section {
+  padding: 10% 0;
+  .covid-left-section {
+    border-left: 1rem solid $secondary-color;
+    position: relative;
+    ul {
+      background-color: $white;
+      margin: 0 10% 10% 10%;
+      padding: 4%;
+      li {
+        list-style: none;
+        font-size: 21px;
+        color: $secondary-color;
+        padding: 20px;
+      }
+    }
+    .covid-primary-card {
+      width: 315px;
+      background-color: $primary-color;
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      h2 {
+        color: #f7f7f7;
+        font-size: 36px;
+        font-weight: bold;
+        position: absolute;
+        bottom: 0;
+        padding: 15%;
+        letter-spacing: 0.5rem;
+      }
+    }
+  }
+  .covid-middle-section{
+    position: relative;
+    ul {
+      background-color: $white;
+      margin: 0 10% 10% 10%;
+      padding: 4% 20%;
+      li {
+        list-style: none;
+        font-size: 21px;
+        color: $secondary-color;
+        padding: 20px;
+      }
+    }
+    .covid-middle-card {
+      width: 435px;
+      height: 175px;
+      background-color: #00A1E8;
+      position: absolute;
+      left: 0;
+      top: 0;
+      h2 {
+        color: #f7f7f7;
+        font-size: 36px;
+        font-weight: bold;
+        position: absolute;
+        bottom: 0;
+        padding: 15%;
+        letter-spacing: 0.5rem;
+      }
+    }
+  }
+  .covid-right-section{
+    border-right: 1rem solid $primary-color;
+    position: relative;
+    ul {
+      background-color: $white;
+      margin: 0 10%;
+      padding: 4% 15%;
+      li {
+        list-style: none;
+        font-size: 21px;
+        color: $secondary-color;
+        padding: 20px;
+      }
+    }
+    .covid-secondary-card {
+      width: 315px;
+      background-color: $secondary-color;
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      h2 {
+        color: #f7f7f7;
+        font-size: 36px;
+        font-weight: bold;
+        position: absolute;
+        bottom: 0;
+        padding: 15%;
+        letter-spacing: 0.5rem;
+      }
+    }
+  }
+}
+
+.closing-text{
+  h1{
+    color: $white;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 0.5rem;
+    position: absolute;
+    top: 20%;
+    text-align: center;
+    padding: 10%;
   }
 }
 /* Change navbar styling on scroll */
