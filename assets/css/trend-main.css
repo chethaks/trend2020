@@ -4,7 +4,7 @@
 body,
 html {
   font-family: "Roboto", sans-serif;
-  background-color: #e5e5e5;
+  background-color: #ffffff;
 }
 
 section {
@@ -102,7 +102,7 @@ section {
   height: 100%;
   /* Center and scale the image nicely */
   background-position: center;
-  background-size: cover;
+  background-size: contain;
 }
 
 .bg-trend .bg-trend-header {
@@ -133,37 +133,77 @@ section {
   color: #ffffff;
 }
 
-.bg-trend .bg-trend-cta .nav.nav-tabs {
-  border: none;
-  width: 100%;
-}
-
-.bg-trend .bg-trend-cta .nav.nav-tabs .nav-item {
-  margin: 0;
-}
-
-.bg-trend .bg-trend-cta .nav.nav-tabs .nav-item.market-trend-cta {
+.bg-trend .bg-trend-cta .market-trend-cta {
   background-color: #5bcae6;
   height: 120px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
 }
 
-.bg-trend .bg-trend-cta .nav.nav-tabs .nav-item.covid-19-cta {
-  background-color: #2266b0;
+.bg-trend .bg-trend-cta .covid-19-cta {
+  background: -webkit-gradient(linear, left top, right top, from(#2266b0), color-stop(27%, #206ab3), color-stop(51%, #1a75be), color-stop(74%, #0f87cf), color-stop(96%, #00a1e8), color-stop(97%, #00a1e8));
+  background: linear-gradient(90deg, #2266b0 0%, #206ab3 27%, #1a75be 51%, #0f87cf 74%, #00a1e8 96%, #00a1e8 97%);
   height: 120px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
 }
 
-.bg-trend .bg-trend-cta .nav.nav-tabs .nav-item a.nav-link {
-  color: #ffffff;
+.common-tabs {
+  background-color: #ffffff;
+  width: 22%;
+  height: 450px;
+  position: absolute;
+  margin-top: 10rem;
+  z-index: 2;
+  min-width: 340px;
+  color: #2266b0;
+  padding: 3rem 3rem 0 5rem;
+}
+
+.common-tabs ul.nav.nav-tabs {
+  border: 0;
+  display: block;
+}
+
+.common-tabs ul.nav.nav-tabs li {
+  list-style: none;
+  font-size: 18px;
+  padding: 1rem 0;
+}
+
+.common-tabs ul.nav.nav-tabs li:first-child {
+  font-weight: bold;
+  font-size: 24px;
+  border-color: transparent;
+  border-radius: 0;
+  padding: 0;
+}
+
+.common-tabs ul.nav.nav-tabs li:first-child a.nav-link:hover {
+  border-bottom: 1px solid transparent !important;
+}
+
+.common-tabs ul.nav.nav-tabs li:first-child a.nav-link.active {
+  border-bottom: 1px solid transparent !important;
+}
+
+.common-tabs ul.nav.nav-tabs li.nav-item a.nav-link {
+  color: #2266b0;
+  padding: 0;
+}
+
+.common-tabs ul.nav.nav-tabs li.nav-item a.nav-link:hover {
+  border-color: transparent;
+  border-bottom: 1px solid #2266b0;
   border-radius: 0;
 }
 
-.bg-trend .bg-trend-cta .nav.nav-tabs .nav-item a.nav-link.active {
-  border: none;
-  background-color: transparent;
-}
-
-.bg-trend .bg-trend-cta .nav.nav-tabs .nav-item a.nav-link:hover {
+.common-tabs ul.nav.nav-tabs li.nav-item a.nav-link.active {
   border-color: transparent;
+  border-bottom: 1px solid #2266b0;
+  border-radius: 0;
 }
 
 .common-image-bg .market-breadcrumb {
@@ -189,28 +229,10 @@ section {
   font-size: 24px;
 }
 
-.common-image-bg .market-trend-area ul.nav.nav-tabs {
-  border: 0;
-  display: block;
-}
-
-.common-image-bg .market-trend-area ul.nav.nav-tabs li {
+.common-image-bg .market-trend-area ul li {
   list-style: none;
   font-size: 18px;
   padding: 1rem 0;
-}
-
-.common-image-bg .market-trend-area ul.nav.nav-tabs li.nav-item a.nav-link {
-  color: #2266b0;
-  padding: 0;
-}
-
-.common-image-bg .market-trend-area ul.nav.nav-tabs li.nav-item a.nav-link:hover {
-  border: 0;
-}
-
-.common-image-bg .market-trend-area ul.nav.nav-tabs li.nav-item a.nav-link.active {
-  border: 0;
 }
 
 .common-image-bg .blue-card {
@@ -255,7 +277,7 @@ section {
   position: absolute;
   left: 0;
   right: 0;
-  top: 15%;
+  top: 10%;
 }
 
 .common-section .global-header .border-b1 {
@@ -267,13 +289,25 @@ section {
   font-weight: 900;
   font-size: 30px;
   letter-spacing: 5px;
-  width: 35%;
   margin: 0;
-  border-bottom: 3px solid #2266b0;
+  border-bottom: 4px solid #2266b0;
+}
+
+.common-section .global-header h1.w40 {
+  width: 40%;
+}
+
+.common-section .global-header h1.w50 {
+  width: 60%;
+}
+
+.common-section .global-header h1.w60 {
+  width: 60%;
 }
 
 .common-covid-section {
   padding: 10% 0;
+  overflow: hidden;
 }
 
 .common-covid-section .covid-left-section {
@@ -395,6 +429,38 @@ section {
   top: 20%;
   text-align: center;
   padding: 10%;
+}
+
+#scrollTop {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background-color: #2266b0;
+  text-indent: -9999px;
+  display: none;
+  border-radius: 60px;
+}
+
+#scrollTop span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -8px;
+  margin-top: -12px;
+  height: 0;
+  width: 0;
+  border: 8px solid transparent;
+  border-bottom-color: #ffffff;
+}
+
+#scrollTop:hover {
+  background-color: #5bcae6;
+  opacity: 1;
+  filter: "alpha(opacity=100)";
+  -ms-filter: "alpha(opacity=100)";
 }
 
 /* Change navbar styling on scroll */
