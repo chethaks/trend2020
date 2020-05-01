@@ -20,9 +20,10 @@
 <body>
     <!-- Navbar-->
     <header class="header">
-        <nav class="navbar navbar-expand-lg fixed-top py-3">
-            <div class="container-fluid"><a href="#" class="navbar-brand text-uppercase font-weight-bold">TRENDS
-                    2020</a>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid"><a href="#" class="navbar-brand text-uppercase font-weight-bold">
+                    <img src="assets/images/harman-logo.png" alt="" width="120px" />
+                    TRENDS 2020</a>
                 <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
                     class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
@@ -35,7 +36,8 @@
                         <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Lifestyle
                                 Audio</a>
                         </li>
-                        <li class="nav-item"><a href="index.html" class="nav-link text-uppercase font-weight-bold">Professional
+                        <li class="nav-item"><a href="index.html"
+                                class="nav-link text-uppercase font-weight-bold">Professional
                                 Solutions</a>
                         </li>
                         <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Connected
@@ -58,10 +60,18 @@
             </div>
             <div class="bg-trend-cta">
                 <div class="container">
-                    <div class="row">
-                        <div class="market-trend-cta p-3 col-sm-4">Global Automobile Industry Outlook</div>
-                        <div class="covid-19-cta p-3 col-sm-4">Trends impacting the Connected Car Space</div>
-                        <div class="market-trend-cta p-3 col-sm-4">Establishing HARMAN as the leader</div>
+                    <div class="row" style="padding: 0 5%;">
+                        <div id="market" style="padding-right: 5rem;" class="market-trend-cta col-sm-4">Global Automobile Industry Outlook
+                            <span class="banner-arrow"><img src="assets/images/TB-PS-arrow.svg" alt="" /></span>
+                        </div>
+                        <div id="covid" style="padding-right: 5rem;" class="covid-19-cta col-sm-4">Trends impacting the Connected Car Space
+                            <span class="banner-arrow"><img src="assets/images/TB-PS-arrow-light-blue-top.svg"
+                                    alt="" /></span>
+                        </div>
+                        <div id="market" style="padding-right: 5rem;" class="market-trend-cta col-sm-4">Establishing HARMAN as the leader
+                            <span class="banner-arrow"><img src="assets/images/TB-PS-arrow.svg"
+                                    alt="" /></span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -71,239 +81,225 @@
             <div class="global-header">
                 <div class="container">
                     <div class="row border-b1">
-                        <h1>THE GLOBAL ECONOMY OUTLOOK</h1>
+                        <h1 class="w40">THE GLOBAL ECONOMY OUTLOOK</h1>
                     </div>
                 </div>
             </div>
-            <img src="assets/images/TB_PS-header-image.svg" alt="" />
+            <img src="assets/images/TB_PS-header-image.svg" alt="" width="100%" />
         </section>
+
         <!-- MARKET TRENDS-->
-        <section class="common-image-bg bg market-bg-1">
-            <div class="market-breadcrumb">MARKET TRENDS</div>
-            <div class="blue-card " data-rellax-speed="-1"></div>
-            <div class="" data-rellax-speed="1" data-rellax-zindex="2">
-                <div class="market-trend-area col-sm-6">
-                    <h5>MARKET TRENDS BY AREAS</h5>
-                    <ul class="p-0">
-                        <li>END-USER</li>
-                        <li>VERTICAL</li>
-                        <li>COMPETITORS</li>
-                        <li>CHANNEL</li>
-                        <li>PRODUCT</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="market-trend-content col-sm-6">
-                <div class="" data-rellax-speed="2">
-                    <h1>Market Trends</h1>
-                    <h2>reshaping our approach</h2>
-                </div>
-            </div>
-        </section>
-        <!-- End User-->
-        <section class="common-image-bg bg market-bg-2">
-            <div class="market-breadcrumb">MARKET TRENDS | END USER</div>
-            <div class="blue-card " data-rellax-speed="-1.5"></div>
-            <div class="" data-rellax-speed="1.5" data-rellax-zindex="2">
-                <div class="market-trend-area col-sm-6">
-                    <h5>MARKET TRENDS BY AREAS</h5>
-                    <ul class="p-0">
-                        <li>END-USER</li>
-                        <li>VERTICAL</li>
-                        <li>COMPETITORS</li>
-                        <li>CHANNEL</li>
-                        <li>PRODUCT</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="market-trend-content col-sm-6">
-                <div class="" data-rellax-speed="1.5">
-                    <h3>CREATE BETTER EXPERIENCE</h3>
-                    <h3>MONETIZATION OF CONTENT</h3>
-                </div>
+        <section>
+            <div class="common-tabs">
+                <ul class="p-0 nav nav-tabs">
+                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#market-trend-tab">MARKET
+                            TRENDS BY AREAS</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#end-user">END-USER</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#vertical">VERTICAL</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#competitors">COMPETITORS</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#channel">CHANNEL</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#product">PRODUCT</a>
+                    </li>
+                </ul>
             </div>
         </section>
 
-        <section class="common-section">
-            <div class="global-header">
-                <div class="container">
-                    <div class="row border-b1">
-                        <h1>CREATE BETTER EXPERIENCE</h1>
+        <div class="tab-content">
+            <div class="tab-pane active" id="market-trend-tab">
+                <section id="marketSection" class="common-image-bg bg market-bg-1">
+                    <div class="market-breadcrumb">MARKET TRENDS</div>
+                    <div class="blue-card"></div>
+                    <div class="market-trend-content col-sm-6">
+                        <div class="" data-rellax-speed="2">
+                            <h1>Market Trends</h1>
+                            <h2>reshaping our approach</h2>
+                        </div>
                     </div>
-                </div>
+                </section>
             </div>
-            <img src="assets/images/TB_PS-end-user-Graph1.svg" alt="" />
-        </section>
 
-        <section class="common-section">
-            <div class="global-header">
-                <div class="container">
-                    <div class="row border-b1">
-                        <h1>MONETIZATION OF CONTENT</h1>
-                    </div>
-                </div>
-            </div>
-            <img src="assets/images/TB_PS-end-user-Graph2.svg" alt="" />
-        </section>
-        <!-- Vertical -->
-        <section class="common-image-bg bg market-bg-3">
-            <div class="market-breadcrumb">MARKET TRENDS | VERTICAL</div>
-            <div class="blue-card " data-rellax-speed="-1.5"></div>
-            <div class="" data-rellax-speed="1.5" data-rellax-zindex="2">
-                <div class="market-trend-area col-sm-6">
-                    <h5>MARKET TRENDS BY AREAS</h5>
-                    <ul class="p-0">
-                        <li>END-USER</li>
-                        <li>VERTICAL</li>
-                        <li>COMPETITORS</li>
-                        <li>CHANNEL</li>
-                        <li>PRODUCT</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="market-trend-content col-sm-6">
-                <div class="" data-rellax-speed="1.5">
-                    <h3>INCREASEAD COMPETITION IN MEETING SPACE</h3>
-                    <h3>STRATEGIC PARTNERSHIP TO FILL THE GAP</h3>
-                </div>
-            </div>
-        </section>
+            <div class="tab-pane" id="end-user">
+                <!-- End User-->
 
-        <section class="common-section">
-            <div class="global-header">
-                <div class="container">
-                    <div class="row border-b1">
-                        <h1>INCREASED COMPETITION IN MEETING SPACE</h1>
+                <section class="common-image-bg bg market-bg-2">
+                    <div class="market-breadcrumb">MARKET TRENDS | END USER</div>
+                    <div class="blue-card"></div>
+                    <div class="market-trend-content col-sm-6">
+                        <div class="" data-rellax-speed="1.5">
+                            <h3>CREATE BETTER EXPERIENCE</h3>
+                            <h3>MONETIZATION OF CONTENT</h3>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <img src="assets/images/TB_PS-vertical-Graph1.svg" alt="" />
-        </section>
+                </section>
 
-        <section class="common-section">
-            <div class="global-header">
-                <div class="container">
-                    <div class="row border-b1">
-                        <h1>STRATEGIC PARTNERSHIP TO FILL THE GAP</h1>
-                    </div>
+                <div class="show-section-1">
+                    <section class="common-section">
+                        <div class="global-header">
+                            <div class="container">
+                                <div class="row border-b1">
+                                    <h1 class="w40">CREATE BETTER EXPERIENCE</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <img style="width: 100%; padding: 15%;" src="assets/images/TB_PS-end-user-Graph1.svg" alt="" />
+                    </section>
+                    <span class="next"><img src="assets/images/FRWD-01.svg" alt="" /></span>
                 </div>
-            </div>
-            <img src="assets/images/TB_PS-vertical-Graph2-01.svg" alt="" />
-        </section>
-        <!-- Competitors -->
-        <section class="common-image-bg bg market-bg-4">
-            <div class="market-breadcrumb">MARKET TRENDS | COMPETITORS</div>
-            <div class="blue-card " data-rellax-speed="-1.5"></div>
-            <div class="" data-rellax-speed="1.5" data-rellax-zindex="2">
-                <div class="market-trend-area col-sm-6">
-                    <h5>MARKET TRENDS BY AREAS</h5>
-                    <ul class="p-0">
-                        <li>END-USER</li>
-                        <li>VERTICAL</li>
-                        <li>COMPETITORS</li>
-                        <li>CHANNEL</li>
-                        <li>PRODUCT</li>
-                    </ul>
+                <div class="show-section-2">
+                    <section class="common-section">
+                        <div class="global-header">
+                            <div class="container">
+                                <div class="row border-b1">
+                                    <h1 class="w40">MONETIZATION OF CONTENT</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <img style="width: 100%; padding: 15%;" src="assets/images/TB_PS-end-user-Graph2.svg" alt="" />
+                    </section>
+                    <span class="prev"><img src="assets/images/BACK-01.svg" alt="" /></span>
                 </div>
-            </div>
-            <div class="market-trend-content col-sm-6">
-                <div class="" data-rellax-speed="1.5">
-                    <h3>SCALING UP IN COMPETITORS</h3>
-                </div>
-            </div>
-        </section>
 
-        <section class="common-section">
-            <div class="global-header">
-                <div class="container">
-                    <div class="row border-b1">
-                        <h1>SCALING UP IN COMPETITORS</h1>
-                    </div>
-                </div>
-            </div>
-            <img src="assets/images/TB_PS-competitor-graph-01.svg" alt="" />
-        </section>
-        <!-- Channel -->
-        <section class="common-image-bg bg market-bg-5">
-            <div class="market-breadcrumb">MARKET TRENDS | CHANNEL</div>
-            <div class="blue-card " data-rellax-speed="-1.5"></div>
-            <div class="" data-rellax-speed="1.5" data-rellax-zindex="2">
-                <div class="market-trend-area col-sm-6">
-                    <h5>MARKET TRENDS BY AREAS</h5>
-                    <ul class="p-0">
-                        <li>END-USER</li>
-                        <li>VERTICAL</li>
-                        <li>COMPETITORS</li>
-                        <li>CHANNEL</li>
-                        <li>PRODUCT</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="market-trend-content col-sm-6">
-                <div class="" data-rellax-speed="1.5">
-                    <h3>STRATEGIC MOVES OF CHANNEL PLAYERS</h3>
-                </div>
-            </div>
-        </section>
 
-        <section class="common-section">
-            <div class="global-header">
-                <div class="container">
-                    <div class="row border-b1">
-                        <h1>STRATEGIC MOVES OF CHANNEL PLAYERS</h1>
-                    </div>
-                </div>
-            </div>
-            <img src="assets/images/TB_PS-channel-graph-01.svg" alt="" />
-        </section>
-        <!-- Product -->
-        <section class="common-image-bg bg market-bg-6">
-            <div class="market-breadcrumb">MARKET TRENDS | PRODUCT</div>
-            <div class="blue-card " data-rellax-speed="-1.5"></div>
-            <div class="" data-rellax-speed="1.5" data-rellax-zindex="2">
-                <div class="market-trend-area col-sm-6">
-                    <h5>MARKET TRENDS BY AREAS</h5>
-                    <ul class="p-0">
-                        <li>END-USER</li>
-                        <li>VERTICAL</li>
-                        <li>COMPETITORS</li>
-                        <li>CHANNEL</li>
-                        <li>PRODUCT</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="market-trend-content col-sm-6">
-                <div class="" data-rellax-speed="1.5">
-                    <h3>NETWORK CONNECTIVITY, REMOTE CONTROL & MANAGEMENT</h3>
-                    <h3>INCREASED IMPORTANCE OF CENTRALIZED, OPEN PLATFORM</h3>
-                </div>
-            </div>
-        </section>
 
-        <section class="common-section">
-            <div class="global-header">
-                <div class="container">
-                    <div class="row border-b1">
-                        <h1>NETWORK CONNECTIVITY, REMOTE CONTROL & MANAGEMENT</h1>
-                    </div>
-                </div>
             </div>
-            <img src="assets/images/TB_PS-product-graph-01.svg" alt="" />
-        </section>
+            <div class="tab-pane" id="vertical">
+                <!-- Vertical -->
+                <section class="common-image-bg bg market-bg-3">
+                    <div class="market-breadcrumb">MARKET TRENDS | VERTICAL</div>
+                    <div class="blue-card"></div>
+                    <div class="market-trend-content col-sm-6">
+                        <div class="" data-rellax-speed="1.5">
+                            <h3>INCREASEAD COMPETITION IN MEETING SPACE</h3>
+                            <h3>STRATEGIC PARTNERSHIP TO FILL THE GAP</h3>
+                        </div>
+                    </div>
+                </section>
 
-        <section class="common-section">
-            <div class="global-header">
-                <div class="container">
-                    <div class="row border-b1">
-                        <h1>INCREASING IMPORTANCE OF CENTRALIZED, OPEN PLATFORM</h1>
-                    </div>
+                <div class="show-section-1">
+                    <section class="common-section">
+                        <div class="global-header">
+                            <div class="container">
+                                <div class="row border-b1">
+                                    <h1 class="w50">INCREASED COMPETITION IN MEETING SPACE</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <img style="width: 100%; padding: 15%;" src="assets/images/TB_PS-vertical-Graph1.svg" alt="" />
+                    </section>
+                    <span class="next"><img src="assets/images/FRWD-01.svg" alt="" /></span>
+                </div>
+                <div class="show-section-2">
+                    <section class="common-section">
+                        <div class="global-header">
+                            <div class="container">
+                                <div class="row border-b1">
+                                    <h1 class="w50">STRATEGIC PARTNERSHIP TO FILL THE GAP</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <img style="width: 100%; padding: 15%;" src="assets/images/TB_PS-vertical-Graph2-01.svg"
+                            alt="" />
+                    </section>
+                    <span class="prev"><img src="assets/images/BACK-01.svg" alt="" /></span>
                 </div>
             </div>
-            <img src="assets/images/TB_PS-product-graph1-01.svg" alt="" />
-        </section>
+            <div class="tab-pane" id="competitors">
+                <!-- Competitors -->
+                <section class="common-image-bg bg market-bg-4">
+                    <div class="market-breadcrumb">MARKET TRENDS | COMPETITORS</div>
+                    <div class="blue-card"></div>
+                    <div class="market-trend-content col-sm-6">
+                        <div class="" data-rellax-speed="1.5">
+                            <h3>SCALING UP IN COMPETITORS</h3>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="common-section">
+                    <div class="global-header">
+                        <div class="container">
+                            <div class="row border-b1">
+                                <h1 class="w40">SCALING UP IN COMPETITORS</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <img style="width: 100%; padding: 15%;" src="assets/images/TB_PS-competitor-graph-01.svg" alt="" />
+                </section>
+            </div>
+            <div class="tab-pane" id="channel">
+                <!-- Channel -->
+                <section class="common-image-bg bg market-bg-5">
+                    <div class="market-breadcrumb">MARKET TRENDS | CHANNEL</div>
+                    <div class="blue-card"></div>
+                    <div class="market-trend-content col-sm-6">
+                        <div class="" data-rellax-speed="1.5">
+                            <h3>STRATEGIC MOVES OF CHANNEL PLAYERS</h3>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="common-section">
+                    <div class="global-header">
+                        <div class="container">
+                            <div class="row border-b1">
+                                <h1 class="w40">STRATEGIC MOVES OF CHANNEL PLAYERS</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <img style="width: 100%; padding: 15% 0;" src="assets/images/TB_PS-channel-graph-01.svg" alt="" />
+                </section>
+            </div>
+            <div class="tab-pane" id="product">
+                <!-- Product -->
+                <section class="common-image-bg bg market-bg-6">
+                    <div class="market-breadcrumb">MARKET TRENDS | PRODUCT</div>
+                    <div class="blue-card"></div>
+                    <div class="market-trend-content col-sm-6">
+                        <div class="" data-rellax-speed="1.5">
+                            <h3>NETWORK CONNECTIVITY, REMOTE CONTROL & MANAGEMENT</h3>
+                            <h3>INCREASED IMPORTANCE OF CENTRALIZED, OPEN PLATFORM</h3>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="show-section-1">
+                    <section class="common-section">
+                        <div class="global-header">
+                            <div class="container">
+                                <div class="row border-b1">
+                                    <h1 class="w60">NETWORK CONNECTIVITY, REMOTE CONTROL & MANAGEMENT</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <img style="width: 100%; padding: 15%;" src="assets/images/TB_PS-product-graph-01.svg" alt="" />
+                    </section>
+                    <span class="next"><img src="assets/images/FRWD-01.svg" alt="" /></span>
+                </div>
+                <div class="show-section-2">
+                    <section class="common-section">
+                        <div class="global-header">
+                            <div class="container">
+                                <div class="row border-b1">
+                                    <h1 class="w60">INCREASING IMPORTANCE OF CENTRALIZED, OPEN PLATFORM</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <img style="width: 100%; padding: 15% 0;" src="assets/images/TB_PS-product-graph1-01.svg"
+                            alt="" />
+                    </section>
+                    <span class="prev"><img src="assets/images/BACK-01.svg" alt="" /></span>
+                </div>
+            </div>
+        </div>
+
 
         <!-- COVID - 19-->
-        <section class="common-image-bg bg covid-bg-1">
+        <section id="covidSection" class="common-image-bg bg covid-bg-1">
             <div class="market-breadcrumb">NEW NORMAL AFTER COVID-19</div>
             <div class="blue-card " data-rellax-speed="-1"></div>
             <div class="" data-rellax-speed="1" data-rellax-zindex="2">
@@ -352,9 +348,9 @@
                 <ul>
                     <li>1. Physical events will eventuallu return bit VR/AR can be adopted widely</li>
                     <li>2. Demand of Personalized Equipment for 'Work from Home or other places'</li>
-                    <li>3. Industry Reorganiztion  (Who will survive)</li>
+                    <li>3. Industry Reorganiztion (Who will survive)</li>
                     <li>4. This change could be accelerated</li>
-                    <li>5.Even Grateer importance on Software based remote management</li>
+                    <li>5. Even Grateer importance on Software based remote management</li>
                 </ul>
                 <div class="covid-secondary-card">
                     <h2>TO BE ALTERED</h2>
@@ -362,17 +358,17 @@
             </div>
         </section>
 
-        <section class="closing-text bg market-bg-1">
-            <h1>With technologies of tomorrow changing the outlook for Professional Solutions, how are we capitalizing on the latest trends?</h1>
+        <section class="closing-text bg market-bg-7">
+            <h1>With technologies of tomorrow changing the outlook for Professional Solutions, how are we
+                capitalizing
+                on the latest trends?</h1>
         </section>
-
-
+        <a href="#" id="scrollTop" style="display: none;"><span></span></a>
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"
+        integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>

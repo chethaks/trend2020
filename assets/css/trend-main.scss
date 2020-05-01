@@ -1,5 +1,5 @@
 /* Color Variables*/
-$background: #ffffff;
+$background: #e5e5e5;
 $primary-color: #5bcae6;
 $secondary-color: #2266b0;
 $white: #ffffff;
@@ -20,7 +20,7 @@ section {
   //height: 100vh;
 }
 .navbar {
-  transition: all 0.4s;
+  transition: all 0.9s;
 
   .nav-link {
     color: $white;
@@ -38,21 +38,22 @@ section {
   }
 
   &.active {
-    background: $white;
-    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+    background: $secondary-color;
+
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.7);
 
     .nav-link {
-      color: $black;
+      color: $white;
 
       &:hover,
       &:focus {
-        color: $black;
+        color: $white;
         text-decoration: none;
       }
     }
 
     .navbar-brand {
-      color: $black;
+      color: $white;
     }
   }
 }
@@ -69,7 +70,7 @@ section {
     background-image: url("../images/TB_PS-header-image-01.jpg");
   }
   &.market-bg-1 {
-    background-image: url("../images/market-trend-bg1.jpg");
+    background-image: url("../images/TB_PS-banner-trends-01.jpg");
   }
   &.market-bg-2 {
     background-image: url("../images/TB_PS-banner-end-user-01.jpg");
@@ -85,6 +86,9 @@ section {
   }
   &.market-bg-6 {
     background-image: url("../images/TB_PS-product-header.jpg");
+  }
+  &.market-bg-7 {
+    background-image: url("../images/TB_PS-summary-heade3r.jpg");
   }
   &.covid-bg-1 {
     background-image: url("../images/TB_PS-covid-header-01.jpg");
@@ -133,6 +137,17 @@ section {
       cursor: pointer;
       font-size: 18px;
       font-weight: bold;
+      letter-spacing: 2px;
+      padding: 2rem 7rem 2rem 2rem;
+      span {
+        width: 25px;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        img {
+          transform: rotate(180deg);
+        }
+      }
     }
     .covid-19-cta {
       background: linear-gradient(
@@ -148,6 +163,17 @@ section {
       cursor: pointer;
       font-size: 18px;
       font-weight: bold;
+      letter-spacing: 2px;
+      padding: 2rem 10rem 2rem 2rem;
+      span {
+        width: 25px;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        img {
+          transform: rotate(180deg);
+        }
+      }
     }
   }
 }
@@ -177,6 +203,9 @@ section {
             border-radius: 0;
             padding: 0;
             a.nav-link {
+              &:after {
+                content: "" !important;
+              }
               &:hover {
                 border-bottom: 1px solid transparent !important;
               }
@@ -189,6 +218,14 @@ section {
             a.nav-link {
               color: $secondary-color;
               padding: 0;
+              &:after {
+                content: url(../images/TB-PS-arrow.svg);
+                float: right;
+                width: 25px;
+                transform: rotate(180deg);
+                position: relative;
+                bottom: 7px;
+              }
               &:hover {
                 border-color: transparent;
                 border-bottom: 1px solid $secondary-color;
@@ -247,8 +284,8 @@ section {
   .market-trend-content {
     position: absolute;
     top: 50%;
-    left: 45%;
-    transform: translateY(-50%);
+    left: 37%;
+    transform: translateY(-44%);
     h1 {
       color: $primary-color;
       font-size: 60px;
@@ -263,8 +300,14 @@ section {
       font-size: 39px;
       font-weight: 900;
       color: $sub-head;
-      width: 60%;
+      width: 70%;
       padding-top: 4rem;
+      &:after {
+        content: url(../images/TB-PS-arrow-light-blue-01.svg);
+        display: block;
+        transform: rotate(180deg);
+        width: 30px;
+      }
     }
   }
 }
@@ -440,6 +483,43 @@ section {
     filter: "alpha(opacity=100)";
     -ms-filter: "alpha(opacity=100)";
   }
+}
+
+/*Slide Styles*/
+
+.show-section-1, .show-section-2{
+  position: relative;
+  .next{
+    width: 60px;
+    position: absolute;
+    top: 40%;
+    right: 4%;
+    background-color: $secondary-color;
+    border-radius: 50%;
+    padding: 15px 20px;
+  }
+  .prev{
+    width: 60px;
+    position: absolute;
+    top: 40%;
+    left: 4%;
+    background-color: $secondary-color;
+    border-radius: 50%;
+    padding: 15px 20px;
+  }
+}
+
+.next{
+  display: inline-block;
+  width: 30px;
+  position: absolute;
+  top: 50%;
+}
+.prev{
+  display: inline-block;
+  width: 30px;
+  position: absolute;
+  top: 50%;
 }
 
 /* Change navbar styling on scroll */
