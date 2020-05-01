@@ -7,6 +7,7 @@ $(document).ready(function () {
     } else {
       $(".navbar").removeClass("active");
     }
+    return false;
   });
 
   /** Scroll to section */
@@ -17,6 +18,7 @@ $(document).ready(function () {
       },
       2000,
     );
+    return false;
   });
 
   $("#covid").click(function () {
@@ -26,6 +28,7 @@ $(document).ready(function () {
       },
       2000,
     );
+    return false;
   });
 
   /** Scroll to top */
@@ -35,6 +38,7 @@ $(document).ready(function () {
     } else {
       $("#scrollTop").fadeOut();
     }
+    return false;
   });
 
   $("#scrollTop").click(function () {
@@ -44,7 +48,7 @@ $(document).ready(function () {
 });
 
 /** Page Parallax */
-var rellax = new Rellax(".rellax"); // Accepts any class name
+var rellax = new Rellax('.rellax'); // Accepts any class name
 
 /** Slide Section */
 
