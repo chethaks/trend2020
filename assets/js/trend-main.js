@@ -31,6 +31,56 @@ $("#covid").click(function () {
   return false;
 });
 
+$("#endUser").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#endUserSection").offset().top,
+    },
+    2000,
+  );
+  return false;
+});
+
+$("#competitorsIn").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#competitorSection").offset().top,
+    },
+    2000,
+  );
+  return false;
+});
+
+$("#verticalIn").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#verticalSection").offset().top,
+    },
+    2000,
+  );
+  return false;
+});
+
+$("#channelIn").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#channelSection").offset().top,
+    },
+    2000,
+  );
+  return false;
+});
+
+$("#productIn").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#productSection").offset().top,
+    },
+    2000,
+  );
+  return false;
+});
+
 /** Scroll to top */
 $(window).scroll(function () {
   if ($(this).scrollTop() > 100) {
@@ -71,4 +121,15 @@ $(".btnNext").click(function () {
 
 $(".btnPrevious").click(function () {
   $(".nav-tabs > .active").prev("li").find("a").trigger("click");
+});
+
+
+$( "#covidClick" ).click(function() {
+  $("#openCovideSection" ).slideDown( "slow" );
+  $("html, body").animate(
+    {
+      scrollTop: $("#openCovideSection").offset().top,
+    },
+    2000,
+  );
 });

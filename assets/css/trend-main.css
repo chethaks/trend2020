@@ -35,9 +35,10 @@ section {
 }
 
 .navbar.active {
-  background: #2266b0;
-  -webkit-box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.7);
-          box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.7);
+  background: -webkit-gradient(linear, left top, right top, color-stop(39.58%, #0C4584), color-stop(69.79%, rgba(12, 69, 132, 0.79)), to(rgba(0, 114, 164, 0.09)));
+  background: linear-gradient(90deg, #0C4584 39.58%, rgba(12, 69, 132, 0.79) 69.79%, rgba(0, 114, 164, 0.09) 100%);
+  -webkit-box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.4);
+          box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.4);
 }
 
 .navbar.active .nav-link {
@@ -64,7 +65,7 @@ section {
 
 .bg.bg-banner {
   /* The image used */
-  background-image: url("../images/TB_PS-header-image-01.jpg");
+  background-image: url("../images/TB_PS-header-image-01.png");
 }
 
 .bg.market-bg-1 {
@@ -100,7 +101,11 @@ section {
 }
 
 .bg.market-bg-svg1 {
-  background-image: url("../images/TB_PS-header-image.svg");
+  background-image: url("../images/graph_gif.gif");
+  background-color: #ffffff;
+  background-size: contain;
+  height: 125vh;
+  background-position: bottom;
 }
 
 .covid-bg {
@@ -255,6 +260,10 @@ section {
   border-radius: 0;
 }
 
+#openCovideSection {
+  display: none;
+}
+
 .common-image-bg .market-breadcrumb {
   color: #ffffff;
   padding: 10%;
@@ -282,6 +291,16 @@ section {
   list-style: none;
   font-size: 18px;
   padding: 1rem 0;
+}
+
+.common-image-bg .market-trend-area #covidClick {
+  text-align: center;
+}
+
+.common-image-bg .market-trend-area #covidClick img {
+  width: 30px;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
 }
 
 .common-image-bg .blue-card {
@@ -323,22 +342,25 @@ section {
 }
 
 .common-image-bg .market-trend-content h3:after {
-  content: url(../images/TB-PS-arrow-light-blue-01.svg);
+  /* content: url(../images/TB-PS-arrow-light-blue-01.svg); */
   display: block;
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
   width: 30px;
 }
 
+.common-image-bg .market-trend-content img {
+  width: 30px;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
 .common-section {
-  background-color: #ffffff;
+  background-color: #e5e5e5;
 }
 
 .common-section .global-header {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 10%;
+  padding: 10% 10% 1%;
 }
 
 .common-section .global-header .border-b1 {
@@ -351,7 +373,7 @@ section {
   font-size: 30px;
   letter-spacing: 5px;
   margin: 0;
-  border-bottom: 4px solid #2266b0;
+  border-bottom: 5px solid #2266b0;
 }
 
 .common-section .global-header h1.w40 {
@@ -364,6 +386,17 @@ section {
 
 .common-section .global-header h1.w60 {
   width: 60%;
+}
+
+.common-section .img-bg {
+  background-color: #ffffff;
+  padding: 0;
+  width: 75%;
+  margin: 0 auto;
+}
+
+#covidSection {
+  margin-top: 10%;
 }
 
 .common-covid-section {
@@ -489,13 +522,15 @@ section {
 
 .closing-text h1 {
   color: #ffffff;
-  font-size: 36px;
   font-weight: bold;
-  letter-spacing: 0.5rem;
+  font-size: 36px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: 0.08em;
   position: absolute;
   top: 20%;
   text-align: center;
-  padding: 10%;
+  padding: 10% 20%;
 }
 
 #scrollTop {
@@ -557,6 +592,16 @@ section {
   padding: 15px 20px;
   cursor: pointer;
   display: inline-block;
+}
+
+footer {
+  background-color: #2c2c2c;
+  padding: 2% 5%;
+  color: #e5e5e5;
+}
+
+footer span {
+  float: right;
 }
 
 /* Change navbar styling on scroll */
