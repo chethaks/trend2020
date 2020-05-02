@@ -1,0 +1,262 @@
+/* Color Variables*/
+.bg.car-banner {
+  background-image: url("../images/cc/TOP-overview/TB_CC-top-banner.png");
+}
+
+.bg.car-connected-bg1 {
+  background-image: url("../images/cc/TB_CC-globaloutlook/TB_CC-globaloutlook-banner.png");
+}
+
+.bg.car-closer-bg {
+  background-image: url("../images/cc/TB_CC-micro-summary-main-banner.png");
+}
+
+.common-car-section {
+  padding: 10% 0;
+}
+
+.common-car-section .global-car {
+  padding: 9%;
+  background: -webkit-gradient(linear, left top, right top, color-stop(-8.27%, #2266b0), color-stop(19.2%, #206ab3), color-stop(44.1%, #1a75be), color-stop(67.92%, #0f87cf), color-stop(91.07%, #00a1e8), color-stop(91.33%, #00a1e8));
+  background: linear-gradient(90deg, #2266b0 -8.27%, #206ab3 19.2%, #1a75be 44.1%, #0f87cf 67.92%, #00a1e8 91.07%, #00a1e8 91.33%);
+}
+
+.common-car-section .global-car h1 {
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  line-height: 36px;
+}
+
+.global-outlook h1 {
+  color: #ffffff;
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.global-outlook h1:last-child {
+  color: #5bcae6;
+}
+
+.global-outlook h5 {
+  background-color: #5bcae6;
+  padding: 15% 10% 20%;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  color: #2266b0;
+  min-height: 100%;
+}
+
+/* Tabs */
+.ui-tabs .ui-tabs-nav {
+  list-style: none;
+  position: absolute;
+  padding: 0;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  width: 70%;
+  text-align: right;
+}
+
+.ui-tabs .ui-tabs-nav li {
+  background-color: #5bcae6;
+  padding: 2% !important;
+  min-height: 100%;
+  display: inline-block;
+  width: 20%;
+  height: 195px;
+  margin: 1%;
+  text-align: left;
+}
+
+.ui-tabs .ui-tabs-nav li a {
+  float: left;
+  text-decoration: none;
+  padding: 5px 10px;
+  color: #2266b0;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: bold;
+  height: 175px;
+  cursor: pointer;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected, .ui-tabs .ui-tabs-nav li.ui-state-disabled, .ui-tabs .ui-tabs-nav li.ui-state-processing {
+  padding: 0;
+  border-bottom-width: 0;
+  background-color: #2266b0;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a {
+  color: #ffffff;
+}
+
+.ui-tabs .ui-tabs-hide {
+  display: none !important;
+}
+
+.ui-tabs a.mover {
+  background: #900;
+  padding: 6px 12px;
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.ui-tabs .next-tab {
+  bottom: 0;
+  right: 0;
+}
+
+.ui-tabs .prev-tab {
+  bottom: 0;
+  left: 0;
+}
+
+.common-tab-section .car-global-header {
+  padding: 5% 0;
+}
+
+.common-tab-section .car-global-header .selected-heading {
+  background-color: #5bcae6;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.5% 1%;
+  border-radius: 10px;
+  z-index: 6;
+  position: relative;
+}
+
+.common-tab-section .car-global-header .heading-line {
+  background-color: #2266b0;
+  height: 1px;
+  display: block;
+  margin-left: 1%;
+  z-index: 5;
+  position: relative;
+  bottom: 12px;
+}
+
+.common-tab-section .car-global-header .global-title {
+  border-bottom: 1px solid #2266b0;
+}
+
+.common-tab-section .car-global-header .global-title h1 {
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: 0.09em;
+  color: #2266b0;
+  padding: 1% 0;
+  width: 60%;
+  border-bottom: 4px solid #2266b0;
+}
+
+.common-tab-section .bg-white {
+  background-color: #ffffff;
+}
+
+.common-tab-section .image-setion {
+  padding: 5%;
+}
+
+.common-tab-section .image-setion h2 {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.08em;
+  color: #2266b0;
+}
+
+.common-tab-section .image-setion h3 {
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  color: #2266b0;
+}
+
+.common-tab-section .image-setion h4 {
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color: #6d6d6d;
+}
+
+.common-tab-section .image-setion p {
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+  color: #6d6d6d;
+}
+
+.common-tab-section .image-setion h6 {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.02em;
+  color: #a9a9a9;
+}
+
+.common-tab-section .content-section {
+  background-color: #2266b0;
+  height: 100%;
+  color: #ffffff;
+}
+
+.common-tab-section .content-section h2 {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.08em;
+  padding: 10% 20% 5%;
+}
+
+.common-tab-section .content-section h3 {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.07em;
+  padding: 0 20%;
+}
+
+.common-tab-section .content-section h4 {
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.07em;
+  color: #f7f7f7;
+  padding: 5% 20% 0;
+}
+
+.common-tab-section .content-section p {
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.05em;
+  color: #f7f7f7;
+  padding: 0 20%;
+}
+
+.common-tab-section .content-section img {
+  width: 100%;
+  padding: 10px 0;
+}
+
+.closing-text h3 {
+  color: #ffffff;
+  padding: 20%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 33px;
+}

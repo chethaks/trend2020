@@ -5,7 +5,6 @@ body,
 html {
   font-family: "Roboto", sans-serif;
   background-color: #e5e5e5;
-  overflow-x: hidden;
 }
 
 section {
@@ -21,6 +20,8 @@ section {
   color: #ffffff;
   padding-left: 2rem !important;
   padding-right: 2rem !important;
+  font-size: 12px;
+  font-weight: 500;
 }
 
 .navbar .nav-link:hover, .navbar .nav-link:focus {
@@ -30,6 +31,7 @@ section {
 
 .navbar .navbar-brand {
   color: #ffffff;
+  font-size: 24px;
 }
 
 .navbar.active {
@@ -66,35 +68,35 @@ section {
 }
 
 .bg.market-bg-1 {
-  background-image: url("../images/TB_PS-banner-trends-01.jpg");
+  background-image: url("../images/TB_PS-banner-trends-01.png");
 }
 
 .bg.market-bg-2 {
-  background-image: url("../images/TB_PS-banner-end-user-01.jpg");
+  background-image: url("../images/TB_PS-banner-end-user-01.png");
 }
 
 .bg.market-bg-3 {
-  background-image: url("../images/TB_PS-vertical-banner-01.jpg");
+  background-image: url("../images/TB_PS-vertical-banner-01.png");
 }
 
 .bg.market-bg-4 {
-  background-image: url("../images/TB_PS-competitor-header1.jpg");
+  background-image: url("../images/TB_PS-competitor-header1.png");
 }
 
 .bg.market-bg-5 {
-  background-image: url("../images/TB_PS-channel-header-01.jpg");
+  background-image: url("../images/TB_PS-channel-header-01.png");
 }
 
 .bg.market-bg-6 {
-  background-image: url("../images/TB_PS-product-header.jpg");
+  background-image: url("../images/TB_PS-product-header.png");
 }
 
 .bg.market-bg-7 {
-  background-image: url("../images/TB_PS-summary-heade3r.jpg");
+  background-image: url("../images/TB_PS-summary-heade3r.png");
 }
 
 .bg.covid-bg-1 {
-  background-image: url("../images/TB_PS-covid-header-01.jpg");
+  background-image: url("../images/TB_PS-covid-header-01.png");
 }
 
 .bg.market-bg-svg1 {
@@ -328,6 +330,10 @@ section {
   width: 30px;
 }
 
+.common-section {
+  background-color: #ffffff;
+}
+
 .common-section .global-header {
   position: absolute;
   left: 0;
@@ -537,6 +543,8 @@ section {
   background-color: #2266b0;
   border-radius: 50%;
   padding: 15px 20px;
+  cursor: pointer;
+  display: inline-block;
 }
 
 .show-section-1 .prev, .show-section-2 .prev {
@@ -547,20 +555,8 @@ section {
   background-color: #2266b0;
   border-radius: 50%;
   padding: 15px 20px;
-}
-
-.next {
+  cursor: pointer;
   display: inline-block;
-  width: 30px;
-  position: absolute;
-  top: 50%;
-}
-
-.prev {
-  display: inline-block;
-  width: 30px;
-  position: absolute;
-  top: 50%;
 }
 
 /* Change navbar styling on scroll */

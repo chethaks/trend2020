@@ -14,7 +14,6 @@ body,
 html {
   font-family: "Roboto", sans-serif;
   background-color: $background;
-  overflow-x: hidden;
 }
 section {
   position: relative;
@@ -27,6 +26,8 @@ section {
     color: $white;
     padding-left: 2rem !important;
     padding-right: 2rem !important;
+    font-size: 12px;
+    font-weight: 500;
     &:hover,
     &:focus {
       color: $white;
@@ -36,6 +37,7 @@ section {
 
   .navbar-brand {
     color: $white;
+    font-size: 24px;
   }
 
   &.active {
@@ -71,28 +73,28 @@ section {
     background-image: url("../images/TB_PS-header-image-01.jpg");
   }
   &.market-bg-1 {
-    background-image: url("../images/TB_PS-banner-trends-01.jpg");
+    background-image: url("../images/TB_PS-banner-trends-01.png");
   }
   &.market-bg-2 {
-    background-image: url("../images/TB_PS-banner-end-user-01.jpg");
+    background-image: url("../images/TB_PS-banner-end-user-01.png");
   }
   &.market-bg-3 {
-    background-image: url("../images/TB_PS-vertical-banner-01.jpg");
+    background-image: url("../images/TB_PS-vertical-banner-01.png");
   }
   &.market-bg-4 {
-    background-image: url("../images/TB_PS-competitor-header1.jpg");
+    background-image: url("../images/TB_PS-competitor-header1.png");
   }
   &.market-bg-5 {
-    background-image: url("../images/TB_PS-channel-header-01.jpg");
+    background-image: url("../images/TB_PS-channel-header-01.png");
   }
   &.market-bg-6 {
-    background-image: url("../images/TB_PS-product-header.jpg");
+    background-image: url("../images/TB_PS-product-header.png");
   }
   &.market-bg-7 {
-    background-image: url("../images/TB_PS-summary-heade3r.jpg");
+    background-image: url("../images/TB_PS-summary-heade3r.png");
   }
   &.covid-bg-1 {
-    background-image: url("../images/TB_PS-covid-header-01.jpg");
+    background-image: url("../images/TB_PS-covid-header-01.png");
   }
   &.market-bg-svg1 {
     background-image: url("../images/TB_PS-header-image.svg");
@@ -313,6 +315,7 @@ section {
   }
 }
 .common-section {
+  background-color: $white;
   .global-header {
     position: absolute;
     left: 0;
@@ -501,6 +504,8 @@ section {
     background-color: $secondary-color;
     border-radius: 50%;
     padding: 15px 20px;
+    cursor: pointer;
+    display: inline-block;
   }
   .prev{
     width: 60px;
@@ -510,20 +515,9 @@ section {
     background-color: $secondary-color;
     border-radius: 50%;
     padding: 15px 20px;
+    cursor: pointer;
+    display: inline-block;
   }
-}
-
-.next{
-  display: inline-block;
-  width: 30px;
-  position: absolute;
-  top: 50%;
-}
-.prev{
-  display: inline-block;
-  width: 30px;
-  position: absolute;
-  top: 50%;
 }
 
 /* Change navbar styling on scroll */
