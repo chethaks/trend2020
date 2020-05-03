@@ -211,6 +211,7 @@ section {
   list-style: none;
   font-size: 18px;
   padding: 1rem 0;
+  width: 95%;
 }
 
 .common-tabs ul.nav.nav-tabs li:first-child {
