@@ -236,7 +236,7 @@ section {
                 width: 25px;
                 transform: rotate(180deg);
                 position: relative;
-                bottom: 7px;
+                bottom: 10px;
               }
               &:hover {
                 border-color: transparent;
@@ -290,7 +290,7 @@ section {
     #covidClick {
       text-align: center;
       img {
-        width: 30px;
+        width: 50px;
         transform: rotate(-90deg);
       }
     }
@@ -313,15 +313,19 @@ section {
       color: $primary-color;
       font-size: 60px;
       font-weight: bold;
+      letter-spacing: 0.08em;
     }
     h2 {
       color: $white;
       font-size: 60px;
       width: 60%;
+      letter-spacing: 0.04em;
     }
     h3 {
       font-size: 39px;
       font-weight: 900;
+      line-height: 46px;
+      letter-spacing: 0.12em;
       color: $sub-head;
       width: 70%;
       padding-top: 4rem;
@@ -333,7 +337,7 @@ section {
       }
     }
     img {
-      width: 30px;
+      width: 60px;
       transform: rotate(-90deg);
     }
   }
@@ -366,12 +370,13 @@ section {
     }
     .global-title {
       border-bottom: 1px solid $secondary-color;
-      margin-top: 15px;
+      margin: 15px 0;
       h1 {
         color: $secondary-color;
         font-weight: 900;
         font-size: 30px;
-        letter-spacing: 5px;
+        line-height: 35px;
+        letter-spacing: 0.1em;
         margin: 0;
         border-bottom: 5px solid $secondary-color;
         &.w40 {
@@ -393,7 +398,15 @@ section {
     margin: 0 auto;
     img{
       width: 100%;
-      padding: 15px;
+      padding: 4%;
+    }
+  }
+  .img-bg-plain{
+    margin: 0 auto;
+    padding: 0;
+    img{
+      width: 100%;
+      padding: 0;
     }
   }
 }
@@ -559,7 +572,7 @@ section {
   .next {
     width: 60px;
     position: absolute;
-    top: 40%;
+    top: 50%;
     right: 4%;
     background-color: $secondary-color;
     border-radius: 50%;
@@ -570,7 +583,7 @@ section {
   .prev {
     width: 60px;
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 4%;
     background-color: $secondary-color;
     border-radius: 50%;

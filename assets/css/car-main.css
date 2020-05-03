@@ -7,6 +7,10 @@
   background-image: url("../images/cc/TB_CC-globaloutlook/TB_CC-globaloutlook-banner.png");
 }
 
+.bg.car-connected-bg2 {
+  background-image: url("../images/cc/TB_CC-micro-trends-main-baner.png");
+}
+
 .bg.car-closer-bg {
   background-image: url("../images/cc/TB_CC-micro-summary-main-banner.png");
 }
@@ -153,19 +157,39 @@
   font-weight: 900;
   font-size: 30px;
   line-height: 35px;
-  letter-spacing: 0.09em;
+  letter-spacing: 0.1em;
   color: #2266b0;
   padding: 1% 0;
   width: 60%;
   border-bottom: 4px solid #2266b0;
 }
 
+.common-tab-section .car-global-header .global-subtitle {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #2266b0;
+  padding-top: 20px;
+}
+
 .common-tab-section .bg-white {
   background-color: #ffffff;
 }
 
+.common-tab-section .bg-primary-color {
+  background-color: #5bcae6;
+}
+
+.common-tab-section .bg-secondary-color {
+  background-color: #2266b0;
+}
+
 .common-tab-section .image-setion {
   padding: 5%;
+}
+
+.common-tab-section .image-setion img {
+  width: 100%;
 }
 
 .common-tab-section .image-setion h2 {
@@ -209,7 +233,6 @@
 }
 
 .common-tab-section .content-section {
-  background-color: #2266b0;
   height: 100%;
   color: #ffffff;
 }

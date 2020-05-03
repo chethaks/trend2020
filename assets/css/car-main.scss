@@ -14,6 +14,9 @@ $car-tab-color: #6d6d6d;
   &.car-connected-bg1 {
     background-image: url("../images/cc/TB_CC-globaloutlook/TB_CC-globaloutlook-banner.png");
   }
+  &.car-connected-bg2 {
+    background-image: url("../images/cc/TB_CC-micro-trends-main-baner.png");
+  }
   &.car-closer-bg {
     background-image: url("../images/cc/TB_CC-micro-summary-main-banner.png");
   }
@@ -158,19 +161,35 @@ $car-tab-color: #6d6d6d;
         font-weight: 900;
         font-size: 30px;
         line-height: 35px;
-        letter-spacing: 0.09em;
+        letter-spacing: 0.1em;
         color: $secondary-color;
         padding: 1% 0;
         width: 60%;
         border-bottom: 4px solid $secondary-color;
       }
     }
+    .global-subtitle{
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 21px;
+        color: $secondary-color;
+        padding-top: 20px;  
+    }
   }
   .bg-white {
     background-color: $white;
   }
+  .bg-primary-color {
+    background-color: $primary-color;
+  }
+  .bg-secondary-color {
+    background-color: $secondary-color;
+  }
   .image-setion {
     padding: 5%;
+    img{
+        width: 100%;
+    }
     h2 {
       font-weight: 900;
       font-size: 18px;
@@ -208,7 +227,6 @@ $car-tab-color: #6d6d6d;
     }
   }
   .content-section {
-    background-color: $secondary-color;
     height: 100%;
     color: $white;
     h2 {
