@@ -62,74 +62,87 @@ $car-tab-color: #6d6d6d;
     color: $secondary-color;
     min-height: 100%;
   }
-}
 
-/* Tabs */
-.ui-tabs {
-  .ui-tabs-nav {
-    list-style: none;
-    position: absolute;
-    padding: 0;
-    overflow: hidden;
-    top: 0;
-    right: 0;
-    width: 70%;
-    text-align: right;
-    li {
-      background-color: $primary-color;
-      padding: 2% !important;
-      min-height: 100%;
-      display: inline-block;
-      width: 20%;
-      height: 195px;
-      margin: 1%;
-      text-align: left;
-      a {
-        float: left;
-        text-decoration: none;
-        padding: 5px 10px;
-        color: #2266b0;
-        font-size: 14px;
-        line-height: 21px;
-        font-weight: bold;
-        height: 175px;
-        cursor: pointer;
-      }
-      &.ui-tabs-selected,
-      &.ui-state-disabled,
-      &.ui-state-processing {
-        padding: 0;
-        border-bottom-width: 0;
-        background-color: $secondary-color;
+  /* Tabs */
+  &.ui-tabs {
+    .ui-tabs-nav {
+      list-style: none;
+      position: absolute;
+      padding: 0;
+      overflow: hidden;
+      top: 0;
+      right: 0;
+      width: 70%;
+      text-align: right;
+      li {
+        background-color: $primary-color;
+        padding: 2% !important;
+        min-height: 100%;
+        display: inline-block;
+        width: 20%;
+        height: 195px;
+        margin: 1%;
+        text-align: left;
         a {
-          color: $white;
+          float: left;
+          text-decoration: none;
+          padding: 5px 10px;
+          color: #2266b0;
+          font-size: 14px;
+          line-height: 21px;
+          font-weight: bold;
+          height: 175px;
+          cursor: pointer;
+        }
+        &.ui-tabs-selected,
+        &.ui-state-disabled,
+        &.ui-state-processing {
+          padding: 0;
+          border-bottom-width: 0;
+          background-color: $secondary-color;
+          a {
+            color: $white;
+          }
         }
       }
     }
+    .ui-tabs-hide {
+      display: none !important;
+    }
   }
-  .ui-tabs-hide {
-    display: none !important;
-  }
-  .ui-tabs-panel {
-  }
+}
 
+.ui-tabs {
+  /* .ui-tabs-panel {
+    } */
   a.mover {
-    background: #900;
+    background-color: $secondary-color;;
     padding: 6px 12px;
     position: absolute;
     color: white;
     font-weight: bold;
     text-decoration: none;
   }
-  .next-tab {
+  .next-tab,
+  .next-tab1,
+  .next-tab2,
+  .next-tab3,
+  .next-tab4,
+  .next-tab5 {
     bottom: 0;
     right: 0;
   }
-  .prev-tab {
+  .prev-tab,
+  .prev-tab1,
+  .prev-tab2,
+  .prev-tab3,
+  .prev-tab4,
+  .prev-tab5 {
     bottom: 0;
     left: 0;
   }
 }
+
 .common-tab-section {
   .car-global-header {
     padding: 5% 0;
@@ -168,12 +181,12 @@ $car-tab-color: #6d6d6d;
         border-bottom: 4px solid $secondary-color;
       }
     }
-    .global-subtitle{
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 21px;
-        color: $secondary-color;
-        padding-top: 20px;  
+    .global-subtitle {
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 21px;
+      color: $secondary-color;
+      padding-top: 20px;
     }
   }
   .bg-white {
@@ -187,8 +200,8 @@ $car-tab-color: #6d6d6d;
   }
   .image-setion {
     padding: 5%;
-    img{
-        width: 100%;
+    img {
+      width: 100%;
     }
     h2 {
       font-weight: 900;
@@ -272,5 +285,58 @@ $car-tab-color: #6d6d6d;
     font-weight: normal;
     font-size: 18px;
     line-height: 33px;
+  }
+}
+
+/*Only Tab styles*/
+.global-connectivity,
+.global-autonomous,
+.global-shared,
+.global-electrification,
+.global-business {
+  &.ui-tabs {
+    .ui-tabs-nav {
+      list-style: none;
+      position: absolute;
+      overflow: hidden;
+      top: 160px;
+      right: 0;
+      width: 70%;
+      li {
+        display: block;
+        text-align: left;
+        margin-bottom: 5%;
+        a {
+          color: $white;
+          cursor: pointer;
+          font-weight: bold;
+          font-size: 36px;
+          line-height: 42px;
+          letter-spacing: 0.045em;
+          display: block;
+        }
+        span {
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 21px;
+          letter-spacing: 0.05em;
+          color: $sub-head;
+          width: 50%;
+          display: inline-block;
+        }
+        &.ui-tabs-selected,
+        &.ui-state-disabled,
+        &.ui-state-processing {
+          padding: 0;
+          border-bottom-width: 0;
+          a {
+            color: $white;
+          }
+        }
+      }
+    }
+    .ui-tabs-hide {
+      display: none !important;
+    }
   }
 }

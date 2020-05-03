@@ -33,6 +33,10 @@
   line-height: 36px;
 }
 
+.global-outlook {
+  /* Tabs */
+}
+
 .global-outlook h1 {
   color: #ffffff;
   font-size: 64px;
@@ -53,8 +57,7 @@
   min-height: 100%;
 }
 
-/* Tabs */
-.ui-tabs .ui-tabs-nav {
+.global-outlook.ui-tabs .ui-tabs-nav {
   list-style: none;
   position: absolute;
   padding: 0;
@@ -65,7 +68,7 @@
   text-align: right;
 }
 
-.ui-tabs .ui-tabs-nav li {
+.global-outlook.ui-tabs .ui-tabs-nav li {
   background-color: #5bcae6;
   padding: 2% !important;
   min-height: 100%;
@@ -76,7 +79,7 @@
   text-align: left;
 }
 
-.ui-tabs .ui-tabs-nav li a {
+.global-outlook.ui-tabs .ui-tabs-nav li a {
   float: left;
   text-decoration: none;
   padding: 5px 10px;
@@ -88,22 +91,27 @@
   cursor: pointer;
 }
 
-.ui-tabs .ui-tabs-nav li.ui-tabs-selected, .ui-tabs .ui-tabs-nav li.ui-state-disabled, .ui-tabs .ui-tabs-nav li.ui-state-processing {
+.global-outlook.ui-tabs .ui-tabs-nav li.ui-tabs-selected, .global-outlook.ui-tabs .ui-tabs-nav li.ui-state-disabled, .global-outlook.ui-tabs .ui-tabs-nav li.ui-state-processing {
   padding: 0;
   border-bottom-width: 0;
   background-color: #2266b0;
 }
 
-.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a {
+.global-outlook.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .global-outlook.ui-tabs .ui-tabs-nav li.ui-state-disabled a, .global-outlook.ui-tabs .ui-tabs-nav li.ui-state-processing a {
   color: #ffffff;
 }
 
-.ui-tabs .ui-tabs-hide {
+.global-outlook.ui-tabs .ui-tabs-hide {
   display: none !important;
 }
 
+.ui-tabs {
+  /* .ui-tabs-panel {
+    } */
+}
+
 .ui-tabs a.mover {
-  background: #900;
+  background-color: #2266b0;
   padding: 6px 12px;
   position: absolute;
   color: white;
@@ -111,12 +119,22 @@
   text-decoration: none;
 }
 
-.ui-tabs .next-tab {
+.ui-tabs .next-tab,
+.ui-tabs .next-tab1,
+.ui-tabs .next-tab2,
+.ui-tabs .next-tab3,
+.ui-tabs .next-tab4,
+.ui-tabs .next-tab5 {
   bottom: 0;
   right: 0;
 }
 
-.ui-tabs .prev-tab {
+.ui-tabs .prev-tab,
+.ui-tabs .prev-tab1,
+.ui-tabs .prev-tab2,
+.ui-tabs .prev-tab3,
+.ui-tabs .prev-tab4,
+.ui-tabs .prev-tab5 {
   bottom: 0;
   left: 0;
 }
@@ -282,4 +300,97 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 33px;
+}
+
+/*Only Tab styles*/
+.global-connectivity.ui-tabs .ui-tabs-nav,
+.global-autonomous.ui-tabs .ui-tabs-nav,
+.global-shared.ui-tabs .ui-tabs-nav,
+.global-electrification.ui-tabs .ui-tabs-nav,
+.global-business.ui-tabs .ui-tabs-nav {
+  list-style: none;
+  position: absolute;
+  overflow: hidden;
+  top: 160px;
+  right: 0;
+  width: 70%;
+}
+
+.global-connectivity.ui-tabs .ui-tabs-nav li,
+.global-autonomous.ui-tabs .ui-tabs-nav li,
+.global-shared.ui-tabs .ui-tabs-nav li,
+.global-electrification.ui-tabs .ui-tabs-nav li,
+.global-business.ui-tabs .ui-tabs-nav li {
+  display: block;
+  text-align: left;
+  margin-bottom: 5%;
+}
+
+.global-connectivity.ui-tabs .ui-tabs-nav li a,
+.global-autonomous.ui-tabs .ui-tabs-nav li a,
+.global-shared.ui-tabs .ui-tabs-nav li a,
+.global-electrification.ui-tabs .ui-tabs-nav li a,
+.global-business.ui-tabs .ui-tabs-nav li a {
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.045em;
+  display: block;
+}
+
+.global-connectivity.ui-tabs .ui-tabs-nav li span,
+.global-autonomous.ui-tabs .ui-tabs-nav li span,
+.global-shared.ui-tabs .ui-tabs-nav li span,
+.global-electrification.ui-tabs .ui-tabs-nav li span,
+.global-business.ui-tabs .ui-tabs-nav li span {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #f7f7f7;
+  width: 50%;
+  display: inline-block;
+}
+
+.global-connectivity.ui-tabs .ui-tabs-nav li.ui-tabs-selected, .global-connectivity.ui-tabs .ui-tabs-nav li.ui-state-disabled, .global-connectivity.ui-tabs .ui-tabs-nav li.ui-state-processing,
+.global-autonomous.ui-tabs .ui-tabs-nav li.ui-tabs-selected,
+.global-autonomous.ui-tabs .ui-tabs-nav li.ui-state-disabled,
+.global-autonomous.ui-tabs .ui-tabs-nav li.ui-state-processing,
+.global-shared.ui-tabs .ui-tabs-nav li.ui-tabs-selected,
+.global-shared.ui-tabs .ui-tabs-nav li.ui-state-disabled,
+.global-shared.ui-tabs .ui-tabs-nav li.ui-state-processing,
+.global-electrification.ui-tabs .ui-tabs-nav li.ui-tabs-selected,
+.global-electrification.ui-tabs .ui-tabs-nav li.ui-state-disabled,
+.global-electrification.ui-tabs .ui-tabs-nav li.ui-state-processing,
+.global-business.ui-tabs .ui-tabs-nav li.ui-tabs-selected,
+.global-business.ui-tabs .ui-tabs-nav li.ui-state-disabled,
+.global-business.ui-tabs .ui-tabs-nav li.ui-state-processing {
+  padding: 0;
+  border-bottom-width: 0;
+}
+
+.global-connectivity.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .global-connectivity.ui-tabs .ui-tabs-nav li.ui-state-disabled a, .global-connectivity.ui-tabs .ui-tabs-nav li.ui-state-processing a,
+.global-autonomous.ui-tabs .ui-tabs-nav li.ui-tabs-selected a,
+.global-autonomous.ui-tabs .ui-tabs-nav li.ui-state-disabled a,
+.global-autonomous.ui-tabs .ui-tabs-nav li.ui-state-processing a,
+.global-shared.ui-tabs .ui-tabs-nav li.ui-tabs-selected a,
+.global-shared.ui-tabs .ui-tabs-nav li.ui-state-disabled a,
+.global-shared.ui-tabs .ui-tabs-nav li.ui-state-processing a,
+.global-electrification.ui-tabs .ui-tabs-nav li.ui-tabs-selected a,
+.global-electrification.ui-tabs .ui-tabs-nav li.ui-state-disabled a,
+.global-electrification.ui-tabs .ui-tabs-nav li.ui-state-processing a,
+.global-business.ui-tabs .ui-tabs-nav li.ui-tabs-selected a,
+.global-business.ui-tabs .ui-tabs-nav li.ui-state-disabled a,
+.global-business.ui-tabs .ui-tabs-nav li.ui-state-processing a {
+  color: #ffffff;
+}
+
+.global-connectivity.ui-tabs .ui-tabs-hide,
+.global-autonomous.ui-tabs .ui-tabs-hide,
+.global-shared.ui-tabs .ui-tabs-hide,
+.global-electrification.ui-tabs .ui-tabs-hide,
+.global-business.ui-tabs .ui-tabs-hide {
+  display: none !important;
 }

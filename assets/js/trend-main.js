@@ -123,9 +123,8 @@ $(".btnPrevious").click(function () {
   $(".nav-tabs > .active").prev("li").find("a").trigger("click");
 });
 
-
-$( "#covidClick" ).click(function() {
-  $("#openCovideSection" ).slideDown( "slow" );
+$("#covidClick").click(function () {
+  $("#openCovideSection").slideDown("slow");
   $("html, body").animate(
     {
       scrollTop: $("#openCovideSection").offset().top,
