@@ -65,43 +65,43 @@ section {
 
 .bg.bg-banner {
   /* The image used */
-  background-image: url("../images/TB_PS-header-image-01.png");
+  background-image: url("../images/ps/TB_PS-header-image-01.png");
 }
 
 .bg.market-bg-1 {
-  background-image: url("../images/TB_PS-banner-trends-01.png");
+  background-image: url("../images/ps/TB_PS-banner-trends-01.png");
 }
 
 .bg.market-bg-2 {
-  background-image: url("../images/TB_PS-banner-end-user-01.png");
+  background-image: url("../images/ps/TB_PS-banner-end-user-01.png");
 }
 
 .bg.market-bg-3 {
-  background-image: url("../images/TB_PS-vertical-banner-01.png");
+  background-image: url("../images/ps/TB_PS-vertical-banner-01.png");
 }
 
 .bg.market-bg-4 {
-  background-image: url("../images/TB_PS-competitor-header1.png");
+  background-image: url("../images/ps/TB_PS-competitor-header1.png");
 }
 
 .bg.market-bg-5 {
-  background-image: url("../images/TB_PS-channel-header-01.png");
+  background-image: url("../images/ps/TB_PS-channel-header-01.png");
 }
 
 .bg.market-bg-6 {
-  background-image: url("../images/TB_PS-product-header.png");
+  background-image: url("../images/ps/TB_PS-product-header.png");
 }
 
 .bg.market-bg-7 {
-  background-image: url("../images/TB_PS-summary-heade3r.png");
+  background-image: url("../images/ps/TB_PS-summary-heade3r.png");
 }
 
 .bg.covid-bg-1 {
-  background-image: url("../images/TB_PS-covid-header-01.png");
+  background-image: url("../images/ps/TB_PS-covid-header-01.png");
 }
 
 .bg.market-bg-svg1 {
-  background-image: url("../images/graph_gif.gif");
+  background-image: url("../images/ps/graph_gif.gif");
   background-color: #ffffff;
   background-size: contain;
   height: 125vh;
@@ -109,7 +109,7 @@ section {
 }
 
 .covid-bg {
-  background-image: url("../images/TB-PS-background.svg");
+  background-image: url("../images/ps/TB-PS-background.svg");
   /* Full height */
   height: 100%;
   /* Center and scale the image nicely */
@@ -240,7 +240,7 @@ section {
 }
 
 .common-tabs ul.nav.nav-tabs li.nav-item a.nav-link:after {
-  content: url(../images/TB-PS-arrow.svg);
+  content: url(../images/ps/TB-PS-arrow.svg);
   float: right;
   width: 25px;
   -webkit-transform: rotate(180deg);
@@ -347,7 +347,7 @@ section {
 }
 
 .common-image-bg .market-trend-content h3:after {
-  /* content: url(../images/TB-PS-arrow-light-blue-01.svg); */
+  /* content: url(../images/ps/TB-PS-arrow-light-blue-01.svg); */
   display: block;
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);

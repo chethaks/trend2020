@@ -75,34 +75,34 @@ section {
   background-size: cover;
   &.bg-banner {
     /* The image used */
-    background-image: url("../images/TB_PS-header-image-01.png");
+    background-image: url("../images/ps/TB_PS-header-image-01.png");
   }
   &.market-bg-1 {
-    background-image: url("../images/TB_PS-banner-trends-01.png");
+    background-image: url("../images/ps/TB_PS-banner-trends-01.png");
   }
   &.market-bg-2 {
-    background-image: url("../images/TB_PS-banner-end-user-01.png");
+    background-image: url("../images/ps/TB_PS-banner-end-user-01.png");
   }
   &.market-bg-3 {
-    background-image: url("../images/TB_PS-vertical-banner-01.png");
+    background-image: url("../images/ps/TB_PS-vertical-banner-01.png");
   }
   &.market-bg-4 {
-    background-image: url("../images/TB_PS-competitor-header1.png");
+    background-image: url("../images/ps/TB_PS-competitor-header1.png");
   }
   &.market-bg-5 {
-    background-image: url("../images/TB_PS-channel-header-01.png");
+    background-image: url("../images/ps/TB_PS-channel-header-01.png");
   }
   &.market-bg-6 {
-    background-image: url("../images/TB_PS-product-header.png");
+    background-image: url("../images/ps/TB_PS-product-header.png");
   }
   &.market-bg-7 {
-    background-image: url("../images/TB_PS-summary-heade3r.png");
+    background-image: url("../images/ps/TB_PS-summary-heade3r.png");
   }
   &.covid-bg-1 {
-    background-image: url("../images/TB_PS-covid-header-01.png");
+    background-image: url("../images/ps/TB_PS-covid-header-01.png");
   }
   &.market-bg-svg1 {
-    background-image: url("../images/graph_gif.gif");
+    background-image: url("../images/ps/graph_gif.gif");
     background-color: $white;
     background-size: contain;
     height: 125vh;
@@ -111,7 +111,7 @@ section {
 }
 
 .covid-bg {
-  background-image: url("../images/TB-PS-background.svg");
+  background-image: url("../images/ps/TB-PS-background.svg");
   /* Full height */
   height: 100%;
 
@@ -232,7 +232,7 @@ section {
               color: $secondary-color;
               padding: 0;
               &:after {
-                content: url(../images/TB-PS-arrow.svg);
+                content: url(../images/ps/TB-PS-arrow.svg);
                 float: right;
                 width: 25px;
                 transform: rotate(180deg);
@@ -331,7 +331,7 @@ section {
       width: 70%;
       padding-top: 4rem;
       &:after {
-        /* content: url(../images/TB-PS-arrow-light-blue-01.svg); */
+        /* content: url(../images/ps/TB-PS-arrow-light-blue-01.svg); */
         display: block;
         transform: rotate(180deg);
         width: 30px;
