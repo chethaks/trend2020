@@ -1,5 +1,5 @@
 /* Color Variables*/
-$background: #e5e5e5;
+$background: #f5f5f5;
 $primary-color: #5bcae6;
 $secondary-color: #2266b0;
 $white: #ffffff;
@@ -16,6 +16,7 @@ body,
 html {
   font-family: "Roboto", sans-serif;
   background-color: $background;
+  scroll-behavior: smooth;
 }
 section {
   position: relative;
@@ -28,7 +29,7 @@ section {
     color: $white;
     padding-left: 2rem !important;
     padding-right: 2rem !important;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
     &:hover,
     &:focus {
@@ -82,6 +83,9 @@ section {
   }
   &.bg-intro {
     background-image: url("../images/home/02-Intro-BG.png");
+  }
+  &.bg-intro-covid {
+    background-image: url("../images/home/17-COVID19-banner-01.png");
   }
 }
 
@@ -221,9 +225,410 @@ footer {
     div {
       position: absolute;
       opacity: 0;
-      color: #fff;
-      font-size: 5rem;
-      line-height: 38px;
+      font-weight: 500;
+      text-align: center;
+      color: #98e1f3;
+      &:nth-child(1) {
+        font-size: 130px;
+        line-height: 80px;
+        letter-spacing: 0.055em;
+      }
+      &:nth-child(2) {
+        font-weight: 900;
+        font-size: 81px;
+        line-height: 85px;
+        letter-spacing: 0.11em;
+        h3 {
+          color: $white;
+          font-size: 60px;
+          font-weight: 900;
+          letter-spacing: 0.11em;
+        }
+      }
+      &:nth-child(3) {
+        font-weight: 900;
+        font-size: 81px;
+        line-height: 85px;
+        letter-spacing: 0.11em;
+      }
+      &:nth-child(4) {
+        font-weight: 900;
+        font-size: 81px;
+        line-height: 85px;
+        letter-spacing: 0.11em;
+        h3 {
+          color: $white;
+          font-size: 60px;
+          font-weight: 900;
+          letter-spacing: 0.11em;
+        }
+      }
+      &:nth-child(5) {
+        font-weight: 900;
+        font-size: 81px;
+        line-height: 85px;
+        letter-spacing: 0.11em;
+      }
+      &:nth-child(6) {
+        font-weight: 900;
+        font-size: 81px;
+        line-height: 85px;
+        letter-spacing: 0.11em;
+        color: $white;
+      }
+      h1 {
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: #98e1f3;
+        font-weight: 500;
+        font-size: 130px;
+        text-align: center;
+        letter-spacing: 0.055em;
+        display: inline-block;
+      }
+      h2 {
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 80px;
+        text-align: right;
+        letter-spacing: 0.055em;
+      }
+    }
+  }
+}
+
+.home-parallax {
+  .parallax-bgimg {
+    position: relative;
+    z-index: 2;
+    img {
+      width: 100%;
+    }
+  }
+  .parallax-content {
+    position: relative;
+    .container {
+      position: relative;
+      z-index: 2;
+    }
+    .extra-heading {
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 175.19%;
+      letter-spacing: 0.09em;
+      color: #15589a;
+    }
+    .padding-5 {
+      padding: 5%;
+    }
+    .white-box {
+      display: inline-block;
+      background-color: $white;
+      box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
+      width: 45%;
+      position: relative;
+      bottom: 125px;
+      z-index: 3;
+      span {
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 59px;
+        letter-spacing: 0.11em;
+        color: #15589a;
+        display: block;
+        margin: 10%;
+        border-right: 1px solid;
+      }
+    }
+    .pattern-image1 {
+      position: absolute;
+      top: 0;
+      background: url(../images/home/1background-pattern.png) no-repeat 0 0;
+      background-size: contain;
+      height: 70rem;
+      width: 40rem;
+      right: 0;
+      z-index: 1;
+      //transform: translateY(-100%);
+    }
+    .pattern-image2 {
+      position: absolute;
+      bottom: 0;
+      background: url(../images/home/2background-pattern.png) no-repeat 0 0;
+      background-size: contain;
+      height: 70rem;
+      width: 40rem;
+      left: 0;
+      z-index: 1;
+      //transform: translateY(-50%);
+    }
+    .parallax-graph {
+      padding-bottom: 10%;
+      h1 {
+        font-weight: bold;
+        font-size: 33px;
+        line-height: 125%;
+        color: #15589a;
+        width: 55%;
+      }
+      .hr-line {
+        background-color: #5bcae6;
+        height: 2px;
+        display: block;
+        margin: 1% 0;
+      }
+      .parallax-graph-image {
+        background-color: $white;
+        text-align: center;
+        p {
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 130%;
+          text-align: right;
+          letter-spacing: 0.05em;
+          color: #15589a;
+          float: right;
+          width: 40%;
+        }
+        .graph-text {
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 130%;
+          letter-spacing: 0.05em;
+          padding: 10% 5%;
+          text-align: left;
+          color: #15589a;
+        }
+        img {
+          // width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.parallax-covid {
+  .covid-header {
+    font-weight: 500;
+    font-size: 130px;
+    text-align: center;
+    letter-spacing: 0.055em;
+    color: #98e1f3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    h1 {
+      -webkit-text-fill-color: transparent;
+      -webkit-text-stroke-width: 2px;
+      -webkit-text-stroke-color: #98e1f3;
+      font-weight: 500;
+      font-size: 130px;
+      text-align: center;
+      letter-spacing: 0.055em;
+      display: inline-block;
+    }
+    h2 {
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 80px;
+      text-align: right;
+      letter-spacing: 0.055em;
+      color: #98e1f3;
+    }
+  }
+}
+.gradient-bg {
+  background: linear-gradient(
+    90deg,
+    #00a1e8 0%,
+    #00a1e8 0%,
+    #1a75be 0.01%,
+    #0f87cf 0.02%,
+    #15589a 0.03%,
+    #072d55 92.71%
+  );
+  .new-pattern {
+    position: absolute;
+    right: 0;
+  }
+  .year-100 {
+    position: relative;
+    z-index: 1;
+    padding: 15% 0 0 0;
+    h1 {
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 47px;
+      letter-spacing: 0.08em;
+      color: $white;
+      position: relative;
+      padding: 10% 0;
+      left: 50%;
+      top: 20%;
+      width: 700px;
+      z-index: 1;
+      span {
+        color: #98e1f3;
+      }
+    }
+    h2 {
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 120%;
+      letter-spacing: 0.07em;
+      color: #5bcae6;
+      position: relative;
+      left: 50%;
+      width: 700px;
+      z-index: 1;
+      top: 20%;
+    }
+    h3 {
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 120%;
+      letter-spacing: 0.07em;
+      color: #ffffff;
+      position: relative;
+      left: 50%;
+      width: 700px;
+      z-index: 1;
+      top: 15%;
+    }
+    img {
+      width: 100%;
+    }
+  }
+  .gragh-section {
+    padding: 10% 0 30%;
+
+    margin: 10% 15% 0;
+    h1 {
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 130%;
+      text-align: right;
+      letter-spacing: 0.08em;
+      color: $white;
+      text-align: right;
+      padding-left: 45%;
+      span {
+        color: #98e1f3;
+      }
+    }
+    .hr-line {
+      height: 2px;
+      background-color: #98e1f3;
+      display: block;
+      margin: 2% 0;
+    }
+    img {
+      width: 70%;
+      background-color: $white;
+      position: absolute;
+      z-index: 1;
+    }
+  }
+}
+
+.no-gradient-graph {
+  .relative-div {
+    position: relative;
+    z-index: 0;
+    bottom: 175px;
+  }
+  .new-pattern {
+    position: absolute;
+    right: 0;
+    top: 5%;
+  }
+  h1 {
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 130%;
+    letter-spacing: 0.08em;
+    color: #15589a;
+    width: 50%;
+  }
+  .hr-line {
+    height: 2px;
+    background-color: #98e1f3;
+    display: block;
+    margin: 2% 0;
+  }
+  .final-graphs {
+    background-color: $white;
+    text-align: center;
+    padding: 5%;
+    margin-bottom: 10%;
+  }
+  .saviours {
+    margin: 0 15%;
+    position: absolute;
+    h1 {
+      width: 100%;
+      padding-left: 35%;
+      text-align: right;
+    }
+    img {
+      width: 100%;
+      position: relative;
+      z-index: 3;
+    }
+  }
+  .closer-section{
+    background: linear-gradient(90deg, #00A1E8 0%, #00A1E8 0%, #1A75BE 0.01%, #0F87CF 0.02%, #15589A 0.03%, #072D55 92.71%);
+    .flat-bg{
+      background-color: #15589A;
+      height: 350px;
+      margin-top: 10%;
+      h5{
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 120%;
+        letter-spacing: 0.07em;
+        color: #F5F5F5;
+      }
+    }
+    .closer-summary{
+      padding-bottom: 30%;
+      padding-top: 10%;
+      img{
+        position: relative;
+        top: 260px;
+        left: 350px;
+      }
+      p{
+        background-color: rgba(7, 45, 85, 0.5);
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 159.5%;
+        letter-spacing: 0.07em;
+        color: #F5F5F5;
+        padding: 5% 10% 5% 15%;
+        margin-left: 35%;
+      }
+    }
+    .the-end{
+      height: 100vh;
+      .col-sm-12{
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 47px;
+        text-align: center;
+        color: $white;
+        padding: 20% 15%;
+        border: 1px solid #98e1f3;
+        h1{
+          font-weight: 900;
+        font-size: 40px;
+        line-height: 47px;
+        text-align: center;
+        color: #98e1f3;
+        width: 100%;
+        }
+      }
     }
   }
 }

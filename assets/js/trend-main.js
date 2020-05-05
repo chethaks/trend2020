@@ -97,7 +97,16 @@ $("#scrollTop").click(function () {
 });
 
 /** Page Parallax */
-var rellax = new Rellax(".rellax"); // Accepts any class name
+window.onload = function () {
+  lax.setup() // init
+
+  const updateLax = () => {
+      lax.update(window.scrollY)
+      window.requestAnimationFrame(updateLax)
+  }
+
+  window.requestAnimationFrame(updateLax)
+}
 
 /** Slide Section */
 

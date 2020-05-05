@@ -14,7 +14,7 @@ let scene = new ScrollMagic.Scene({
   .setPin(tl1)
   .addTo(controller);
 
-let accelamount = 0.7;
+let accelamount = 0.4;
 let scrollpos = 0;
 let delay = 0;
 

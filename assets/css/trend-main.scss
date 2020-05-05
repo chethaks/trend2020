@@ -26,7 +26,7 @@ section {
     color: $white;
     padding-left: 2rem !important;
     padding-right: 2rem !important;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
     &:hover,
     &:focus {
@@ -392,6 +392,13 @@ section {
       }
     }
   }
+  .global-subtitle {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: $secondary-color;
+    padding: 20px 0;
+  }
   .img-bg {
     background-color: $white;
     padding: 0;
@@ -421,6 +428,7 @@ section {
   .covid-left-section {
     border-left: 1rem solid $secondary-color;
     position: relative;
+    margin: 10% 0;
     ul {
       background-color: $white;
       margin: 0 10% 10% 10%;
@@ -452,6 +460,7 @@ section {
     }
   }
   .covid-middle-section {
+    margin: 10% 0;
     position: relative;
     ul {
       background-color: $white;
@@ -484,6 +493,7 @@ section {
     }
   }
   .covid-right-section {
+    margin: 10% 0;
     border-right: 1rem solid $primary-color;
     position: relative;
     ul {

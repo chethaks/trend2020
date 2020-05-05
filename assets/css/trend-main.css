@@ -20,7 +20,7 @@ section {
   color: #ffffff;
   padding-left: 2rem !important;
   padding-right: 2rem !important;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
 }
 
@@ -419,6 +419,14 @@ section {
   width: 60%;
 }
 
+.common-section .global-subtitle {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #2266b0;
+  padding: 20px 0;
+}
+
 .common-section .img-bg {
   background-color: #ffffff;
   padding: 0;
@@ -453,6 +461,7 @@ section {
 .common-covid-section .covid-left-section {
   border-left: 1rem solid #2266b0;
   position: relative;
+  margin: 10% 0;
 }
 
 .common-covid-section .covid-left-section ul {
@@ -490,6 +499,7 @@ section {
 }
 
 .common-covid-section .covid-middle-section {
+  margin: 10% 0;
   position: relative;
 }
 
@@ -528,6 +538,7 @@ section {
 }
 
 .common-covid-section .covid-right-section {
+  margin: 10% 0;
   border-right: 1rem solid #5bcae6;
   position: relative;
 }
