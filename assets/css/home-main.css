@@ -730,6 +730,7 @@ footer span {
 .no-gradient-graph .closer-section .the-end {
   padding-bottom: 20%;
   position: relative;
+  z-index: 2;
 }
 
 .no-gradient-graph .closer-section .the-end .col-sm-12 {
@@ -750,4 +751,15 @@ footer span {
   text-align: center;
   color: #98e1f3;
   width: 100%;
+}
+
+.new-h1 {
+  font-weight: 900;
+  font-size: 33px;
+  line-height: 124.2%;
+  text-align: center;
+  color: #5BCAE6;
+  padding: 5%;
+  display: block;
+  margin-bottom: 10%;
 }
