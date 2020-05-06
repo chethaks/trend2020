@@ -110,28 +110,6 @@ window.onload = function () {
 
 /** Slide Section */
 
-$(function () {
-  $(".show-section-2").hide();
-
-  $(".prev, .next").bind("click", function () {
-    $(".show-section-1, .show-section-2").hide();
-
-    if ($(this).attr("class") == "prev") {
-      $(".show-section-1").show();
-    } else {
-      $(".show-section-2").show();
-    }
-  });
-});
-
-$(".btnNext").click(function () {
-  $(".nav-tabs > .active").next("li").find("a").trigger("click");
-});
-
-$(".btnPrevious").click(function () {
-  $(".nav-tabs > .active").prev("li").find("a").trigger("click");
-});
-
 $("#covidClick").click(function () {
   $("#openCovideSection").slideDown("slow");
   $("html, body").animate(

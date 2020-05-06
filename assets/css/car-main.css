@@ -39,8 +39,20 @@
   background-image: url("../images/cc/TB_CC-micro-summary-main-banner.png");
 }
 
+.car-page {
+  background-color: #f7f7f7;
+}
+
+.car-page .car-trends-section {
+  padding-top: 130px;
+  background-image: url(../images/hcs/bg-pattern-left.jpg), url(../images/hcs/bg-pattern-right.jpg);
+  background-position: -50% 0, right top 85%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 .common-car-section {
-  padding: 10% 0;
+  padding: 10% 0 0 0;
 }
 
 .common-car-section .global-car {
