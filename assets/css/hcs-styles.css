@@ -1,0 +1,883 @@
+.bg.bg-banner {
+  /* The image used */
+  background-image: url("../images/hcs/HCS-top-banner.png");
+}
+
+.hcs-page {
+  background-color: #f7f7f7;
+}
+
+.hcs-page .bg-home .bg-home-header {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%)
+}
+
+.hcs-page .bg-home .bg-home-header h1 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 101.19%;
+  letter-spacing: 0.02em;
+  padding: 10px 0;
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both
+}
+
+.hcs-page .bg-home .bg-home-header h3 {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.1em;
+  color: #fff;
+  padding-left: 5px;
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both
+}
+
+.hcs-page .bg-home .bg-home-header h6 {
+  color: #fff;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.1em;
+  padding-left: 5px;
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both
+}
+
+
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0
+  }
+
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1
+  }
+}
+
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0
+  }
+
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1
+  }
+}
+
+.hcs-market-trends{
+  position: relative;
+}
+
+.mrkt-trends{
+  position: absolute;
+  top: 107px;
+  right: 220px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #fff;
+}
+
+
+.hcs-trends-section {
+  padding-top: 130px;
+  background-image: url(../images/hcs/bg-pattern-left.jpg), url(../images/hcs/bg-pattern-right.jpg);
+  background-position: left 30%, right top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hcs-trends {
+  height: 100vh;
+  background: url(../images/hcs/HCS-trends-banner.png) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hcs-trends .lft-column .hcs-trends-lfttitle {
+  position: relative;
+}
+
+.hcs-trends-lfttitle h1 {
+  color: #fff;
+  font-size: 66px;
+  line-height: 77px;
+  font-weight: bold;
+  margin-left: 15%;
+  padding-top: 150px;
+}
+
+.hcs-trends-lfttitle .down-arrow {
+  position: absolute;
+  bottom: -70px;
+  left: 15%;
+}
+
+.hcs-trends .lft-column {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 20%;
+}
+
+.hcs-trends .rgt-column {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 80%;
+}
+
+.trends-list-item {
+  padding-top: 150px;
+}
+
+.trends-list-item li {
+  background-color: #2266b0;
+  padding: 2% !important;
+  min-height: 100%;
+  display: inline-block;
+  width: 16%;
+  height: 195px;
+  margin: 1%;
+  text-align: left;
+  position: relative;
+}
+
+.trends-list-item li span {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  right: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+  letter-spacing: 0.06em;
+  color: #fff;
+}
+
+
+/* CONNECTED LIFESTYLE 1 STYLES START */
+
+.con-lifestyle1 {
+  background-image: url(../images/hcs/bg-pattern-left.jpg), url(../images/hcs/bg-pattern-right.jpg);
+  background-position: left 0px, right -700px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.con-lifestyle1 .global-header {
+  padding: 130px 10% 45px 10%;
+}
+
+.con-lifestyle1 .global-title {
+  border-bottom: 1px solid #2266b0;
+  margin: 15px 0;
+}
+
+.con-lifestyle1 h1.w40 {
+  display: inline-block;
+}
+
+.con-lifestyle1 h1 {
+  color: #2266b0;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: 0.1em;
+  margin: 0;
+  border-bottom: 5px solid #2266b0;
+}
+
+.con-lifestyle1 .conn-lifestyle {
+  min-height: 600px;
+  background: #fff;
+  position: relative;
+}
+
+
+.con-lifestyle1 .conn-lifestyle .cont-bluebg {
+  position: absolute;
+  left: 0;
+  width: 39%;
+  padding: 50px 10%;
+  background: #2367B1;
+  color: #fff;
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: normal;
+}
+
+.con-lifestyle1 .conn-lifestyle .cont-imgsec {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 61%;
+  padding: 50px 10%;
+}
+
+.con-lifestyle1 .cont-imgsec .img-container {
+  display: inline-block;
+  position: relative;
+}
+
+.con-lifestyle1 .img-container .source {
+  position: absolute;
+  right: 0;
+  text-align: right;
+  bottom: -80px;
+  font-style: italic;
+  font-size: 10px;
+  color: #787878;
+  width: 80%;
+}
+
+.con-lifestyle1 .cont-link,
+.con-lifestyle1 .cont-link:hover {
+  font-size: 10px;
+  font-style: italic;
+  color: #787878;
+  text-decoration: none;
+}
+
+/* CONNECTED LIFESTYLE 1 STYLES END */
+
+
+
+/* CONNECTED LIFESTYLE2 STYLES START */
+.con-lifestyle2 {
+  background-image: url(../images/hcs/bg-pattern-left.jpg), url(../images/hcs/bg-pattern-right.jpg);
+  background-position: left 0px, right -700px;
+  background-repeat: no-repeat;
+  padding-top: 130px;
+  background-attachment: fixed;
+}
+
+.con-lifestyle2 .global-header {
+  padding: 10% 10% 45px 10%;
+}
+
+.con-lifestyle2 .global-title {
+  border-bottom: 1px solid #2266b0;
+  margin: 15px 0;
+}
+
+.con-lifestyle2 .conn-lifestyle {
+  min-height: 700px;
+  background: #fff;
+  position: relative;
+}
+
+
+.con-lifestyle2 .conn-lifestyle .cont-whitebg {
+  position: absolute;
+  left: 0;
+  width: 43%;
+  padding: 50px 6% 50px 10%;
+  background: #fff;
+  color: #2367B1;
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: normal;
+}
+
+.con-lifestyle2 .conn-lifestyle .cont-whitebg .cont-listitem li {
+  padding-bottom: 15px;
+}
+
+.con-lifestyle2 .cont-whitebg .source,
+.con-lifestyle2 .cont-whitebg .cont-link,
+.con-lifestyle2 .cont-whitebg .cont-link:hover {
+  font-size: 10px;
+  font-style: italic;
+  color: #2367B1;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.con-lifestyle2 .conn-lifestyle .cont-imgsec {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 57%;
+  padding: 50px 10%;
+  background: #362F29;
+}
+
+.con-lifestyle2 .cont-imgsec .img-container {
+  display: inline-block;
+  position: relative;
+}
+
+.con-lifestyle2 .img-container .source {
+  position: absolute;
+  right: 0;
+  text-align: right;
+  bottom: -80px;
+  font-style: italic;
+  font-size: 10px;
+  font-weight: 900;
+  color: #787878;
+  width: 80%;
+}
+
+.con-lifestyle2 .cont-link,
+.con-lifestyle2 .cont-link:hover {
+  font-size: 10px;
+  font-style: italic;
+  color: #787878;
+  text-decoration: none;
+}
+
+/* CONNECTED LIFESTYLE2 STYLES END */
+
+
+/* VOICE AI STYLES START */
+.voice-ai {
+  background-image: url(../images/hcs/bg-pattern-left.jpg), url(../images/hcs/bg-pattern-right.jpg);
+  background-position: left -300px, right -900px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.voice-ai .global-header {
+  padding: 130px 10% 45px 10%;
+}
+
+.voice-ai .global-title {
+  border-bottom: 1px solid #2266b0;
+  margin: 15px 0;
+}
+
+.voice-ai h1.w40 {
+  display: inline-block;
+}
+
+.voice-ai h1 {
+  color: #2266b0;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: 0.1em;
+  margin: 0;
+  border-bottom: 5px solid #2266b0;
+}
+
+.voice-ai .voice-ai-section {
+  min-height: 700px;
+  background: #fff;
+  position: relative;
+}
+
+
+.voice-ai .voice-ai-section .cont-whitebg {
+  position: absolute;
+  right: 0;
+  width: 44%;
+  padding: 50px 10%;
+  background: #fff;
+  color: #2266B0;
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: normal;
+}
+
+.voice-ai .voice-ai-section .cont-imgsec {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 56%;
+  padding: 50px;
+  background: #362F29;
+}
+
+.voice-ai .cont-imgsec .img-container {
+  display: inline-block;
+  position: relative;
+}
+
+.voice-ai .img-container .source {
+  position: absolute;
+  left: 0;
+  text-align: left;
+  bottom: -80px;
+  font-style: italic;
+  font-size: 10px;
+  color: #787878;
+  width: 80%;
+}
+
+.voice-ai .cont-link,
+.voice-ai .cont-link:hover {
+  font-size: 10px;
+  font-style: italic;
+  color: #787878;
+  text-decoration: none;
+}
+
+/* VOICE AI STYLES END */
+
+
+/* EDGE CLOUD COMPUTING STYLES START */
+.edge-cloud-computing {
+  background-image: url(../images/hcs/bg-pattern-left.jpg), url(../images/hcs/bg-pattern-right.jpg);
+  background-position: left 0px, right -700px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.edge-cloud-computing .global-header {
+  padding: 130px 10% 45px 10%;
+}
+
+.edge-cloud-computing .global-title {
+  border-bottom: 1px solid #2266b0;
+  margin: 15px 0;
+}
+
+.edge-cloud-computing h1.w40 {
+  display: inline-block;
+}
+
+.edge-cloud-computing h1 {
+  color: #2266b0;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: 0.1em;
+  margin: 0;
+  border-bottom: 5px solid #2266b0;
+}
+
+.edge-cloud-computing .cloud-computing {
+  height: 70vh;
+  background: #fff;
+  position: relative;
+}
+
+
+.edge-cloud-computing .cloud-computing .cont-bluebg {
+  position: absolute;
+  left: 0;
+  width: 39%;
+  padding: 50px 10%;
+  background: #2367B1;
+  color: #fff;
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: normal;
+}
+
+.edge-cloud-computing .cloud-computing .cont-imgsec {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 61%;
+  padding: 50px 10%;
+}
+
+.edge-cloud-computing .cont-imgsec .img-container {
+  display: inline-block;
+  position: relative;
+}
+
+.edge-cloud-computing .img-container .source {
+  position: absolute;
+  right: 0;
+  text-align: right;
+  bottom: -80px;
+  font-style: italic;
+  font-size: 10px;
+  color: #787878;
+  width: 80%;
+}
+
+.edge-cloud-computing .cont-link,
+.edge-cloud-computing .cont-link:hover {
+  font-size: 10px;
+  font-style: italic;
+  color: #787878;
+  text-decoration: none;
+}
+
+/* EDGE CLOUD COMPUTING STYLES END */
+
+
+/* DATA MANAGEMENT AND SECURITY STYLES START */
+.data-mngt-security {
+  background-image: url(../images/hcs/bg-pattern-left.jpg), url(../images/hcs/bg-pattern-right.jpg);
+  background-position: left -300px, right -900px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.data-mngt-security .global-header {
+  padding: 130px 10% 45px 10%;
+}
+
+.data-mngt-security .global-title {
+  border-bottom: 1px solid #2266b0;
+  margin: 15px 0;
+}
+
+.data-mngt-security h1.w40 {
+  display: inline-block;
+}
+
+.data-mngt-security h1 {
+  color: #2266b0;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: 0.1em;
+  margin: 0;
+  border-bottom: 5px solid #2266b0;
+}
+
+.data-mngt-security .data-mngement-security {
+  min-height: 700px;
+  background: #fff;
+  position: relative;
+}
+
+
+.data-mngt-security .data-mngement-security .cont-bluebg {
+  position: absolute;
+  right: 0;
+  width: 44%;
+  padding: 50px 10%;
+  background: #2367B1;
+  color: #fff;
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: normal;
+}
+
+.data-mngt-security .data-mngement-security .cont-imgsec {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 56%;
+  padding: 50px;
+  background: #fff;
+}
+
+.data-mngt-security .cont-imgsec .img-container {
+  display: inline-block;
+  position: relative;
+}
+
+.data-mngt-security .img-container .source {
+  position: absolute;
+  left: 0;
+  text-align: right;
+  top: -80px;
+  font-style: italic;
+  font-size: 10px;
+  color: #787878;
+}
+
+.data-mngt-security .cont-link,
+.data-mngt-security .cont-link:hover {
+  font-size: 10px;
+  font-style: italic;
+  color: #787878;
+  text-decoration: none;
+}
+
+/* DATA MANAGEMENT AND SECURITY STYLES END */
+
+
+/* EXPERIENCE PLATFORMS STYLES START */
+.exp-platform-section {
+  background-image: url(../images/hcs/bg-pattern-left.jpg), url(../images/hcs/bg-pattern-right.jpg);
+  background-position: left -300px, right -900px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.exp-platform-section .global-header {
+  padding: 130px 10% 45px 10%;
+}
+
+.exp-platform-section .global-title {
+  border-bottom: 1px solid #2266b0;
+  margin: 15px 0;
+}
+
+.exp-platform-section h1.w40 {
+  display: inline-block;
+}
+
+.exp-platform-section h1 {
+  color: #2266b0;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: 0.1em;
+  margin: 0;
+  border-bottom: 5px solid #2266b0;
+}
+
+.exp-platform-section .exp-platform {
+  min-height: 700px;
+  background: #fff;
+  position: relative;
+}
+
+
+.exp-platform-section .exp-platform .cont-whitebg {
+  position: absolute;
+  right: 0;
+  width: 42%;
+  padding: 50px 10%;
+  background: #fff;
+  color: #2266B0;
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: normal;
+}
+
+.exp-platform-section .exp-platform .cont-whitebg .strong-cont {
+  font-weight: 900;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.exp-platform-section .exp-platform .cont-imgsec {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 58%;
+  padding: 50px;
+  background: #4e4fa2;
+}
+
+.exp-platform-section .cont-imgsec .img-container {
+  display: inline-block;
+  position: relative;
+}
+
+.exp-platform-section .img-container .source {
+  position: absolute;
+  left: 0;
+  text-align: left;
+  bottom: -80px;
+  font-style: italic;
+  font-size: 10px;
+  color: #E5E5E5;
+}
+
+.exp-platform-section .cont-link,
+.exp-platform-section .cont-link:hover {
+  font-size: 10px;
+  font-style: italic;
+  color: #E5E5E5;
+  text-decoration: none;
+}
+
+/* EXPERIENCE PLATFORMS STYLES END */
+
+
+/* PLATFORM BASED INNOVATION STYLES START */
+.platform-innovation-section {
+  background-image: url(../images/hcs/bg-pattern-left.jpg), url(../images/hcs/bg-pattern-right.jpg);
+  background-position: left -600px, right -100px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.platform-innovation-section .global-header {
+  padding: 130px 10% 45px 10%;
+}
+
+.platform-innovation-section .global-title {
+  border-bottom: 1px solid #2266b0;
+  margin: 15px 0;
+}
+
+.platform-innovation-section h1.w40 {
+  display: inline-block;
+}
+
+.platform-innovation-section h1 {
+  color: #2266b0;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: 0.1em;
+  margin: 0;
+  border-bottom: 5px solid #2266b0;
+}
+
+.platform-innovation-section .platform-innovation {
+  min-height: 700px;
+  background: #fff;
+  position: relative;
+}
+
+
+.platform-innovation-section .platform-innovation .cont-whitebg {
+  position: absolute;
+  left: 0;
+  width: 42%;
+  padding: 50px 10%;
+  background: #fff;
+  color: #2367B1;
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: normal;
+}
+
+.platform-innovation-section .platform-innovation .cont-whitebg .strong-cont {
+  font-weight: 900;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.platform-innovation-section .platform-innovation .cont-whitebg .cont-listitem li {
+  padding-bottom: 15px;
+}
+
+.platform-innovation-section .cont-whitebg .source,
+.platform-innovation-section .cont-whitebg .cont-link,
+.platform-innovation-section .cont-whitebg .cont-link:hover {
+  font-size: 10px;
+  font-style: italic;
+  color: #2367B1;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.platform-innovation-section .platform-innovation .cont-imgsec {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 58%;
+  padding: 50px 5%;
+  background: #2265b0;
+}
+
+.platform-innovation-section .cont-imgsec .img-container {
+  display: inline-block;
+  position: relative;
+}
+
+.platform-innovation-section .img-container .source {
+  position: absolute;
+  right: 0;
+  text-align: right;
+  bottom: -80px;
+  font-style: italic;
+  font-size: 10px;
+  font-weight: 900;
+  color: #787878;
+  width: 80%;
+}
+
+.platform-innovation-section .cont-link,
+.platform-innovation-section .cont-link:hover {
+  font-size: 10px;
+  font-style: italic;
+  color: #787878;
+  text-decoration: none;
+}
+
+/* PLATFORM BASED INNOVATION STYLES END */
+
+
+
+
+/* CLOSING CONTENT STYLES START */
+.closing-cont-section {
+  background-image: url(../images/hcs/bg-pattern-left.jpg), url(../images/hcs/bg-pattern-right.jpg);
+  background-position: left 0px, right -700px;
+  background-repeat: no-repeat;
+  padding-top: 130px;
+  background-attachment: fixed;
+}
+
+.closing-cont-section .closing-cont {
+  min-height: 100vh;
+  background: #fff;
+  position: relative;
+  background-image: url(../images/hcs/TB-HCS-summary-01.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.closing-cont-section .closing-cont .cont-whitebg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  color: #fff;
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: normal;
+}
+
+.closing-cont-section .closing-cont .cont-whitebg .summary {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 49px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  padding: 10% 25%;
+}
+
+/* CLOSING CONTENT STYLES END */
+
+
+
+/* SCROLL TOP ANIMATION STYLES START */
+#scrollTop {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background-color: #2266b0;
+  text-indent: -9999px;
+  display: none;
+  border-radius: 60px
+}
+
+#scrollTop span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -8px;
+  margin-top: -12px;
+  height: 0;
+  width: 0;
+  border: 8px solid transparent;
+  border-bottom-color: #ffffff
+}
+
+#scrollTop:hover {
+  background-color: #5bcae6;
+  opacity: 1;
+  filter: "alpha(opacity=100)";
+  -ms-filter: "alpha(opacity=100)"
+}
+/* SCROLL TOP ANIMATION STYLES END */

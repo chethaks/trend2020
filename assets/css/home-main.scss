@@ -69,6 +69,24 @@ section {
   }
 }
 
+.bg-footer{
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &.bg-cc {
+      background-image: url("../images/home/TB-home-CC.png");
+    }
+    &.bg-cs {
+      background-image: url("../images/home/TB-home-CS.png");
+    }
+    &.bg-ps {
+      background-image: url("../images/home/TB-home-PS.png");
+    }
+    &.bg-la {
+      background-image: url("../images/home/TB-home-LS.png");
+    }
+}
+
 .bg {
   /* Full height */
   height: 100vh;
@@ -86,6 +104,15 @@ section {
   }
   &.bg-intro-covid {
     background-image: url("../images/home/17-COVID19-banner-01.png");
+  }
+  &.bg-cs {
+    background-image: url("../images/home/TB-home-CS.png");
+  }
+  &.bg-ps {
+    background-image: url("../images/home/TB-home-PS.png");
+  }
+  &.bg-la {
+    background-image: url("../images/home/TB-home-LS.png");
   }
 }
 
