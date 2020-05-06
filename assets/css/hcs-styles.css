@@ -1,6 +1,6 @@
 .bg.bg-banner {
   /* The image used */
-  background-image: url("../images/hcs/HCS-top-banner.png");
+  background-image: url("../images/hcs/hcs-top-banner.png");
 }
 
 .hcs-page {
@@ -103,7 +103,7 @@
 
 .hcs-trends {
   height: 100vh;
-  background: url(../images/hcs/HCS-trends-banner.png) no-repeat;
+  background: url(../images/hcs/hcs-trends-banner.png) no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -586,7 +586,25 @@
   position: absolute;
   left: 0;
   text-align: right;
-  top: -80px;
+  top: -60px;
+  font-style: italic;
+  font-size: 10px;
+  color: #787878;
+}
+
+.data-mngt-security .cont-link,
+.data-mngt-security .cont-link:hover {
+  font-size: 10px;
+  font-style: italic;
+  color: #787878;
+  text-decoration: none;
+}
+
+.data-mngt-security .img-container .source-bottom {
+  position: absolute;
+  left: 0;
+  text-align: right;
+  bottom: -15px;
   font-style: italic;
   font-size: 10px;
   color: #787878;
@@ -770,7 +788,7 @@
   right: 0;
   width: 58%;
   padding: 50px 5%;
-  background: #2265b0;
+  background: #2b9fda;
 }
 
 .platform-innovation-section .cont-imgsec .img-container {
@@ -786,7 +804,7 @@
   font-style: italic;
   font-size: 10px;
   font-weight: 900;
-  color: #787878;
+  color: #fff;
   width: 80%;
 }
 
@@ -816,7 +834,7 @@
   min-height: 100vh;
   background: #fff;
   position: relative;
-  background-image: url(../images/hcs/TB-HCS-summary-01.png);
+  background-image: url(../images/hcs/hcs-summary.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
