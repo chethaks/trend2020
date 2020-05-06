@@ -51,6 +51,67 @@
   background-attachment: fixed;
 }
 
+.car-page .common-tabs a.nav-link {
+  line-height: 30px !important;
+  letter-spacing: 0.075em !important;
+}
+
+.car-page .bg-trend-header {
+  -webkit-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
+}
+
+.car-page .bg-trend-header h1 {
+  width: 75%;
+}
+
+.car-page .bg-trend-header h6 {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.car-page .bg-trend-cta .market-trend-cta {
+  background-color: #00a1e8;
+  padding: 2% 15% 0 3%;
+}
+
+.car-page .bg-trend-cta .covid-19-cta {
+  padding: 2% 13% 0 3%;
+}
+
+.car-page .bg-trend-cta .harman-leader-cta {
+  padding: 2% 15% 0 3%;
+  background-image: url(../images/cc/cta-bg.png);
+  background-repeat: no-repeat;
+  height: 120px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 28px;
+  letter-spacing: 0.06em;
+}
+
+.car-page .bg-trend-cta .harman-leader-cta span {
+  width: 25px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.car-page .bg-trend-cta .harman-leader-cta span img {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.car-page .market-trend-content img {
+  width: 70px;
+  position: relative;
+  left: -10px;
+  top: 20px;
+  padding-top: 2%;
+}
+
 .common-car-section {
   padding: 10% 0 0 0;
 }
@@ -67,10 +128,6 @@
   font-weight: bold;
   letter-spacing: 0.1em;
   line-height: 36px;
-}
-
-.global-outlook {
-  /* Tabs */
 }
 
 .global-outlook .padding-15 {
@@ -114,7 +171,10 @@
   font-weight: bold;
 }
 
-.global-outlook h1:last-child {
+.global-outlook h3 {
+  font-size: 64px;
+  line-height: 80px;
+  font-weight: bold;
   color: #5bcae6;
 }
 
@@ -128,110 +188,34 @@
   min-height: 100%;
 }
 
-.global-outlook.ui-tabs .ui-tabs-nav {
-  list-style: none;
-  position: absolute;
-  padding: 0;
-  overflow: hidden;
-  top: 250px;
-  right: 0;
-  width: 65%;
+.global-outlook ul {
   text-align: right;
+  padding-top: 23%;
 }
 
-.global-outlook.ui-tabs .ui-tabs-nav li {
-  background-color: #5bcae6;
-  padding: 2% !important;
+.global-outlook ul li {
+  background-color: #2266b0;
+  padding: 2% 3%;
   min-height: 100%;
   display: inline-block;
   width: 20%;
   height: 195px;
   margin: 1%;
   text-align: left;
-}
-
-.global-outlook.ui-tabs .ui-tabs-nav li a {
-  float: left;
-  text-decoration: none;
-  padding: 5px 10px;
-  color: #2266b0;
+  position: relative;
+  font-weight: bold;
   font-size: 14px;
   line-height: 21px;
-  font-weight: bold;
-  height: 175px;
-  cursor: pointer;
-}
-
-.global-outlook.ui-tabs .ui-tabs-nav li.ui-tabs-selected, .global-outlook.ui-tabs .ui-tabs-nav li.ui-state-disabled, .global-outlook.ui-tabs .ui-tabs-nav li.ui-state-processing {
-  padding: 0;
-  border-bottom-width: 0;
-  background-color: #2266b0;
-}
-
-.global-outlook.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .global-outlook.ui-tabs .ui-tabs-nav li.ui-state-disabled a, .global-outlook.ui-tabs .ui-tabs-nav li.ui-state-processing a {
-  color: #ffffff;
-}
-
-.global-outlook.ui-tabs .ui-tabs-hide {
-  display: none !important;
-}
-
-.ui-tabs {
-  /* .ui-tabs-panel {
-    } */
-}
-
-.ui-tabs a.mover {
-  padding: 15px;
-  position: absolute;
-}
-
-.ui-tabs .next-tab,
-.ui-tabs .next-tab1,
-.ui-tabs .next-tab2,
-.ui-tabs .next-tab3,
-.ui-tabs .next-tab4,
-.ui-tabs .next-tab5 {
-  bottom: 30%;
-  right: 0;
-}
-
-.ui-tabs .next-tab img,
-.ui-tabs .next-tab1 img,
-.ui-tabs .next-tab2 img,
-.ui-tabs .next-tab3 img,
-.ui-tabs .next-tab4 img,
-.ui-tabs .next-tab5 img {
-  width: 40px;
-}
-
-.ui-tabs .prev-tab,
-.ui-tabs .prev-tab1,
-.ui-tabs .prev-tab2,
-.ui-tabs .prev-tab3,
-.ui-tabs .prev-tab4,
-.ui-tabs .prev-tab5 {
-  bottom: 30%;
-  left: 0;
-}
-
-.ui-tabs .prev-tab img,
-.ui-tabs .prev-tab1 img,
-.ui-tabs .prev-tab2 img,
-.ui-tabs .prev-tab3 img,
-.ui-tabs .prev-tab4 img,
-.ui-tabs .prev-tab5 img {
-  width: 40px;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  color: #f7f7f7;
+  vertical-align: top;
 }
 
 .common-tab-section .car-global-header {
-  padding: 5% 0;
+  padding: 7% 0 5% 0;
 }
 
 .common-tab-section .car-global-header .selected-heading {
-  background-color: #5bcae6;
+  background-color: #00a1e8;
   color: #ffffff;
   font-weight: bold;
   font-size: 16px;
@@ -264,9 +248,28 @@
   line-height: 35px;
   letter-spacing: 0.1em;
   color: #2266b0;
-  padding: 1% 0;
-  width: 70%;
+  padding: 2% 0;
   border-bottom: 4px solid #2266b0;
+}
+
+.common-tab-section .car-global-header .global-title h1.w70 {
+  width: 70%;
+}
+
+.common-tab-section .car-global-header .global-title h1.w45 {
+  width: 45%;
+}
+
+.common-tab-section .car-global-header .global-title h1.w50 {
+  width: 50%;
+}
+
+.common-tab-section .car-global-header .global-title h1.w60 {
+  width: 60%;
+}
+
+.common-tab-section .car-global-header .global-title h1.w85 {
+  width: 85%;
 }
 
 .common-tab-section .car-global-header .global-subtitle {
@@ -360,6 +363,7 @@
   line-height: 21px;
   letter-spacing: 0.07em;
   padding: 0 20%;
+  color: #ffffff;
 }
 
 .common-tab-section .content-section h4 {
@@ -368,7 +372,7 @@
   line-height: 18px;
   letter-spacing: 0.07em;
   color: #f7f7f7;
-  padding: 5% 20% 0;
+  padding: 3% 20% 2%;
 }
 
 .common-tab-section .content-section p {
@@ -384,13 +388,27 @@
   padding: 10px 0;
 }
 
-.closing-text h3 {
+.closing-text-car h1 {
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0.1em;
   color: #ffffff;
-  padding: 20%;
-  font-style: normal;
+}
+
+.closing-text-car h3 {
+  color: #ffffff;
   font-weight: normal;
   font-size: 18px;
   line-height: 33px;
+}
+
+.closing-text-car .padding-t10 {
+  padding-top: 10%;
+}
+
+.closing-text-car .padding-t15 {
+  padding: 15% 10%;
 }
 
 /*Only Tab styles*/
@@ -510,15 +528,15 @@
   line-height: 36px;
   letter-spacing: 0.1em;
   color: #2266b0;
-  padding: 0;
+  padding: 10%;
 }
 
 .global-connectivity #connectivity-1 .content-section h4 {
-  padding: 0;
+  padding: 5% 10%;
 }
 
 .global-connectivity #connectivity-1 .content-section p {
-  padding: 0;
+  padding: 0 10%;
 }
 
 .global-connectivity #connectivity-2 .content-section {
@@ -526,13 +544,13 @@
 }
 
 .global-connectivity #connectivity-2 .content-section p {
-  padding: 0;
-  font-weight: 500;
+  padding: 0 10%;
+  font-weight: normal;
 }
 
 .global-connectivity #connectivity-2 .image-section h4 {
   padding: 0 5%;
-  width: 50%;
+  width: 55%;
   font-weight: bold;
   font-size: 18px;
   line-height: 28px;
@@ -547,7 +565,7 @@
 .global-connectivity #connectivity-3 .content-section p {
   position: absolute;
   top: 40%;
-  padding: 10%;
+  padding: 5% 10%;
   font-weight: 500;
   line-height: 36px;
 }
@@ -567,6 +585,9 @@
   padding: 10%;
   font-weight: 500;
   line-height: 36px;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
 }
 
 .global-connectivity #connectivity-5 .content-section {
@@ -579,6 +600,13 @@
   padding: 10%;
   font-weight: normal;
   line-height: 36px;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+}
+
+.global-connectivity #connectivity-5 .content-section img {
+  padding: 5%;
 }
 
 .global-connectivity #connectivity-6 .content-section {
@@ -587,8 +615,9 @@
 
 .global-connectivity #connectivity-6 .content-section p {
   padding: 0;
-  font-weight: 500;
-  line-height: 36px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
 }
 
 .global-connectivity #connectivity-6 .image-section {
@@ -600,9 +629,11 @@
 }
 
 .global-connectivity #connectivity-7 .content-section p {
-  padding: 0;
-  font-weight: 500;
-  line-height: 36px;
+  padding: 20px 10% 0;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
 }
 
 .global-connectivity #connectivity-7 .image-section {
@@ -614,13 +645,15 @@
 }
 
 .global-connectivity #connectivity-8 .content-section p {
-  padding: 0;
-  font-weight: 500;
-  line-height: 36px;
+  padding: 0 10%;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
 }
 
 .global-connectivity #connectivity-8 .image-section {
-  padding: 7%;
+  padding: 5%;
 }
 
 .global-autonomous #autonomous-1 .image-section {
@@ -733,19 +766,129 @@
 }
 
 #caseSection {
+  padding-top: 15%;
   color: #ffffff;
 }
 
-.blue-card {
-  width: 350px;
-  height: 450px;
-  position: absolute;
-  background-color: #2266b0;
+#caseSection h2 {
+  font-weight: bold;
+  font-size: 65px;
+  line-height: 75px;
+}
+
+#caseSection h2:first-child {
+  color: #5acae6;
+}
+
+#caseSection h4 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.08em;
+  color: #f7f7f7;
+  padding-top: 7%;
+  width: 60%;
+}
+
+#caseSection img {
+  width: 50px;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.common-case-section .trend-update-img {
+  background-color: #ffffff;
+  margin-top: 10%;
+}
+
+.common-case-section .trend-update-img img {
+  width: 90%;
+}
+
+.common-case-section .trend-case {
+  position: relative;
   z-index: 1;
-  width: 22%;
-  height: 450px;
+  margin-top: 10%;
+}
+
+.common-case-section .trend-case .case-bg h1 {
+  font-weight: bold;
+  font-size: 122px;
+  line-height: 143px;
+  color: #f7f7f7;
+  background-color: #5ACAE6;
+  padding: 20% 20% 0;
+  margin: 0;
+}
+
+.common-case-section .trend-case .case-bg h1 span {
+  color: #2266b0;
+}
+
+.common-case-section .trend-case .case-bg p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.08em;
+  color: #f7f7f7;
+  background-color: #5ACAE6;
+  padding: 10px 20% 20%;
+}
+
+.common-case-section .trend-case .case-bg .pattern-image {
   position: absolute;
-  margin-top: 17rem;
-  min-width: 340px;
-  left: 5%;
+  bottom: -10%;
+  left: -10%;
+  z-index: -1;
+}
+
+.common-case-section .trend-case img {
+  width: 100%;
+}
+
+.common-case-section .trend-case .container {
+  padding-top: 5%;
+}
+
+.common-case-section .trend-case .container p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #2266B0;
+}
+
+.common-case-section .trend-case .single-letter {
+  font-weight: 900;
+  font-size: 71.02px;
+  line-height: 83px;
+  color: #5BCAE6;
+}
+
+.common-case-section .trend-case .line {
+  height: 0.2px;
+  background-color: #2266b0;
+  display: block;
+}
+
+.common-case-section .trend-case .letter-summary {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2266B0;
+  padding-right: 4%;
+}
+
+#marketSection .market-trend-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 40%;
+}
+
+#marketSection .market-trend-content h1 {
+  font-weight: bold;
+  font-size: 62.19px;
+  line-height: 78px;
 }
