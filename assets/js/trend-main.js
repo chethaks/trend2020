@@ -10,6 +10,18 @@ $(window).on("scroll", function () {
   return false;
 });
 
+// HCS CLICK DOWN ARROW START
+$("#hcs-connected-lifestyle").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#connected-lifestyle").offset().top,
+    },
+    2000,
+  );
+  return false;
+});
+// HCS CLICK DOWN ARROW END
+
 /** Scroll to section */
 $("#market").click(function () {
   $("html, body").animate(
