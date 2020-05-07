@@ -50,10 +50,10 @@ $new-bg-color: #00a1e8;
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
-  .common-tabs{
-    a.nav-link{
+  .common-tabs {
+    a.nav-link {
       line-height: 30px !important;
-    letter-spacing: 0.075em !important;
+      letter-spacing: 0.075em !important;
     }
   }
   .bg-trend-header {
@@ -96,13 +96,10 @@ $new-bg-color: #00a1e8;
       }
     }
   }
-  .market-trend-content{
+  .market-trend-content {
     img{
       width: 70px;
-      position: relative;
-      left: -10px;
-      top: 20px;
-      padding-top: 2%;
+      height: 70px;
     }
   }
 }
@@ -252,7 +249,7 @@ $new-bg-color: #00a1e8;
         &.w60 {
           width: 60%;
         }
-        &.w85{
+        &.w85 {
           width: 85%;
         }
       }
@@ -345,9 +342,9 @@ $new-bg-color: #00a1e8;
       padding: 3% 20% 2%;
     }
     p {
-      font-size: 14px;
-      line-height: 28px;
-      letter-spacing: 0.05em;
+      font-size: 18px;
+      line-height: 24px;
+      letter-spacing: 0.07em;
       color: $sub-head;
       padding: 0 20%;
     }
@@ -379,65 +376,21 @@ $new-bg-color: #00a1e8;
   }
 }
 
-/*Only Tab styles*/
-.global-connectivity,
-.global-autonomous,
-.global-shared,
-.global-electrification,
-.global-business {
-  &.ui-tabs {
-    .ui-tabs-nav {
-      list-style: none;
-      position: absolute;
-      overflow: hidden;
-      top: 160px;
-      right: 0;
-      width: 70%;
-      li {
-        display: block;
-        text-align: left;
-        margin-bottom: 5%;
-        a {
-          color: $white;
-          cursor: pointer;
-          font-weight: bold;
-          font-size: 36px;
-          line-height: 42px;
-          letter-spacing: 0.045em;
-          display: block;
-        }
-        span {
-          font-weight: 500;
-          font-size: 18px;
-          line-height: 21px;
-          letter-spacing: 0.05em;
-          color: $sub-head;
-          width: 50%;
-          display: inline-block;
-        }
-        &.ui-tabs-selected,
-        &.ui-state-disabled,
-        &.ui-state-processing {
-          padding: 0;
-          border-bottom-width: 0;
-          a {
-            color: $white;
-          }
-        }
-      }
-    }
-    .ui-tabs-hide {
-      display: none !important;
-    }
-  }
-}
-
 .global-connectivity {
-  p {
-    font-size: 18px;
+  .content-section{
+    p{
+      font-size: 18px;
     line-height: 24px;
     letter-spacing: 0.05em;
-  }
+    padding-left: 10%;
+    padding-right: 10%;
+    }
+    h4 {
+      font-weight: 900;
+      font-size: 18px;
+      line-height: 29px;
+    }
+  } 
   .global-title {
     h1 {
       font-weight: normal !important;
@@ -459,9 +412,6 @@ $new-bg-color: #00a1e8;
       }
       h4 {
         padding: 5% 10%;
-      }
-      p {
-        padding: 0 10%;
       }
     }
   }
@@ -513,8 +463,8 @@ $new-bg-color: #00a1e8;
         font-weight: 500;
         line-height: 36px;
         font-size: 18px;
-      line-height: 24px;
-      letter-spacing: 0.05em;
+        line-height: 24px;
+        letter-spacing: 0.05em;
       }
     }
   }
@@ -531,7 +481,7 @@ $new-bg-color: #00a1e8;
         line-height: 24px;
         letter-spacing: 0.05em;
       }
-      img{
+      img {
         padding: 5%;
       }
     }
@@ -540,7 +490,6 @@ $new-bg-color: #00a1e8;
     .content-section {
       padding: 10%;
       p {
-        padding: 0;
         font-weight: normal;
         font-size: 18px;
         line-height: 28px;
@@ -559,7 +508,6 @@ $new-bg-color: #00a1e8;
         font-size: 18px;
         line-height: 24px;
         letter-spacing: 0.05em;
-
       }
     }
     .image-section {
@@ -584,6 +532,24 @@ $new-bg-color: #00a1e8;
 }
 
 .global-autonomous {
+  .content-section{
+    padding: 10%;
+    p{
+      font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    padding-left: 10%;
+    padding-right: 10%;
+    }
+    h4 {
+      font-weight: 900;
+      font-size: 18px;
+      line-height: 29px;
+    }
+    h2{
+      padding: 5% 10% 2% 10%; 
+    }
+  } 
   #autonomous-1 {
     .image-section {
       padding: 5%;
@@ -601,6 +567,7 @@ $new-bg-color: #00a1e8;
     .content-section {
       h2 {
         color: $secondary-color;
+        padding-bottom: 2%;
       }
       p {
         color: $secondary-color;
@@ -614,10 +581,11 @@ $new-bg-color: #00a1e8;
     .content-section {
       padding: 10%;
       h2 {
-        padding: 0;
+        padding-top: 20%;
       }
       p {
-        padding: 0;
+        padding-bottom: 10%;
+        
       }
     }
   }
@@ -628,10 +596,10 @@ $new-bg-color: #00a1e8;
     .content-section {
       padding: 10%;
       h2 {
-        padding: 0;
+        
       }
       p {
-        padding: 0;
+        padding-bottom: 2%;
       }
     }
   }
@@ -639,10 +607,10 @@ $new-bg-color: #00a1e8;
     .content-section {
       padding: 10%;
       h2 {
-        padding: 0;
+        
       }
       p {
-        padding: 0;
+        
       }
     }
   }
@@ -653,10 +621,10 @@ $new-bg-color: #00a1e8;
     .content-section {
       padding: 10%;
       h2 {
-        padding: 0;
+        
       }
       p {
-        padding: 0;
+        padding-top: 2%;
       }
     }
   }
@@ -667,16 +635,52 @@ $new-bg-color: #00a1e8;
     .content-section {
       padding: 10%;
       h2 {
-        padding: 0;
+        padding-bottom: 5%;
       }
       p {
-        padding: 0;
+        padding-top: 1%;
       }
     }
   }
 }
 
 .global-electrification {
+  .content-section{
+    padding: 10%;
+    p{
+      font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    padding-left: 10%;
+    padding-right: 10%;
+    }
+    h4 {
+      font-weight: 900;
+      font-size: 18px;
+      line-height: 29px;
+    }
+    h2{
+      padding: 5% 10% 2% 10%; 
+    }
+  } 
+  #electrification-1 {
+    .content-section {
+      color: $secondary-color;
+      p {
+        padding-top: 30%;
+      }
+      h6 {
+        padding-left: 20%;
+      }
+    }
+    .image-section{
+      h3{
+        color: #333333;
+        padding: 2% 0;
+      }
+    }
+  }
+
   #electrification-2 {
     .content-section {
       color: $secondary-color;
@@ -686,6 +690,244 @@ $new-bg-color: #00a1e8;
       h6 {
         padding-left: 20%;
       }
+    }
+  }
+  #electrification-3 {
+    .content-section {
+      
+      p {
+        font-size: 21px;
+line-height: 36px;
+padding-top: 25%;
+      }
+      h2 {
+        font-size: 21px;
+        line-height: 36px;
+      }
+    }
+  }
+  #electrification-4 {
+    .content-section {
+      
+      p {
+        font-size: 21px;
+        line-height: 36px;
+        padding-top: 25%;
+      }
+      h2 {
+        font-size: 21px;
+        line-height: 36px;
+      }
+    }
+  }
+  #electrification-5 {
+    .content-section {
+      
+      p {
+        font-size: 21px;
+        line-height: 36px;
+        padding-top: 5%;
+      }
+      h2 {
+        font-size: 21px;
+        line-height: 36px;
+      }
+    }
+  }
+}
+
+.global-shared {
+  .content-section{
+    padding: 10%;
+    p{
+      font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    padding-left: 10%;
+    padding-right: 10%;
+    }
+    h4 {
+      font-weight: 900;
+      font-size: 18px;
+      line-height: 29px;
+    }
+    h2{
+      padding: 5% 10% 2% 10%; 
+    }
+  } 
+  #shared-1{
+    .image-section{
+      h3{
+        font-size: 16px;
+        line-height: 158.9%;
+        padding: 0 7%;
+      }
+    }
+  }   
+  #shared-3{
+    .content-section{
+      h2{
+        padding-top: 30%;
+      }
+    }
+  }   
+}
+
+#new-business{
+  .content-section{
+    padding: 10%;
+    p{
+      font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    padding-left: 10%;
+    padding-right: 10%;
+    }
+    h4 {
+      font-weight: 900;
+      font-size: 18px;
+      line-height: 29px;
+    }
+    h2{
+    }
+  } 
+  #business-1{
+    .content-section{
+      p{
+        font-size: 21px;
+        line-height: 33px;
+        padding-top: 20%;
+      }
+    }
+    .image-section{
+      h3{
+        font-size: 21px;
+        line-height: 33px;
+        text-align: center;
+      }
+      
+    }
+  }
+  #business-2{
+    .content-section{
+      p{
+        font-size: 21px;
+        line-height: 33px;
+        padding-top: 20%;
+      }
+    }
+    .image-section{
+      h3{
+        font-size: 18px;
+        line-height: 33px;
+      }
+      
+    }
+  }
+  #business-3{
+    .content-section{
+      p{
+        padding-top: 5%;
+      }
+      h2{
+        padding: 10%;
+      }
+    }
+    .image-section{
+      h3{
+        font-size: 18px;
+        line-height: 33px;
+      }
+      
+    }
+  }
+  #business-4{
+    .content-section{
+      p{
+        padding-top: 5%;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 24px;
+        letter-spacing: 0.05em;
+
+      }
+      h2{
+        padding: 10%;
+        font-size: 21px;
+        line-height: 36px;
+      }
+    }
+    .image-section{
+      h3{
+        font-size: 18px;
+        line-height: 33px;
+      }
+      
+    }
+  }
+  #business-5{
+    .content-section{
+      p{
+        padding-top: 5%;
+        font-size: 21px;
+line-height: 36px;
+      }
+      h2{
+        padding: 10%;
+        font-size: 21px;
+        line-height: 36px;
+      }
+    }
+    .image-section{
+      h3{
+        font-size: 18px;
+        line-height: 33px;
+      }
+      
+    }
+  }
+  #business-6{
+    .content-section{
+      p{
+        padding-top: 10%;
+        font-weight: bold;
+font-size: 24px;
+line-height: 33px;
+      }
+      h2{
+        padding: 10%;
+        font-size: 21px;
+        line-height: 36px;
+      }
+    }
+    .image-section{
+      h3{
+        font-size: 18px;
+        line-height: 33px;
+      }
+      
+    }
+  }
+  #business-7{
+    .content-section{
+      p{
+        padding-top: 10%;
+        font-size: 21px;
+        line-height: 33px;
+      }
+      h2{
+        padding: 10%;
+        font-size: 21px;
+        line-height: 36px;
+      }
+    }
+    .image-section{
+      h3{
+        font-size: 18px;
+        line-height: 33px;
+      }
+      
     }
   }
 }
@@ -710,97 +952,96 @@ $new-bg-color: #00a1e8;
     padding-top: 7%;
     width: 60%;
   }
-  img{
+  img {
     width: 50px;
     transform: rotate(-90deg);
   }
 }
 
-.common-case-section{
-  .trend-update-img{
+.common-case-section {
+  .trend-update-img {
     background-color: $white;
     margin-top: 10%;
-    img{
+    img {
       width: 90%;
     }
   }
-  .trend-case{
+  .trend-case {
     position: relative;
     z-index: 1;
     margin-top: 10%;
-    .case-bg{
-      h1{
+    .case-bg {
+      h1 {
         font-weight: bold;
         font-size: 122px;
         line-height: 143px;
         color: $sub-head;
-        background-color: #5ACAE6;
+        background-color: #5acae6;
         padding: 20% 20% 0;
         margin: 0;
-        span{
+        span {
           color: $secondary-color;
         }
       }
-      p{
+      p {
         font-weight: 500;
         font-size: 18px;
         line-height: 28px;
         letter-spacing: 0.08em;
         color: $sub-head;
-        background-color: #5ACAE6;
+        background-color: #5acae6;
         padding: 10px 20% 20%;
       }
-      .pattern-image{
+      .pattern-image {
         position: absolute;
         bottom: -10%;
         left: -10%;
         z-index: -1;
       }
     }
-    img{
+    img {
       width: 100%;
     }
 
-    .container{
+    .container {
       padding-top: 5%;
-      p{
+      p {
         font-weight: 500;
         font-size: 18px;
         line-height: 24px;
-        color: #2266B0;
+        color: #2266b0;
       }
     }
 
-    .single-letter{
+    .single-letter {
       font-weight: 900;
       font-size: 71.02px;
       line-height: 83px;
-      color: #5BCAE6;
+      color: #5bcae6;
     }
-    .line{
+    .line {
       height: 0.2px;
       background-color: $secondary-color;
       display: block;
     }
-    .letter-summary{
+    .letter-summary {
       font-weight: bold;
       font-size: 16px;
       line-height: 24px;
-      color: #2266B0;
+      color: #2266b0;
       padding-right: 4%;
     }
-
   }
 }
 
-#marketSection{
-  .market-trend-content{
+#marketSection {
+  .market-trend-content {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 40%;
-    h1{
+    h1 {
       font-weight: bold;
       font-size: 62.19px;
       line-height: 78px;

@@ -106,10 +106,7 @@
 
 .car-page .market-trend-content img {
   width: 70px;
-  position: relative;
-  left: -10px;
-  top: 20px;
-  padding-top: 2%;
+  height: 70px;
 }
 
 .common-car-section {
@@ -376,9 +373,9 @@
 }
 
 .common-tab-section .content-section p {
-  font-size: 14px;
-  line-height: 28px;
-  letter-spacing: 0.05em;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.07em;
   color: #f7f7f7;
   padding: 0 20%;
 }
@@ -411,103 +408,18 @@
   padding: 15% 10%;
 }
 
-/*Only Tab styles*/
-.global-connectivity.ui-tabs .ui-tabs-nav,
-.global-autonomous.ui-tabs .ui-tabs-nav,
-.global-shared.ui-tabs .ui-tabs-nav,
-.global-electrification.ui-tabs .ui-tabs-nav,
-.global-business.ui-tabs .ui-tabs-nav {
-  list-style: none;
-  position: absolute;
-  overflow: hidden;
-  top: 160px;
-  right: 0;
-  width: 70%;
-}
-
-.global-connectivity.ui-tabs .ui-tabs-nav li,
-.global-autonomous.ui-tabs .ui-tabs-nav li,
-.global-shared.ui-tabs .ui-tabs-nav li,
-.global-electrification.ui-tabs .ui-tabs-nav li,
-.global-business.ui-tabs .ui-tabs-nav li {
-  display: block;
-  text-align: left;
-  margin-bottom: 5%;
-}
-
-.global-connectivity.ui-tabs .ui-tabs-nav li a,
-.global-autonomous.ui-tabs .ui-tabs-nav li a,
-.global-shared.ui-tabs .ui-tabs-nav li a,
-.global-electrification.ui-tabs .ui-tabs-nav li a,
-.global-business.ui-tabs .ui-tabs-nav li a {
-  color: #ffffff;
-  cursor: pointer;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
-  letter-spacing: 0.045em;
-  display: block;
-}
-
-.global-connectivity.ui-tabs .ui-tabs-nav li span,
-.global-autonomous.ui-tabs .ui-tabs-nav li span,
-.global-shared.ui-tabs .ui-tabs-nav li span,
-.global-electrification.ui-tabs .ui-tabs-nav li span,
-.global-business.ui-tabs .ui-tabs-nav li span {
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 21px;
-  letter-spacing: 0.05em;
-  color: #f7f7f7;
-  width: 50%;
-  display: inline-block;
-}
-
-.global-connectivity.ui-tabs .ui-tabs-nav li.ui-tabs-selected, .global-connectivity.ui-tabs .ui-tabs-nav li.ui-state-disabled, .global-connectivity.ui-tabs .ui-tabs-nav li.ui-state-processing,
-.global-autonomous.ui-tabs .ui-tabs-nav li.ui-tabs-selected,
-.global-autonomous.ui-tabs .ui-tabs-nav li.ui-state-disabled,
-.global-autonomous.ui-tabs .ui-tabs-nav li.ui-state-processing,
-.global-shared.ui-tabs .ui-tabs-nav li.ui-tabs-selected,
-.global-shared.ui-tabs .ui-tabs-nav li.ui-state-disabled,
-.global-shared.ui-tabs .ui-tabs-nav li.ui-state-processing,
-.global-electrification.ui-tabs .ui-tabs-nav li.ui-tabs-selected,
-.global-electrification.ui-tabs .ui-tabs-nav li.ui-state-disabled,
-.global-electrification.ui-tabs .ui-tabs-nav li.ui-state-processing,
-.global-business.ui-tabs .ui-tabs-nav li.ui-tabs-selected,
-.global-business.ui-tabs .ui-tabs-nav li.ui-state-disabled,
-.global-business.ui-tabs .ui-tabs-nav li.ui-state-processing {
-  padding: 0;
-  border-bottom-width: 0;
-}
-
-.global-connectivity.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .global-connectivity.ui-tabs .ui-tabs-nav li.ui-state-disabled a, .global-connectivity.ui-tabs .ui-tabs-nav li.ui-state-processing a,
-.global-autonomous.ui-tabs .ui-tabs-nav li.ui-tabs-selected a,
-.global-autonomous.ui-tabs .ui-tabs-nav li.ui-state-disabled a,
-.global-autonomous.ui-tabs .ui-tabs-nav li.ui-state-processing a,
-.global-shared.ui-tabs .ui-tabs-nav li.ui-tabs-selected a,
-.global-shared.ui-tabs .ui-tabs-nav li.ui-state-disabled a,
-.global-shared.ui-tabs .ui-tabs-nav li.ui-state-processing a,
-.global-electrification.ui-tabs .ui-tabs-nav li.ui-tabs-selected a,
-.global-electrification.ui-tabs .ui-tabs-nav li.ui-state-disabled a,
-.global-electrification.ui-tabs .ui-tabs-nav li.ui-state-processing a,
-.global-business.ui-tabs .ui-tabs-nav li.ui-tabs-selected a,
-.global-business.ui-tabs .ui-tabs-nav li.ui-state-disabled a,
-.global-business.ui-tabs .ui-tabs-nav li.ui-state-processing a {
-  color: #ffffff;
-}
-
-.global-connectivity.ui-tabs .ui-tabs-hide,
-.global-autonomous.ui-tabs .ui-tabs-hide,
-.global-shared.ui-tabs .ui-tabs-hide,
-.global-electrification.ui-tabs .ui-tabs-hide,
-.global-business.ui-tabs .ui-tabs-hide {
-  display: none !important;
-}
-
-.global-connectivity p {
+.global-connectivity .content-section p {
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.05em;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.global-connectivity .content-section h4 {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 29px;
 }
 
 .global-connectivity .global-title h1 {
@@ -533,10 +445,6 @@
 
 .global-connectivity #connectivity-1 .content-section h4 {
   padding: 5% 10%;
-}
-
-.global-connectivity #connectivity-1 .content-section p {
-  padding: 0 10%;
 }
 
 .global-connectivity #connectivity-2 .content-section {
@@ -614,7 +522,6 @@
 }
 
 .global-connectivity #connectivity-6 .content-section p {
-  padding: 0;
   font-weight: normal;
   font-size: 18px;
   line-height: 28px;
@@ -656,6 +563,28 @@
   padding: 5%;
 }
 
+.global-autonomous .content-section {
+  padding: 10%;
+}
+
+.global-autonomous .content-section p {
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.global-autonomous .content-section h4 {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+.global-autonomous .content-section h2 {
+  padding: 5% 10% 2% 10%;
+}
+
 .global-autonomous #autonomous-1 .image-section {
   padding: 5%;
 }
@@ -671,6 +600,7 @@
 
 .global-autonomous #autonomous-3 .content-section h2 {
   color: #2266b0;
+  padding-bottom: 2%;
 }
 
 .global-autonomous #autonomous-3 .content-section p {
@@ -686,11 +616,11 @@
 }
 
 .global-autonomous #autonomous-4 .content-section h2 {
-  padding: 0;
+  padding-top: 20%;
 }
 
 .global-autonomous #autonomous-4 .content-section p {
-  padding: 0;
+  padding-bottom: 10%;
 }
 
 .global-autonomous #autonomous-5 .image-section {
@@ -701,24 +631,12 @@
   padding: 10%;
 }
 
-.global-autonomous #autonomous-5 .content-section h2 {
-  padding: 0;
-}
-
 .global-autonomous #autonomous-5 .content-section p {
-  padding: 0;
+  padding-bottom: 2%;
 }
 
 .global-autonomous #autonomous-6 .content-section {
   padding: 10%;
-}
-
-.global-autonomous #autonomous-6 .content-section h2 {
-  padding: 0;
-}
-
-.global-autonomous #autonomous-6 .content-section p {
-  padding: 0;
 }
 
 .global-autonomous #autonomous-7 .image-section {
@@ -729,12 +647,8 @@
   padding: 10%;
 }
 
-.global-autonomous #autonomous-7 .content-section h2 {
-  padding: 0;
-}
-
 .global-autonomous #autonomous-7 .content-section p {
-  padding: 0;
+  padding-top: 2%;
 }
 
 .global-autonomous #autonomous-8 .image-section {
@@ -746,11 +660,50 @@
 }
 
 .global-autonomous #autonomous-8 .content-section h2 {
-  padding: 0;
+  padding-bottom: 5%;
 }
 
 .global-autonomous #autonomous-8 .content-section p {
-  padding: 0;
+  padding-top: 1%;
+}
+
+.global-electrification .content-section {
+  padding: 10%;
+}
+
+.global-electrification .content-section p {
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.global-electrification .content-section h4 {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+.global-electrification .content-section h2 {
+  padding: 5% 10% 2% 10%;
+}
+
+.global-electrification #electrification-1 .content-section {
+  color: #2266b0;
+}
+
+.global-electrification #electrification-1 .content-section p {
+  padding-top: 30%;
+}
+
+.global-electrification #electrification-1 .content-section h6 {
+  padding-left: 20%;
+}
+
+.global-electrification #electrification-1 .image-section h3 {
+  color: #333333;
+  padding: 2% 0;
 }
 
 .global-electrification #electrification-2 .content-section {
@@ -763,6 +716,197 @@
 
 .global-electrification #electrification-2 .content-section h6 {
   padding-left: 20%;
+}
+
+.global-electrification #electrification-3 .content-section p {
+  font-size: 21px;
+  line-height: 36px;
+  padding-top: 25%;
+}
+
+.global-electrification #electrification-3 .content-section h2 {
+  font-size: 21px;
+  line-height: 36px;
+}
+
+.global-electrification #electrification-4 .content-section p {
+  font-size: 21px;
+  line-height: 36px;
+  padding-top: 25%;
+}
+
+.global-electrification #electrification-4 .content-section h2 {
+  font-size: 21px;
+  line-height: 36px;
+}
+
+.global-electrification #electrification-5 .content-section p {
+  font-size: 21px;
+  line-height: 36px;
+  padding-top: 5%;
+}
+
+.global-electrification #electrification-5 .content-section h2 {
+  font-size: 21px;
+  line-height: 36px;
+}
+
+.global-shared .content-section {
+  padding: 10%;
+}
+
+.global-shared .content-section p {
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.global-shared .content-section h4 {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+.global-shared .content-section h2 {
+  padding: 5% 10% 2% 10%;
+}
+
+.global-shared #shared-1 .image-section h3 {
+  font-size: 16px;
+  line-height: 158.9%;
+  padding: 0 7%;
+}
+
+.global-shared #shared-3 .content-section h2 {
+  padding-top: 30%;
+}
+
+#new-business .content-section {
+  padding: 10%;
+}
+
+#new-business .content-section p {
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#new-business .content-section h4 {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+#new-business #business-1 .content-section p {
+  font-size: 21px;
+  line-height: 33px;
+  padding-top: 20%;
+}
+
+#new-business #business-1 .image-section h3 {
+  font-size: 21px;
+  line-height: 33px;
+  text-align: center;
+}
+
+#new-business #business-2 .content-section p {
+  font-size: 21px;
+  line-height: 33px;
+  padding-top: 20%;
+}
+
+#new-business #business-2 .image-section h3 {
+  font-size: 18px;
+  line-height: 33px;
+}
+
+#new-business #business-3 .content-section p {
+  padding-top: 5%;
+}
+
+#new-business #business-3 .content-section h2 {
+  padding: 10%;
+}
+
+#new-business #business-3 .image-section h3 {
+  font-size: 18px;
+  line-height: 33px;
+}
+
+#new-business #business-4 .content-section p {
+  padding-top: 5%;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+}
+
+#new-business #business-4 .content-section h2 {
+  padding: 10%;
+  font-size: 21px;
+  line-height: 36px;
+}
+
+#new-business #business-4 .image-section h3 {
+  font-size: 18px;
+  line-height: 33px;
+}
+
+#new-business #business-5 .content-section p {
+  padding-top: 5%;
+  font-size: 21px;
+  line-height: 36px;
+}
+
+#new-business #business-5 .content-section h2 {
+  padding: 10%;
+  font-size: 21px;
+  line-height: 36px;
+}
+
+#new-business #business-5 .image-section h3 {
+  font-size: 18px;
+  line-height: 33px;
+}
+
+#new-business #business-6 .content-section p {
+  padding-top: 10%;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+}
+
+#new-business #business-6 .content-section h2 {
+  padding: 10%;
+  font-size: 21px;
+  line-height: 36px;
+}
+
+#new-business #business-6 .image-section h3 {
+  font-size: 18px;
+  line-height: 33px;
+}
+
+#new-business #business-7 .content-section p {
+  padding-top: 10%;
+  font-size: 21px;
+  line-height: 33px;
+}
+
+#new-business #business-7 .content-section h2 {
+  padding: 10%;
+  font-size: 21px;
+  line-height: 36px;
+}
+
+#new-business #business-7 .image-section h3 {
+  font-size: 18px;
+  line-height: 33px;
 }
 
 #caseSection {
@@ -816,7 +960,7 @@
   font-size: 122px;
   line-height: 143px;
   color: #f7f7f7;
-  background-color: #5ACAE6;
+  background-color: #5acae6;
   padding: 20% 20% 0;
   margin: 0;
 }
@@ -831,7 +975,7 @@
   line-height: 28px;
   letter-spacing: 0.08em;
   color: #f7f7f7;
-  background-color: #5ACAE6;
+  background-color: #5acae6;
   padding: 10px 20% 20%;
 }
 
@@ -854,14 +998,14 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 24px;
-  color: #2266B0;
+  color: #2266b0;
 }
 
 .common-case-section .trend-case .single-letter {
   font-weight: 900;
   font-size: 71.02px;
   line-height: 83px;
-  color: #5BCAE6;
+  color: #5bcae6;
 }
 
 .common-case-section .trend-case .line {
@@ -874,7 +1018,7 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 24px;
-  color: #2266B0;
+  color: #2266b0;
   padding-right: 4%;
 }
 

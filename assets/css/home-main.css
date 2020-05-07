@@ -398,6 +398,7 @@ footer span {
   letter-spacing: 0.09em;
   color: #15589a;
   width: 75%;
+  padding-bottom: 5%;
 }
 
 .home-parallax .parallax-content .padding-5 {
@@ -457,7 +458,7 @@ footer span {
   font-size: 33px;
   line-height: 125%;
   color: #15589a;
-  width: 40%;
+  width: 55%;
 }
 
 .home-parallax .parallax-content .parallax-graph .hr-line {
@@ -481,7 +482,7 @@ footer span {
   text-align: right;
   letter-spacing: 0.05em;
   color: #333333;
-  padding: 2% 5%;
+  padding: 0 5% 5%;
 }
 
 .home-parallax .parallax-content .parallax-graph .parallax-graph-image p {
@@ -495,12 +496,22 @@ footer span {
   width: 40%;
 }
 
-.home-parallax .parallax-content .parallax-graph .parallax-graph-image .graph-text {
+.home-parallax .parallax-content .parallax-graph .parallax-graph-image .graph-text1 {
   font-weight: bold;
   font-size: 24px;
   line-height: 130%;
   letter-spacing: 0.05em;
-  padding: 10% 5%;
+  padding: 10% 10% 5% 3%;
+  text-align: left;
+  color: #15589a;
+}
+
+.home-parallax .parallax-content .parallax-graph .parallax-graph-image .graph-text2 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 130%;
+  letter-spacing: 0.05em;
+  padding: 10% 3% 5% 10%;
   text-align: left;
   color: #15589a;
 }
@@ -582,7 +593,7 @@ footer span {
   left: 50%;
   width: 700px;
   z-index: 1;
-  top: 20%;
+  top: 40%;
 }
 
 .gradient-bg .year-100 h3 {
@@ -595,7 +606,7 @@ footer span {
   left: 50%;
   width: 700px;
   z-index: 1;
-  top: 15%;
+  top: 40%;
 }
 
 .gradient-bg .year-100 img {
@@ -636,10 +647,6 @@ footer span {
   z-index: 1;
 }
 
-.no-gradient-graph {
-  z-index: 999;
-}
-
 .no-gradient-graph .relative-div {
   position: relative;
   z-index: 0;
@@ -656,7 +663,7 @@ footer span {
   position: absolute;
   left: 0;
   bottom: 45%;
-  z-index: -1;
+  z-index: 0;
 }
 
 .no-gradient-graph h1 {
@@ -741,7 +748,7 @@ footer span {
   letter-spacing: 0.07em;
   color: #F5F5F5;
   padding: 5% 10% 5% 15%;
-  margin-left: 35%;
+  margin-left: 34%;
 }
 
 .no-gradient-graph .closer-section .the-end {
