@@ -1,0 +1,1135 @@
+.bg.bg-banner {
+  /* The image used */
+  background-image: url("../images/ls/ls-top-banner.png");
+}
+
+.ls-page {
+  background-color: #f7f7f7;
+}
+
+.ls-page .bg-home .bg-home-header {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  right: 0;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%)
+}
+
+.ls-page .bg-home .bg-home-header h1 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 101.19%;
+  letter-spacing: 0.02em;
+  padding: 10px 0;
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  width: 380px;
+}
+
+.ls-page .bg-home .bg-home-header h3 {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.1em;
+  color: #fff;
+  padding-left: 5px;
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both
+}
+
+.ls-page .bg-home .bg-home-header h6 {
+  color: #fff;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.1em;
+  padding-left: 5px;
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both
+}
+
+.trends-list-item {
+  padding-top: 150px;
+}
+
+.trends-list-item li {
+  background-color: #2266b0;
+  padding: 2% !important;
+  min-height: 100%;
+  display: inline-block;
+  width: 16%;
+  height: 195px;
+  margin: 1%;
+  text-align: left;
+  position: relative;
+}
+
+.trends-list-item li span {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  right: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+  letter-spacing: 0.06em;
+  color: #fff;
+}
+
+
+
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0
+  }
+
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1
+  }
+}
+
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0
+  }
+
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1
+  }
+}
+
+/* CONSUMER TRENDS STYLES START */
+.consumer-trends-section {
+  padding-top: 130px;
+  background-image: url(../images/ls/lifestyle-bg-pattern.png);
+  background-position: center -200px;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.ls-consumer-trends {
+  height: 100vh;
+  background: url(../images/ls/ls-consumer-trends.png) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.ls-consumer-trends .lft-column .ls-trends-lfttitle {
+  position: relative;
+}
+
+.ls-trends-lfttitle h1 {
+  color: #fff;
+  font-size: 66px;
+  line-height: 77px;
+  font-weight: bold;
+  margin-left: 15%;
+  padding-top: 150px;
+}
+
+.ls-trends-lfttitle .down-arrow {
+  position: absolute;
+  bottom: -70px;
+  left: 15%;
+}
+
+.ls-consumer-trends .lft-column {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 20%;
+}
+
+.ls-consumer-trends .rgt-column {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 80%;
+}
+
+/* CONSUMER TRENDS STYLES END */
+
+
+
+/* CHANGING CONSUMER PATTERNS STYLES START */
+.consumer-ptrn-section {
+  padding-top: 130px;
+  background-image: url(../images/ls/lifestyle-bg-pattern.png);
+  background-position: center -580px;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.consumer-ptrn-section .global-header {
+  padding: 0 10% 45px 10%;
+}
+
+.consumer-ptrn-section .global-title {
+  border-bottom: 1px solid #2266b0;
+  margin: 15px 0;
+}
+
+.consumer-ptrn-section h1 {
+  color: #2266b0;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: 0.1em;
+  margin: 0;
+  border-bottom: 5px solid #2266b0;
+  display: inline-block;
+}
+
+.consumer-ptrn-section .ls-cont-sec {
+  min-height: 600px;
+  background: #fff;
+  position: relative;
+}
+
+.ls-cont-sec .lft-column {
+  position: absolute;
+  left: 0;
+  top: 0px;
+  right: 70%;
+  bottom: 0px;
+  padding: 20px 122px 20px 90px;
+  color: #2367B1;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 155.19%;
+}
+
+.ls-cont-sec .lft-column .bdr-rt-hight80-per:after {
+  position: absolute;
+  content: '';
+  right: 0;
+  top: 50px;
+  bottom: 50px;
+  border-right: solid 1px #2266B0;
+}
+
+.ls-cont-sec .rgt-column {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 30%;
+  bottom: 0;
+  padding: 60px 80px 20px 30px;
+}
+
+.ls-cont-sec .rgt-column .key-trends {
+  color: #2367B1;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 155.19%;
+  margin-bottom: 50px;
+}
+
+.ls-cont-sec .rgt-column .box-cont1 {
+  margin-bottom: 20px;
+}
+
+.ls-cont-sec .rgt-column .box-cont2 {
+  position: relative;
+}
+
+.ls-cont-sec .rgt-column .terms-flag-container {
+  position: absolute;
+  right: -80px;
+  bottom: -130px;
+  padding: 20px 80px 20px 60px;
+  width: 545px;
+  background-image: url(../images/ls/term-flag.svg);
+  background-color: #5BCAE6;
+  background-repeat: no-repeat;
+  background-position: 16px center;
+  color: #2266B0;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.ls-cont-sec .rgt-column .terms-flag-container span {
+  color: #fff;
+}
+
+.ls-cont-sec .rgt-column .box-cont1,
+.ls-cont-sec .rgt-column .box-cont2 {
+  border: 1px solid #2266B0;
+  padding: 15px 30px 15px 60px;
+  margin-left: 210px;
+  position: relative;
+  height: 110px;
+  color: #2367B1;
+  font-size: 15px;
+  line-height: 130%;
+  font-weight: normal;
+}
+
+.ls-cont-sec .rgt-column .subcont-box {
+  position: absolute;
+  left: -210px;
+  top: -5px;
+  padding: 20px 25px;
+  background: #2266B0;
+  width: 160px;
+  color: #fff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 155.19%;
+}
+
+.ls-cont-sec .rgt-column .arrow-box {
+  position: relative;
+}
+
+.ls-cont-sec .rgt-column .rt-arrow {
+  position: absolute;
+  right: -110px;
+  top: 20px;
+  height: 40px;
+  width: auto;
+}
+
+/* CHANGING CONSUMER PATTERNS STYLES END */
+
+
+
+/* EMERGING TECHNOLOGIES STYLES START */
+.emerging-tech-section {
+  background-image: url(../images/ls/lifestyle-bg-pattern.png);
+  background-position: center -20px;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.emerging-tech-section .global-header {
+  padding: 130px 10% 45px 10%;
+}
+
+.emerging-tech-section .global-title {
+  border-bottom: 1px solid #2266b0;
+  margin: 15px 0;
+}
+
+.emerging-tech-section h1 {
+  color: #2266b0;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: 0.1em;
+  margin: 0;
+  border-bottom: 5px solid #2266b0;
+  display: inline-block;
+}
+
+.emerging-tech-section .emerging-techlgy {
+  min-height: 600px;
+  background: #F5F6F7;
+  position: relative;
+}
+
+
+.emerging-tech-section .emerging-techlgy .lft-column {
+  position: absolute;
+  left: 0;
+  width: 44%;
+  padding: 50px 10%;
+  background: #2367B1;
+  color: #fff;
+  font-size: 24px;
+  line-height: 155.19%;
+  font-weight: bold;
+}
+
+.emerging-tech-section .emerging-techlgy .term-flag-container {
+  position: relative;
+}
+
+.emerging-tech-section .emerging-techlgy .term-flag-box {
+  position: absolute;
+  left: -143px;
+  bottom: -120px;
+  padding: 20px 80px 20px 140px;
+  width: 520px;
+  background-image: url(../images/ls/term-flag.svg);
+  background-color: #5BCAE6;
+  background-repeat: no-repeat;
+  background-position: 95% center;
+  color: #2266B0;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 155.19%;
+}
+
+
+.emerging-tech-section .emerging-techlgy .rgt-column {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 56%;
+  text-align: center;
+}
+
+.emerging-tech-section .emerging-techlgy .rgt-column .img-container {
+  position: relative;
+}
+
+.emerging-tech-section .emerging-techlgy .rgt-column .img-container img {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  z-index: 9;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.emerging-tech-section .emerging-techlgy .key-trends-cont {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 390px;
+  padding: 50px 80px 50px 20px;
+  background: #fff;
+}
+
+.emerging-tech-section .emerging-techlgy .key-trends-cont .title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 155.19%;
+  /* or 37px */
+  color: #2367B1;
+  text-align: right;
+}
+
+.emerging-tech-section .emerging-techlgy .key-trends-cont .desc {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 26px;
+  text-align: right;
+  color: #2367B1;
+}
+
+/* EMERGING TECHNOLOGIES STYLES END */
+
+
+
+
+/* MULTISESORY EXPERIENCES1 STYLES START */
+.multisen-exp-section1 {
+  background-image: url(../images/ls/lifestyle-bg-pattern.png);
+  background-position: center -400px;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.multisen-exp-section1 .global-header {
+  padding: 130px 10% 45px 10%;
+}
+
+.multisen-exp-section1 .global-title {
+  border-bottom: 1px solid #2266b0;
+  margin: 15px 0;
+}
+
+.multisen-exp-section1 h1 {
+  color: #2266b0;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: 0.1em;
+  margin: 0;
+  border-bottom: 5px solid #2266b0;
+  display: inline-block;
+}
+
+.multisen-exp-section1 .multisensry-exp {
+  min-height: 600px;
+  background: #F5F6F7;
+  position: relative;
+}
+
+
+.multisen-exp-section1 .multisensry-exp .lft-column {
+  position: absolute;
+  left: 0;
+  width: 55%;
+  font-size: 24px;
+  line-height: 155.19%;
+  font-weight: bold;
+  background: url(../images/ls/ls-multisensory-experiences.png) no-repeat;
+  background-size: cover;
+}
+
+.multisensry-exp .lft-column .exp-flag-container {
+  position: relative;
+}
+
+.multisensry-exp .lft-column .exp-flag-container .term-flag-box {
+  position: absolute;
+  right: 0px;
+  padding: 20px 30px 20px 70px;
+  width: 410px;
+  background-image: url(../images/ls/term-flag.svg);
+  background-color: #5BCAE6;
+  background-repeat: no-repeat;
+  background-position: 16px center;
+  color: #2266B0;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 155.19%;
+}
+
+.multisensry-exp .lft-column .exp-flag-container .term-flag-box span {
+  color: #fff;
+}
+
+.multisen-exp-section1 .multisensry-exp .rgt-column {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 45%;
+  text-align: left;
+  background: #2A9FD9;
+  padding: 60px 80px 20px 90px;
+}
+
+.multisensry-exp .rgt-column .mlti-exp-list li {
+  padding-bottom: 30px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 155.19%;
+  color: #FFFFFF;
+}
+
+/* MULTISESORY EXPERIENCES1 STYLES END */
+
+
+
+
+/* MULTISESORY EXPERIENCES2 STYLES START */
+.multisen-exp-section2 {
+  padding-top: 130px;
+  background-image: url(../images/ls/lifestyle-bg-pattern.png);
+  background-position: center -1050px;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.multisen-exp-section2 .multisensry-exp2 {
+  min-height: 600px;
+  background: #F5F6F7;
+  position: relative;
+}
+
+
+.multisen-exp-section2 .multisensry-exp2 .lft-column {
+  position: absolute;
+  left: 0;
+  width: 44%;
+  padding: 50px 10%;
+  background: #2367B1;
+  color: #fff;
+  font-size: 24px;
+  line-height: 155.19%;
+  font-weight: bold;
+}
+
+.multisen-exp-section2 .multisensry-exp2 .title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 155%;
+  /* or 31px */
+  letter-spacing: 0.1em;
+  color: #5BCAE6;
+  text-align: left;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  width: 44%;
+  padding: 66px 10%;
+}
+
+.multisen-exp-section2 .multisensry-exp2 .title span {
+  display: block;
+}
+
+.multisen-exp-section2 .multisensry-exp2 .rgt-column {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 56%;
+  text-align: left;
+  background: #fff;
+  padding: 60px 80px 20px 90px;
+}
+
+/* MULTISESORY EXPERIENCES2 STYLES END */
+
+
+/* MULTISESORY EXPERIENCES3 STYLES START */
+.multisen-exp-section3 {
+  padding-top: 130px;
+  background-image: url(../images/ls/lifestyle-bg-pattern.png);
+  background-position: center -1050px;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.multisen-exp-section3 .multisensry-exp3 {
+  min-height: 600px;
+  background: #F5F6F7;
+  position: relative;
+}
+
+
+.multisen-exp-section3 .multisensry-exp3 .lft-column {
+  position: absolute;
+  left: 0;
+  width: 56%;
+  padding: 60px 80px 20px 90px;
+  color: #fff;
+  font-size: 24px;
+  line-height: 155.19%;
+  font-weight: bold;
+}
+
+.multisen-exp-section3 .multisensry-exp3 .title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 155%;
+  /* or 31px */
+  letter-spacing: 0.1em;
+  color: #5BCAE6;
+  text-align: left;
+  position: absolute;
+  right: 0;
+  top: 0px;
+  width: 44%;
+  padding: 66px 10%;
+}
+
+.multisen-exp-section3 .multisensry-exp3 .title span {
+  display: block;
+}
+
+.multisen-exp-section3 .multisensry-exp3 .rgt-column {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 44%;
+  text-align: left;
+  background: #2367B1;
+  padding: 50px 10%;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 155%;
+  /* or 37px */
+  color: #FFFFFF;
+}
+
+/* MULTISESORY EXPERIENCES3 STYLES END */
+
+
+
+
+
+/* GAMING AND ESPORTS STYLES START */
+.gaming-esports-section {
+  background-image: url(../images/ls/lifestyle-bg-pattern.png);
+  background-position: center -780px;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.gaming-esports-section .global-header {
+  padding: 130px 10% 45px 10%;
+}
+
+.gaming-esports-section .global-title {
+  border-bottom: 1px solid #2266b0;
+  margin: 15px 0;
+}
+
+.gaming-esports-section h1 {
+  color: #2266b0;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: 0.1em;
+  margin: 0;
+  border-bottom: 5px solid #2266b0;
+  display: inline-block;
+}
+
+.gaming-esports-section .gaming-esports {
+  min-height: 640px;
+  background: #F5F6F7;
+  position: relative;
+}
+
+.gaming-esports-section .gaming-esports .lft-column {
+  position: absolute;
+  left: 0;
+  width: 44%;
+  padding: 50px 10%;
+  background: #2367B1;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 155.19%;
+  /* or 26px */
+  color: #FFFFFF;
+}
+
+.gaming-esports-section .gaming-esports .title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 155%;
+  /* or 31px */
+  letter-spacing: 0.1em;
+  color: #5BCAE6;
+  text-align: left;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  width: 44%;
+  padding: 66px 10%;
+}
+
+.gaming-esports .lft-column .game-esports-list {
+  margin-bottom: 0;
+}
+
+.gaming-esports .lft-column .game-esports-list li {
+  padding-bottom: 30px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 155.19%;
+  color: #FFFFFF;
+}
+
+.gaming-esports-section .gaming-esports .rgt-column {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 56%;
+  text-align: left;
+  background: #fff;
+  padding: 60px 80px 20px 90px;
+  text-align: center;
+}
+
+.gaming-esports-section .gaming-esports .terms-flag-container {
+  position: absolute;
+  right: 0px;
+  bottom: 30px;
+  padding: 20px 80px 20px 60px;
+  width: 585px;
+  background-image: url(../images/ls/term-flag.svg);
+  background-color: #5BCAE6;
+  background-repeat: no-repeat;
+  background-position: 16px center;
+  color: #2266B0;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.gaming-esports-section .gaming-esports .terms-flag-container span {
+  color: #fff;
+}
+
+/* GAMING AND ESPORTS STYLES END */
+
+
+
+/* GAMING AND ESPORTS2 STYLES START */
+.gaming-esports-section2 {
+  padding-top: 130px;
+  background-image: url(../images/ls/lifestyle-bg-pattern.png);
+  background-position: center -1050px;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.gaming-esports-section2 .gaming-esports2 {
+  min-height: 600px;
+  background: #F5F6F7;
+  position: relative;
+}
+
+
+.gaming-esports-section2 .gaming-esports2 .lft-column {
+  position: absolute;
+  left: 0;
+  width: 56%;
+  padding: 60px 80px 20px 90px;
+  color: #fff;
+  font-size: 24px;
+  line-height: 155.19%;
+  font-weight: bold;
+}
+
+.gaming-esports-section2 .gaming-esports2 .title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 155%;
+  /* or 31px */
+  letter-spacing: 0.1em;
+  color: #5BCAE6;
+  text-align: left;
+  position: absolute;
+  right: 0;
+  top: 0px;
+  width: 44%;
+  padding: 66px 10%;
+}
+
+.gaming-esports-section2 .gaming-esports2 .title span {
+  display: block;
+}
+
+.gaming-esports-section2 .gaming-esports2 .rgt-column {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 44%;
+  text-align: left;
+  background: #2367B1;
+  padding: 50px 10%;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 155%;
+  /* or 37px */
+  color: #FFFFFF;
+}
+
+.gaming-esports2 .rgt-column .game-esports-list {
+  margin-bottom: 0;
+}
+
+.gaming-esports2 .rgt-column .game-esports-list li {
+  padding-bottom: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 155.19%;
+  color: #FFFFFF;
+}
+
+/* GAMING AND ESPORTS2 STYLES END */
+
+
+
+
+
+
+/* HUMAN AUGMENTATION STYLES START */
+.human-augumentation-section {
+  background-image: url(../images/ls/lifestyle-bg-pattern.png);
+  background-position: center -780px;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.human-augumentation-section .global-header {
+  padding: 130px 10% 45px 10%;
+}
+
+.human-augumentation-section .global-title {
+  border-bottom: 1px solid #2266b0;
+  margin: 15px 0;
+}
+
+.human-augumentation-section h1 {
+  color: #2266b0;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: 0.1em;
+  margin: 0;
+  border-bottom: 5px solid #2266b0;
+  display: inline-block;
+}
+
+.human-augumentation-section .human-aug {
+  min-height: 640px;
+  background: #F5F6F7;
+  position: relative;
+}
+
+.human-augumentation-section .human-aug .lft-column {
+  position: absolute;
+  left: 0;
+  width: 44%;
+  padding: 50px 10%;
+  background: #2367B1;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 155.19%;
+  /* or 26px */
+  color: #FFFFFF;
+}
+
+.human-augumentation-section .human-aug .title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 155%;
+  /* or 31px */
+  letter-spacing: 0.1em;
+  color: #5BCAE6;
+  text-align: left;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  width: 44%;
+  padding: 66px 10%;
+}
+
+.human-aug .lft-column .game-esports-list {
+  margin-bottom: 0;
+}
+
+.human-aug .lft-column .game-esports-list li {
+  padding-bottom: 30px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 155.19%;
+  color: #FFFFFF;
+}
+
+.human-augumentation-section .human-aug .rgt-column {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 56%;
+  text-align: left;
+  background: #fff;
+  padding: 60px 80px 20px 90px;
+  text-align: center;
+}
+
+.human-augumentation-section .human-aug .terms-flag-container {
+  position: absolute;
+  right: 0px;
+  bottom: 50px;
+  padding: 20px 80px 20px 60px;
+  width: 640px;
+  background-image: url(../images/ls/term-flag.svg);
+  background-color: #5BCAE6;
+  background-repeat: no-repeat;
+  background-position: 16px center;
+  color: #2266B0;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.human-augumentation-section .human-aug .terms-flag-container span {
+  color: #fff;
+}
+
+/* HUMAN AUGMENTATION STYLES END */
+
+
+
+/* HUMAN AUGMENTATION2 STYLES START */
+.human-augumentation-section2 {
+  padding-top: 130px;
+  background-image: url(../images/ls/lifestyle-bg-pattern.png);
+  background-position: center -1050px;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.human-augumentation-section2 .human-aug2 {
+  min-height: 600px;
+  background: #F5F6F7;
+  position: relative;
+}
+
+
+.human-augumentation-section2 .human-aug2 .lft-column {
+  position: absolute;
+  left: 0;
+  width: 56%;
+  padding: 60px 80px 20px 90px;
+  color: #fff;
+  font-size: 24px;
+  line-height: 155.19%;
+  font-weight: bold;
+}
+
+.human-augumentation-section2 .human-aug2 .title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 155%;
+  /* or 31px */
+  letter-spacing: 0.1em;
+  color: #5BCAE6;
+  text-align: left;
+  position: absolute;
+  right: 0;
+  top: 0px;
+  width: 44%;
+  padding: 66px 10%;
+}
+
+.human-augumentation-section2 .human-aug2 .title span {
+  display: block;
+}
+
+.human-augumentation-section2 .human-aug2 .rgt-column {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 44%;
+  text-align: left;
+  background: #2367B1;
+  padding: 50px 10%;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 155%;
+  /* or 37px */
+  color: #FFFFFF;
+}
+
+.human-aug2 .rgt-column .game-esports-list {
+  margin-bottom: 0;
+}
+
+.human-aug2 .rgt-column .game-esports-list li {
+  padding-bottom: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 155.19%;
+  color: #FFFFFF;
+}
+
+/* HUMAN AUGMENTATION2 STYLES END */
+
+
+
+/* CLOSING CONTENT STYLES START */
+.closing-cont-section {
+  padding-top: 130px;
+  background-image: url(../images/ls/lifestyle-bg-pattern.png);
+  background-position: center -380px;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.closing-cont-section .closing-cont {
+  min-height: 100vh;
+  background: #fff;
+  position: relative;
+  background-image: url(../images/ls/ls-summary.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.closing-cont-section .closing-cont .cont-whitebg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  color: #fff;
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: normal;
+}
+
+.closing-cont-section .closing-cont .cont-whitebg .summary {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 49px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  padding: 10% 25%;
+}
+
+/* CLOSING CONTENT STYLES END */
+
+
+
+
+
+
+
+
+
+
+
+
+/* SCROLL TOP ANIMATION STYLES START */
+#scrollTop {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background-color: #2266b0;
+  text-indent: -9999px;
+  display: none;
+  border-radius: 60px
+}
+
+#scrollTop span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -8px;
+  margin-top: -12px;
+  height: 0;
+  width: 0;
+  border: 8px solid transparent;
+  border-bottom-color: #ffffff
+}
+
+#scrollTop:hover {
+  background-color: #5bcae6;
+  opacity: 1;
+  filter: "alpha(opacity=100)";
+  -ms-filter: "alpha(opacity=100)"
+}
+
+/* SCROLL TOP ANIMATION STYLES END */

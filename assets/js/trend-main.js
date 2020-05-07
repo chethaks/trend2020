@@ -22,6 +22,19 @@ $("#hcs-connected-lifestyle").click(function () {
 });
 // HCS CLICK DOWN ARROW END
 
+// LS CLICK DOWN ARROW START
+$("#ls-cons-ptrns").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#consumer-pttrns").offset().top,
+    },
+    2000,
+  );
+  return false;
+});
+// LS CLICK DOWN ARROW END
+
+
 /** Scroll to section */
 $("#market").click(function () {
   $("html, body").animate(
