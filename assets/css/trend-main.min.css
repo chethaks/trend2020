@@ -55,6 +55,19 @@ section {
     color: #fff
 }
 
+.nav-item.active{
+    position: relative;
+}
+
+.nav-item.active:after{
+    content: '';
+    position: absolute;
+    left: 30px;
+    right: 30px;
+    bottom: -5px;
+    border-bottom: solid 3px white;
+}
+
 .bg {
     height: 100vh;
     background-position: center;
