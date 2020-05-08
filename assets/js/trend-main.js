@@ -151,6 +151,121 @@ $("#market").click(function () {
   return false;
 });
 
+$("#case").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#caseSection").offset().top,
+    },
+    2000,
+  );
+  return false;
+});
+
+$("#global").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#globalSection").offset().top,
+    },
+    2000,
+  );
+  return false;
+});
+
+$("#moveToConnectivity").click(function () {
+  $('#connectivity').show();
+  $('#autonomous').hide();
+  $('#shared').hide();
+  $('#electrification').hide();
+  $('#new-business').hide();
+  $("html, body").animate(
+    {
+      scrollTop: $("#connectivity").offset().top,
+    },
+    2000,
+  );
+  return false;
+});
+
+$("#moveToAutonomous").click(function () {
+  $('#connectivity').hide();
+  $('#autonomous').show();
+  $('#shared').hide();
+  $('#electrification').hide();
+  $('#new-business').hide();
+  $("html, body").animate(
+    {
+      scrollTop: $("#openAutonomous").offset().top,
+    },
+    2000,
+  );
+  return false;
+});
+
+$("#moveToMaas").click(function () {
+  $('#connectivity').hide();
+  $('#autonomous').hide();
+  $('#shared').show();
+  $('#electrification').hide();
+  $('#new-business').hide();
+  $("html, body").animate(
+    {
+      scrollTop: $("#openMaas").offset().top,
+    },
+    2000,
+  );
+  return false;
+});
+
+$("#moveToElectrification").click(function () {
+  $('#connectivity').hide();
+  $('#autonomous').hide();
+  $('#shared').hide();
+  $('#electrification').show();
+  $('#new-business').hide();
+  $("html, body").animate(
+    {
+      scrollTop: $("#openElectrification").offset().top,
+    },
+    2000,
+  );
+  return false;
+});
+
+$("#moveToNewbm").click(function () {
+  $('#connectivity').hide();
+  $('#autonomous').hide();
+  $('#shared').hide();
+  $('#electrification').hide();
+  $('#new-business').show();
+  $("html, body").animate(
+    {
+      scrollTop: $("#openNewbm").offset().top,
+    },
+    2000,
+  );
+  return false;
+});
+
+$("#showDown").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#openOutlook").offset().top,
+    },
+    2000,
+  );
+  return false;
+});
+
+$("#showCase").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#opencaseSection").offset().top,
+    },
+    2000,
+  );
+  return false;
+});
+
 $("#covid").click(function () {
   $("html, body").animate(
     {

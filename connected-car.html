@@ -62,15 +62,15 @@
             <div class="bg-trend-cta">
                 <div class="container">
                     <div class="row" style="padding: 0 5%;">
-                        <div id="market" class="market-trend-cta col-sm-4">Global
+                        <div id="global" class="market-trend-cta col-sm-4">Global
                             Automobile Industry Outlook
                             <span class="banner-arrow"><img src="assets/images/ps/TB-PS-arrow.svg" alt="" /></span>
                         </div>
-                        <div id="covid" class="covid-19-cta col-sm-4">Trends impacting the
+                        <div id="case" class="covid-19-cta col-sm-4">Trends impacting the
                             Connected Car Space
                             <span class="banner-arrow"><img src="assets/images/ps/TB-PS-arrow.svg" alt="" /></span>
                         </div>
-                        <div id="leader" class="harman-leader-cta col-sm-4">Establishing
+                        <div id="market" class="harman-leader-cta col-sm-4">Establishing
                             HARMAN as the leader
                             <span class="banner-arrow"><img src="assets/images/cc/TB-PS-arrow-light-blue-01.svg"
                                     alt="" /></span>
@@ -91,12 +91,12 @@
             </div>
         </section>
 
-        <section class="global-outlook car-trends-section">
+        <section id="globalSection" class="global-outlook car-trends-section">
             <div class="row m-0 bg car-connected-bg1">
                 <div class="col-sm-4 padding-15">
                     <h1>Global Automotive</h1>
                     <h3>Outlook</h3>
-                    <img src="assets/images/arrow.svg" alt="" />
+                    <img id="showDown" src="assets/images/arrow.svg" alt="" />
                 </div>
                 <div class="col-sm-8 p-0">
                     <ul>
@@ -108,7 +108,7 @@
                 </div>
             </div>
 
-            <section class="common-tab-section">
+            <section id="openOutlook" class="common-tab-section">
                 <div class="car-global-header">
                     <div class="container">
                         <span class="selected-heading">Global Outlook</span>
@@ -240,7 +240,7 @@
                 <span class="hr-line"></span>
                 <h4>Automotive Focus On CASE Remains Intact Connectivity, Electrification & New Business Models Gain
                     Momentum</h4>
-                <img src="assets/images/cc/TB-PS-arrow-dark-blue.svg" alt="" />
+                <img id="showCase" src="assets/images/cc/TB-PS-arrow-dark-blue.svg" alt="" />
             </div>
         </section>
 
@@ -310,17 +310,17 @@
             <div class="common-tabs">
                 <h5>MARKET TRENDS</h5>
                 <ul class="p-0 nav nav-tabs">
-                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#connectivity">CONNECTIVITY</a>
+                    <li class="nav-item"><a class="nav-link" id="moveToConnectivity" data-toggle="tab" href="#connectivity">CONNECTIVITY</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#autonomous">AUTONOMOUS</a>
+                    <li class="nav-item"><a class="nav-link" id="moveToAutonomous" data-toggle="tab" href="#autonomous">AUTONOMOUS</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#shared">SHARED – MOBILITY AS A
+                    <li class="nav-item"><a class="nav-link" id="moveToMaas" data-toggle="tab" href="#shared">SHARED – MOBILITY AS A
                             SERVICE (MAAS)</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" data-toggle="tab"
+                    <li class="nav-item"><a class="nav-link" id="moveToElectrification" data-toggle="tab"
                             href="#electrification">ELECTRIFICATION</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#new-business">NEW BUSINESS
+                    <li class="nav-item"><a class="nav-link" id="moveToNewbm" data-toggle="tab" href="#new-business">NEW BUSINESS
                             MODELS</a>
                     </li>
                 </ul>
@@ -340,7 +340,7 @@
 
             <div class="tab-pane" id="connectivity">
                 <!-- CONNECTIVITY-->
-                <section class="global-connectivity car-trends-section">
+                <section id="openConnectivity" class="global-connectivity car-trends-section">
                     <div class="common-image-bg bg car-connected-bg3">
                         <div class="market-breadcrumb">MARKET TRENDS</div>
                         <div id="" class="market-trend-content">
@@ -632,7 +632,7 @@
             </div>
             <div class="tab-pane" id="autonomous">
                 <!-- AUTONOMOUS -->
-                <section class="global-autonomous car-trends-section">
+                <section id="openAutonomous" class="global-autonomous car-trends-section">
                     <div class="common-image-bg bg car-connected-bg4">
                         <div class="market-breadcrumb">MARKET TRENDS</div>
                         <div id="" class="market-trend-content">
@@ -921,7 +921,7 @@
             </div>
             <div class="tab-pane" id="shared">
                 <!-- SHARED – MOBILITY AS A SERVICE (MAAS) -->
-                <section class="global-shared car-trends-section">
+                <section id="openMaas" class="global-shared car-trends-section">
                     <div class="common-image-bg bg car-connected-bg5">
                         <div class="market-breadcrumb">MARKET TRENDS</div>
                         <div id="" class="market-trend-content">
@@ -1047,7 +1047,7 @@
             </div>
             <div class="tab-pane" id="electrification">
                 <!-- ELECTRIFICATION -->
-                <section class="global-electrification car-trends-section">
+                <section id="openElectrification" class="global-electrification car-trends-section">
                     <div class="common-image-bg bg car-connected-bg6">
                         <div class="market-breadcrumb">MARKET TRENDS</div>
                         <div id="" class="market-trend-content">
@@ -1243,7 +1243,7 @@
             </div>
             <div class="tab-pane" id="new-business">
                 <!-- NEW BUSINESS MODELS -->
-                <section class="global-business car-trends-section">
+                <section id="openNewbm" class="global-business car-trends-section">
                     <div class="common-image-bg bg car-connected-bg7">
                         <div class="market-breadcrumb">MARKET TRENDS</div>
                         <div id="" class="market-trend-content">
