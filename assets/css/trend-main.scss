@@ -871,3 +871,39 @@ footer {
   bottom: -5px;
   border-bottom: solid 3px white;
 }
+
+.bg-trend .hero-title-sec {
+  margin-left: 200px;
+}
+
+.bg-trend h1.hero-banner-title {
+  color: #fff;
+  font-weight: bold;
+  font-size: 76px;
+  line-height: 90px;
+  letter-spacing: 0.1em;
+  margin-bottom: 20px;
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both
+}
+
+.bg-trend h1.hcs-title {
+  width: 510px;
+}
+
+.bg-trend h6.hero-banner-cont {
+  color: #fff;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: normal;
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both
+}
+
+.common-section .global-header.pro-solution-title {
+  padding: 90px 10% 1%
+}
+
+.bg-trend h1.pro-sol-title {
+  width: 650px;
+}
