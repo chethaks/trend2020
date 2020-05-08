@@ -6,6 +6,7 @@ html {
   font-family: "Roboto", sans-serif;
   background-color: #f5f5f5;
   scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
 }
 
 section {
@@ -139,7 +140,7 @@ section {
 }
 
 .home-page .bg-home .bg-home-header h3 {
-  font-weight: 500;
+  font-weight: normal;
   font-size: 36px;
   line-height: 42px;
   letter-spacing: 0.1em;
@@ -158,6 +159,7 @@ section {
   padding-left: 5px;
   -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
   animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  padding-top: 10px;
 }
 
 @-webkit-keyframes text-focus-in {
@@ -245,6 +247,16 @@ footer span {
      object-fit: cover;
 }
 
+.intro-video .white-line {
+  display: block;
+  height: 1px;
+  background-color: #5DC9E5;
+  position: relative;
+  bottom: 10%;
+  z-index: 10;
+  margin: 0 5%;
+}
+
 .intro-video .videobg-container {
   width: 100%;
   height: 100vh;
@@ -262,6 +274,8 @@ footer span {
       -ms-flex-align: center;
           align-items: center;
   position: absolute;
+  background: -webkit-gradient(linear, left top, left bottom, from(#00A1E8), color-stop(0%, #00A1E8), color-stop(0.01%, #1A75BE), color-stop(0.02%, #0F87CF), color-stop(0.03%, rgba(21, 88, 154, 0.02)), color-stop(0.52%, #1E026C50));
+  background: linear-gradient(180deg, #00A1E8 0%, #00A1E8 0%, #1A75BE 0.01%, #0F87CF 0.02%, rgba(21, 88, 154, 0.02) 0.03%, #1E026C50 0.52%);
 }
 
 .intro-video .videobg-container div {
@@ -269,7 +283,7 @@ footer span {
   opacity: 0;
   font-weight: 500;
   text-align: center;
-  color: #98e1f3;
+  color: #ffffff;
 }
 
 .intro-video .videobg-container div:nth-child(1) {
@@ -328,10 +342,17 @@ footer span {
   color: #ffffff;
 }
 
+.intro-video .videobg-container div:nth-child(6) h3 {
+  font-size: 90px;
+  font-weight: 900;
+  letter-spacing: 0.11em;
+  color: #ffffff;
+}
+
 .intro-video .videobg-container div h1 {
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #98e1f3;
+  -webkit-text-stroke-color: #ffffff;
   font-weight: 500;
   font-size: 96px;
   line-height: 80px;
@@ -346,6 +367,13 @@ footer span {
   line-height: 80px;
   text-align: right;
   letter-spacing: 0.055em;
+}
+
+.source-text {
+  text-align: left !important;
+  position: absolute;
+  font-size: 12px !important;
+  color: #999999 !important;
 }
 
 .extra-text-on-img {
@@ -375,12 +403,12 @@ footer span {
 }
 
 .home-parallax .parallax-content .extra-heading {
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 175.19%;
+  font-size: 21px;
+  line-height: 150%;
   letter-spacing: 0.09em;
   color: #15589a;
-  width: 75%;
+  width: 80%;
+  padding-bottom: 5%;
 }
 
 .home-parallax .parallax-content .padding-5 {
@@ -407,28 +435,7 @@ footer span {
   display: block;
   margin: 10%;
   border-right: 1px solid;
-}
-
-.home-parallax .parallax-content .pattern-image1 {
-  position: absolute;
-  top: 0;
-  background: url(../images/home/1background-pattern.png) no-repeat 0 0;
-  background-size: contain;
-  height: 70rem;
-  width: 40rem;
-  right: 0;
-  z-index: 1;
-}
-
-.home-parallax .parallax-content .pattern-image2 {
-  position: absolute;
-  bottom: 0;
-  background: url(../images/home/2background-pattern.png) no-repeat 0 0;
-  background-size: contain;
-  height: 70rem;
-  width: 40rem;
-  left: 0;
-  z-index: 1;
+  min-height: 120px;
 }
 
 .home-parallax .parallax-content .parallax-graph {
@@ -440,7 +447,7 @@ footer span {
   font-size: 33px;
   line-height: 125%;
   color: #15589a;
-  width: 40%;
+  width: 55%;
 }
 
 .home-parallax .parallax-content .parallax-graph .hr-line {
@@ -464,7 +471,7 @@ footer span {
   text-align: right;
   letter-spacing: 0.05em;
   color: #333333;
-  padding: 2% 5%;
+  padding: 0 5% 5%;
 }
 
 .home-parallax .parallax-content .parallax-graph .parallax-graph-image p {
@@ -478,12 +485,22 @@ footer span {
   width: 40%;
 }
 
-.home-parallax .parallax-content .parallax-graph .parallax-graph-image .graph-text {
+.home-parallax .parallax-content .parallax-graph .parallax-graph-image .graph-text1 {
   font-weight: bold;
   font-size: 24px;
   line-height: 130%;
   letter-spacing: 0.05em;
-  padding: 10% 5%;
+  padding: 10% 10% 5% 3%;
+  text-align: left;
+  color: #15589a;
+}
+
+.home-parallax .parallax-content .parallax-graph .parallax-graph-image .graph-text2 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 130%;
+  letter-spacing: 0.05em;
+  padding: 10% 3% 5% 10%;
   text-align: left;
   color: #15589a;
 }
@@ -526,6 +543,10 @@ footer span {
   background: linear-gradient(90deg, #00a1e8 0%, #00a1e8 0%, #1a75be 0.01%, #0f87cf 0.02%, #15589a 0.03%, #072d55 92.71%);
 }
 
+.gradient-bg.mt-40 {
+  margin-top: 40%;
+}
+
 .gradient-bg .new-pattern {
   position: absolute;
   right: 0;
@@ -546,7 +567,7 @@ footer span {
   position: relative;
   padding: 10% 0;
   left: 50%;
-  top: 20%;
+  top: 40%;
   width: 700px;
   z-index: 1;
 }
@@ -565,7 +586,7 @@ footer span {
   left: 50%;
   width: 700px;
   z-index: 1;
-  top: 20%;
+  top: 40%;
 }
 
 .gradient-bg .year-100 h3 {
@@ -578,7 +599,7 @@ footer span {
   left: 50%;
   width: 700px;
   z-index: 1;
-  top: 15%;
+  top: 40%;
 }
 
 .gradient-bg .year-100 img {
@@ -619,10 +640,6 @@ footer span {
   z-index: 1;
 }
 
-.no-gradient-graph {
-  z-index: 999;
-}
-
 .no-gradient-graph .relative-div {
   position: relative;
   z-index: 0;
@@ -639,7 +656,7 @@ footer span {
   position: absolute;
   left: 0;
   bottom: 45%;
-  z-index: -1;
+  z-index: 0;
 }
 
 .no-gradient-graph h1 {
@@ -705,7 +722,6 @@ footer span {
 }
 
 .no-gradient-graph .closer-section .closer-summary {
-  padding-bottom: 30%;
   padding-top: 10%;
   position: relative;
 }
@@ -724,11 +740,10 @@ footer span {
   letter-spacing: 0.07em;
   color: #F5F5F5;
   padding: 5% 10% 5% 15%;
-  margin-left: 35%;
+  margin-left: 34%;
 }
 
 .no-gradient-graph .closer-section .the-end {
-  padding-bottom: 20%;
   position: relative;
   z-index: 2;
 }
@@ -762,4 +777,73 @@ footer span {
   padding: 5%;
   display: block;
   margin-bottom: 10%;
+}
+
+.pattern-image1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.pattern-image1 img {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.pattern-image2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.pattern-image2 img {
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+}
+
+.pattern-image3 {
+  position: absolute;
+  bottom: -25%;
+  left: 0;
+  z-index: -1;
+}
+
+.pattern-image3 img {
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+}
+
+#scrollTop {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background-color: #2266b0;
+  text-indent: -9999px;
+  display: none;
+  border-radius: 60px;
+  z-index: 9999;
+}
+
+#scrollTop span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -8px;
+  margin-top: -12px;
+  height: 0;
+  width: 0;
+  border: 8px solid transparent;
+  border-bottom-color: #ffffff;
+}
+
+#scrollTop:hover {
+  background-color: #5bcae6;
+  opacity: 1;
+  filter: "alpha(opacity=100)";
+  -ms-filter: "alpha(opacity=100)";
 }

@@ -6,7 +6,7 @@ const video = intro.querySelector("video");
 let tl1 = new TimelineMax();
 
 let scene = new ScrollMagic.Scene({
-  duration: 4000,
+  duration: 2000,
   triggerElement: intro,
   triggerHook: 0
 })
@@ -14,7 +14,7 @@ let scene = new ScrollMagic.Scene({
   .setPin(tl1)
   .addTo(controller);
 
-let accelamount = 0.4;
+let accelamount = 0.1;
 let scrollpos = 0;
 let delay = 0;
 
@@ -24,8 +24,6 @@ scene.on("update", e => {
 
 setInterval(() => {
   delay += (scrollpos - delay) * accelamount;
-  console.log(scrollpos, delay);
-
   video.currentTime = delay;
 }, 33.3);
 
@@ -54,5 +52,5 @@ slideAnimation.add(tl1, 0).add(tl2, 0);
 new ScrollMagic.Scene({
   triggerElement: intro,
   triggerHook: "onLeave",
-  duration: 9000
+  duration: 7000
 }).setPin(intro).setTween(slideAnimation).addTo(controller);

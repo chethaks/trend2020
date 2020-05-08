@@ -39,8 +39,77 @@
   background-image: url("../images/cc/TB_CC-micro-summary-main-banner.png");
 }
 
+.car-page {
+  background-color: #f7f7f7;
+}
+
+.car-page .car-trends-section {
+  padding-top: 130px;
+  background-image: url(../images/hcs/bg-pattern-left.jpg), url(../images/hcs/bg-pattern-right.jpg);
+  background-position: -50% 0, right top 85%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.car-page .common-tabs a.nav-link {
+  line-height: 30px !important;
+  letter-spacing: 0.075em !important;
+}
+
+.car-page .bg-trend-header {
+  -webkit-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
+}
+
+.car-page .bg-trend-header h1 {
+  width: 75%;
+}
+
+.car-page .bg-trend-header h6 {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.car-page .bg-trend-cta .market-trend-cta {
+  background-color: #00a1e8;
+  padding: 2% 15% 0 3%;
+}
+
+.car-page .bg-trend-cta .covid-19-cta {
+  padding: 2% 13% 0 3%;
+}
+
+.car-page .bg-trend-cta .harman-leader-cta {
+  padding: 2% 15% 0 3%;
+  height: 120px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 28px;
+  letter-spacing: 0.06em;
+  background: #15589A;
+}
+
+.car-page .bg-trend-cta .harman-leader-cta span {
+  width: 25px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.car-page .bg-trend-cta .harman-leader-cta span img {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.car-page .market-trend-content img {
+  width: 70px;
+  height: 70px;
+}
+
 .common-car-section {
-  padding: 10% 0;
+  padding: 10% 0 0 0;
 }
 
 .common-car-section .global-car {
@@ -55,10 +124,6 @@
   font-weight: bold;
   letter-spacing: 0.1em;
   line-height: 36px;
-}
-
-.global-outlook {
-  /* Tabs */
 }
 
 .global-outlook .padding-15 {
@@ -102,7 +167,10 @@
   font-weight: bold;
 }
 
-.global-outlook h1:last-child {
+.global-outlook h3 {
+  font-size: 64px;
+  line-height: 80px;
+  font-weight: bold;
   color: #5bcae6;
 }
 
@@ -116,110 +184,34 @@
   min-height: 100%;
 }
 
-.global-outlook.ui-tabs .ui-tabs-nav {
-  list-style: none;
-  position: absolute;
-  padding: 0;
-  overflow: hidden;
-  top: 250px;
-  right: 0;
-  width: 65%;
+.global-outlook ul {
   text-align: right;
+  padding-top: 23%;
 }
 
-.global-outlook.ui-tabs .ui-tabs-nav li {
-  background-color: #5bcae6;
-  padding: 2% !important;
+.global-outlook ul li {
+  background-color: #2266b0;
+  padding: 2% 3%;
   min-height: 100%;
   display: inline-block;
   width: 20%;
   height: 195px;
   margin: 1%;
   text-align: left;
-}
-
-.global-outlook.ui-tabs .ui-tabs-nav li a {
-  float: left;
-  text-decoration: none;
-  padding: 5px 10px;
-  color: #2266b0;
+  position: relative;
+  font-weight: bold;
   font-size: 14px;
   line-height: 21px;
-  font-weight: bold;
-  height: 175px;
-  cursor: pointer;
-}
-
-.global-outlook.ui-tabs .ui-tabs-nav li.ui-tabs-selected, .global-outlook.ui-tabs .ui-tabs-nav li.ui-state-disabled, .global-outlook.ui-tabs .ui-tabs-nav li.ui-state-processing {
-  padding: 0;
-  border-bottom-width: 0;
-  background-color: #2266b0;
-}
-
-.global-outlook.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .global-outlook.ui-tabs .ui-tabs-nav li.ui-state-disabled a, .global-outlook.ui-tabs .ui-tabs-nav li.ui-state-processing a {
-  color: #ffffff;
-}
-
-.global-outlook.ui-tabs .ui-tabs-hide {
-  display: none !important;
-}
-
-.ui-tabs {
-  /* .ui-tabs-panel {
-    } */
-}
-
-.ui-tabs a.mover {
-  padding: 15px;
-  position: absolute;
-}
-
-.ui-tabs .next-tab,
-.ui-tabs .next-tab1,
-.ui-tabs .next-tab2,
-.ui-tabs .next-tab3,
-.ui-tabs .next-tab4,
-.ui-tabs .next-tab5 {
-  bottom: 30%;
-  right: 0;
-}
-
-.ui-tabs .next-tab img,
-.ui-tabs .next-tab1 img,
-.ui-tabs .next-tab2 img,
-.ui-tabs .next-tab3 img,
-.ui-tabs .next-tab4 img,
-.ui-tabs .next-tab5 img {
-  width: 40px;
-}
-
-.ui-tabs .prev-tab,
-.ui-tabs .prev-tab1,
-.ui-tabs .prev-tab2,
-.ui-tabs .prev-tab3,
-.ui-tabs .prev-tab4,
-.ui-tabs .prev-tab5 {
-  bottom: 30%;
-  left: 0;
-}
-
-.ui-tabs .prev-tab img,
-.ui-tabs .prev-tab1 img,
-.ui-tabs .prev-tab2 img,
-.ui-tabs .prev-tab3 img,
-.ui-tabs .prev-tab4 img,
-.ui-tabs .prev-tab5 img {
-  width: 40px;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  color: #f7f7f7;
+  vertical-align: top;
 }
 
 .common-tab-section .car-global-header {
-  padding: 5% 0;
+  padding: 7% 0 5% 0;
 }
 
 .common-tab-section .car-global-header .selected-heading {
-  background-color: #5bcae6;
+  background-color: #00a1e8;
   color: #ffffff;
   font-weight: bold;
   font-size: 16px;
@@ -252,9 +244,40 @@
   line-height: 35px;
   letter-spacing: 0.1em;
   color: #2266b0;
-  padding: 1% 0;
-  width: 70%;
+  padding: 2% 0;
   border-bottom: 4px solid #2266b0;
+}
+
+.common-tab-section .car-global-header .global-title h1.w70 {
+  width: 70%;
+}
+
+.common-tab-section .car-global-header .global-title h1.w45 {
+  width: 45%;
+}
+
+.common-tab-section .car-global-header .global-title h1.w50 {
+  width: 50%;
+}
+
+.common-tab-section .car-global-header .global-title h1.w55 {
+  width: 55%;
+}
+
+.common-tab-section .car-global-header .global-title h1.w60 {
+  width: 60%;
+}
+
+.common-tab-section .car-global-header .global-title h1.w65 {
+  width: 65%;
+}
+
+.common-tab-section .car-global-header .global-title h1.w85 {
+  width: 85%;
+}
+
+.common-tab-section .car-global-header .global-title h1.w80 {
+  width: 80%;
 }
 
 .common-tab-section .car-global-header .global-subtitle {
@@ -337,8 +360,8 @@
 .common-tab-section .content-section h2 {
   font-weight: 900;
   font-size: 18px;
-  line-height: 21px;
-  letter-spacing: 0.08em;
+  line-height: 24px;
+  letter-spacing: 0.07em;
   padding: 10% 20% 5%;
 }
 
@@ -348,6 +371,7 @@
   line-height: 21px;
   letter-spacing: 0.07em;
   padding: 0 20%;
+  color: #ffffff;
 }
 
 .common-tab-section .content-section h4 {
@@ -356,13 +380,13 @@
   line-height: 18px;
   letter-spacing: 0.07em;
   color: #f7f7f7;
-  padding: 5% 20% 0;
+  padding: 3% 20% 2%;
 }
 
 .common-tab-section .content-section p {
-  font-size: 14px;
-  line-height: 28px;
-  letter-spacing: 0.05em;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.07em;
   color: #f7f7f7;
   padding: 0 20%;
 }
@@ -372,112 +396,41 @@
   padding: 10px 0;
 }
 
-.closing-text h3 {
+.closing-text-car h1 {
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0.1em;
   color: #ffffff;
-  padding: 20%;
-  font-style: normal;
+}
+
+.closing-text-car h3 {
+  color: #ffffff;
   font-weight: normal;
   font-size: 18px;
   line-height: 33px;
 }
 
-/*Only Tab styles*/
-.global-connectivity.ui-tabs .ui-tabs-nav,
-.global-autonomous.ui-tabs .ui-tabs-nav,
-.global-shared.ui-tabs .ui-tabs-nav,
-.global-electrification.ui-tabs .ui-tabs-nav,
-.global-business.ui-tabs .ui-tabs-nav {
-  list-style: none;
-  position: absolute;
-  overflow: hidden;
-  top: 160px;
-  right: 0;
-  width: 70%;
+.closing-text-car .padding-t10 {
+  padding-top: 10%;
 }
 
-.global-connectivity.ui-tabs .ui-tabs-nav li,
-.global-autonomous.ui-tabs .ui-tabs-nav li,
-.global-shared.ui-tabs .ui-tabs-nav li,
-.global-electrification.ui-tabs .ui-tabs-nav li,
-.global-business.ui-tabs .ui-tabs-nav li {
-  display: block;
-  text-align: left;
-  margin-bottom: 5%;
+.closing-text-car .padding-t15 {
+  padding: 15% 10%;
 }
 
-.global-connectivity.ui-tabs .ui-tabs-nav li a,
-.global-autonomous.ui-tabs .ui-tabs-nav li a,
-.global-shared.ui-tabs .ui-tabs-nav li a,
-.global-electrification.ui-tabs .ui-tabs-nav li a,
-.global-business.ui-tabs .ui-tabs-nav li a {
-  color: #ffffff;
-  cursor: pointer;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
-  letter-spacing: 0.045em;
-  display: block;
-}
-
-.global-connectivity.ui-tabs .ui-tabs-nav li span,
-.global-autonomous.ui-tabs .ui-tabs-nav li span,
-.global-shared.ui-tabs .ui-tabs-nav li span,
-.global-electrification.ui-tabs .ui-tabs-nav li span,
-.global-business.ui-tabs .ui-tabs-nav li span {
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 21px;
-  letter-spacing: 0.05em;
-  color: #f7f7f7;
-  width: 50%;
-  display: inline-block;
-}
-
-.global-connectivity.ui-tabs .ui-tabs-nav li.ui-tabs-selected, .global-connectivity.ui-tabs .ui-tabs-nav li.ui-state-disabled, .global-connectivity.ui-tabs .ui-tabs-nav li.ui-state-processing,
-.global-autonomous.ui-tabs .ui-tabs-nav li.ui-tabs-selected,
-.global-autonomous.ui-tabs .ui-tabs-nav li.ui-state-disabled,
-.global-autonomous.ui-tabs .ui-tabs-nav li.ui-state-processing,
-.global-shared.ui-tabs .ui-tabs-nav li.ui-tabs-selected,
-.global-shared.ui-tabs .ui-tabs-nav li.ui-state-disabled,
-.global-shared.ui-tabs .ui-tabs-nav li.ui-state-processing,
-.global-electrification.ui-tabs .ui-tabs-nav li.ui-tabs-selected,
-.global-electrification.ui-tabs .ui-tabs-nav li.ui-state-disabled,
-.global-electrification.ui-tabs .ui-tabs-nav li.ui-state-processing,
-.global-business.ui-tabs .ui-tabs-nav li.ui-tabs-selected,
-.global-business.ui-tabs .ui-tabs-nav li.ui-state-disabled,
-.global-business.ui-tabs .ui-tabs-nav li.ui-state-processing {
-  padding: 0;
-  border-bottom-width: 0;
-}
-
-.global-connectivity.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .global-connectivity.ui-tabs .ui-tabs-nav li.ui-state-disabled a, .global-connectivity.ui-tabs .ui-tabs-nav li.ui-state-processing a,
-.global-autonomous.ui-tabs .ui-tabs-nav li.ui-tabs-selected a,
-.global-autonomous.ui-tabs .ui-tabs-nav li.ui-state-disabled a,
-.global-autonomous.ui-tabs .ui-tabs-nav li.ui-state-processing a,
-.global-shared.ui-tabs .ui-tabs-nav li.ui-tabs-selected a,
-.global-shared.ui-tabs .ui-tabs-nav li.ui-state-disabled a,
-.global-shared.ui-tabs .ui-tabs-nav li.ui-state-processing a,
-.global-electrification.ui-tabs .ui-tabs-nav li.ui-tabs-selected a,
-.global-electrification.ui-tabs .ui-tabs-nav li.ui-state-disabled a,
-.global-electrification.ui-tabs .ui-tabs-nav li.ui-state-processing a,
-.global-business.ui-tabs .ui-tabs-nav li.ui-tabs-selected a,
-.global-business.ui-tabs .ui-tabs-nav li.ui-state-disabled a,
-.global-business.ui-tabs .ui-tabs-nav li.ui-state-processing a {
-  color: #ffffff;
-}
-
-.global-connectivity.ui-tabs .ui-tabs-hide,
-.global-autonomous.ui-tabs .ui-tabs-hide,
-.global-shared.ui-tabs .ui-tabs-hide,
-.global-electrification.ui-tabs .ui-tabs-hide,
-.global-business.ui-tabs .ui-tabs-hide {
-  display: none !important;
-}
-
-.global-connectivity p {
+.global-connectivity .content-section p {
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.05em;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.global-connectivity .content-section h4 {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 29px;
 }
 
 .global-connectivity .global-title h1 {
@@ -498,15 +451,11 @@
   line-height: 36px;
   letter-spacing: 0.1em;
   color: #2266b0;
-  padding: 0;
+  padding: 10%;
 }
 
 .global-connectivity #connectivity-1 .content-section h4 {
-  padding: 0;
-}
-
-.global-connectivity #connectivity-1 .content-section p {
-  padding: 0;
+  padding: 5% 10%;
 }
 
 .global-connectivity #connectivity-2 .content-section {
@@ -514,13 +463,13 @@
 }
 
 .global-connectivity #connectivity-2 .content-section p {
-  padding: 0;
-  font-weight: 500;
+  padding: 0 10%;
+  font-weight: normal;
 }
 
 .global-connectivity #connectivity-2 .image-section h4 {
   padding: 0 5%;
-  width: 50%;
+  width: 55%;
   font-weight: bold;
   font-size: 18px;
   line-height: 28px;
@@ -535,7 +484,7 @@
 .global-connectivity #connectivity-3 .content-section p {
   position: absolute;
   top: 40%;
-  padding: 10%;
+  padding: 5% 10%;
   font-weight: 500;
   line-height: 36px;
 }
@@ -555,6 +504,9 @@
   padding: 10%;
   font-weight: 500;
   line-height: 36px;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
 }
 
 .global-connectivity #connectivity-5 .content-section {
@@ -567,6 +519,13 @@
   padding: 10%;
   font-weight: normal;
   line-height: 36px;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+}
+
+.global-connectivity #connectivity-5 .content-section img {
+  padding: 5%;
 }
 
 .global-connectivity #connectivity-6 .content-section {
@@ -574,9 +533,9 @@
 }
 
 .global-connectivity #connectivity-6 .content-section p {
-  padding: 0;
-  font-weight: 500;
-  line-height: 36px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
 }
 
 .global-connectivity #connectivity-6 .image-section {
@@ -588,9 +547,11 @@
 }
 
 .global-connectivity #connectivity-7 .content-section p {
-  padding: 0;
-  font-weight: 500;
-  line-height: 36px;
+  padding: 20px 10% 0;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
 }
 
 .global-connectivity #connectivity-7 .image-section {
@@ -602,13 +563,37 @@
 }
 
 .global-connectivity #connectivity-8 .content-section p {
-  padding: 0;
-  font-weight: 500;
-  line-height: 36px;
+  padding: 0 10%;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
 }
 
 .global-connectivity #connectivity-8 .image-section {
-  padding: 7%;
+  padding: 5%;
+}
+
+.global-autonomous .content-section {
+  padding: 10%;
+}
+
+.global-autonomous .content-section p {
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.global-autonomous .content-section h4 {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+.global-autonomous .content-section h2 {
+  padding: 5% 10% 2% 10%;
 }
 
 .global-autonomous #autonomous-1 .image-section {
@@ -626,6 +611,7 @@
 
 .global-autonomous #autonomous-3 .content-section h2 {
   color: #2266b0;
+  padding-bottom: 2%;
 }
 
 .global-autonomous #autonomous-3 .content-section p {
@@ -641,11 +627,11 @@
 }
 
 .global-autonomous #autonomous-4 .content-section h2 {
-  padding: 0;
+  padding-top: 20%;
 }
 
 .global-autonomous #autonomous-4 .content-section p {
-  padding: 0;
+  padding-bottom: 10%;
 }
 
 .global-autonomous #autonomous-5 .image-section {
@@ -656,24 +642,12 @@
   padding: 10%;
 }
 
-.global-autonomous #autonomous-5 .content-section h2 {
-  padding: 0;
-}
-
 .global-autonomous #autonomous-5 .content-section p {
-  padding: 0;
+  padding-bottom: 2%;
 }
 
 .global-autonomous #autonomous-6 .content-section {
   padding: 10%;
-}
-
-.global-autonomous #autonomous-6 .content-section h2 {
-  padding: 0;
-}
-
-.global-autonomous #autonomous-6 .content-section p {
-  padding: 0;
 }
 
 .global-autonomous #autonomous-7 .image-section {
@@ -684,12 +658,8 @@
   padding: 10%;
 }
 
-.global-autonomous #autonomous-7 .content-section h2 {
-  padding: 0;
-}
-
 .global-autonomous #autonomous-7 .content-section p {
-  padding: 0;
+  padding-top: 2%;
 }
 
 .global-autonomous #autonomous-8 .image-section {
@@ -701,11 +671,50 @@
 }
 
 .global-autonomous #autonomous-8 .content-section h2 {
-  padding: 0;
+  padding-bottom: 5%;
 }
 
 .global-autonomous #autonomous-8 .content-section p {
-  padding: 0;
+  padding-top: 1%;
+}
+
+.global-electrification .content-section {
+  padding: 10%;
+}
+
+.global-electrification .content-section p {
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.global-electrification .content-section h4 {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+.global-electrification .content-section h2 {
+  padding: 5% 10% 2% 10%;
+}
+
+.global-electrification #electrification-1 .content-section {
+  color: #2266b0;
+}
+
+.global-electrification #electrification-1 .content-section p {
+  padding-top: 30%;
+}
+
+.global-electrification #electrification-1 .content-section h6 {
+  padding-left: 20%;
+}
+
+.global-electrification #electrification-1 .image-section h3 {
+  color: #333333;
+  padding: 2% 0;
 }
 
 .global-electrification #electrification-2 .content-section {
@@ -720,20 +729,361 @@
   padding-left: 20%;
 }
 
+.global-electrification #electrification-3 .content-section p {
+  font-size: 21px;
+  line-height: 36px;
+  padding-top: 25%;
+}
+
+.global-electrification #electrification-3 .content-section h2 {
+  font-size: 21px;
+  line-height: 36px;
+}
+
+.global-electrification #electrification-4 .content-section p {
+  font-size: 21px;
+  line-height: 36px;
+  padding-top: 25%;
+}
+
+.global-electrification #electrification-4 .content-section h2 {
+  font-size: 21px;
+  line-height: 36px;
+}
+
+.global-electrification #electrification-5 .content-section p {
+  font-size: 21px;
+  line-height: 36px;
+  padding-top: 5%;
+}
+
+.global-electrification #electrification-5 .content-section h2 {
+  font-size: 21px;
+  line-height: 36px;
+}
+
+.global-shared .content-section {
+  padding: 10%;
+}
+
+.global-shared .content-section p {
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.global-shared .content-section h4 {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+.global-shared .content-section h2 {
+  padding: 5% 10% 2% 10%;
+}
+
+.global-shared #shared-1 .image-section h3 {
+  font-size: 16px;
+  line-height: 158.9%;
+  padding: 0 7%;
+}
+
+.global-shared #shared-3 .content-section h2 {
+  padding-top: 30%;
+}
+
+#new-business .content-section {
+  padding: 10%;
+}
+
+#new-business .content-section p {
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#new-business .content-section h4 {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+#new-business #business-1 .content-section p {
+  font-size: 21px;
+  line-height: 33px;
+  padding-top: 20%;
+}
+
+#new-business #business-1 .image-section h3 {
+  font-size: 21px;
+  line-height: 33px;
+  text-align: center;
+}
+
+#new-business #business-2 .content-section p {
+  font-size: 21px;
+  line-height: 33px;
+  padding-top: 20%;
+}
+
+#new-business #business-2 .image-section h3 {
+  font-size: 18px;
+  line-height: 33px;
+}
+
+#new-business #business-3 .content-section p {
+  padding-top: 5%;
+}
+
+#new-business #business-3 .content-section h2 {
+  padding: 10%;
+}
+
+#new-business #business-3 .image-section h3 {
+  font-size: 18px;
+  line-height: 33px;
+}
+
+#new-business #business-4 .content-section p {
+  padding-top: 5%;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+}
+
+#new-business #business-4 .content-section h2 {
+  padding: 10%;
+  font-size: 21px;
+  line-height: 36px;
+}
+
+#new-business #business-4 .image-section h3 {
+  font-size: 18px;
+  line-height: 33px;
+}
+
+#new-business #business-5 .content-section p {
+  padding-top: 5%;
+  font-size: 21px;
+  line-height: 36px;
+}
+
+#new-business #business-5 .content-section h2 {
+  padding: 10%;
+  font-size: 21px;
+  line-height: 36px;
+}
+
+#new-business #business-5 .image-section h3 {
+  font-size: 18px;
+  line-height: 33px;
+}
+
+#new-business #business-6 .content-section p {
+  padding-top: 10%;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+}
+
+#new-business #business-6 .content-section h2 {
+  padding: 10%;
+  font-size: 21px;
+  line-height: 36px;
+}
+
+#new-business #business-6 .image-section h3 {
+  font-size: 18px;
+  line-height: 33px;
+}
+
+#new-business #business-7 .content-section p {
+  padding-top: 10%;
+  font-size: 21px;
+  line-height: 33px;
+}
+
+#new-business #business-7 .content-section h2 {
+  padding: 10%;
+  font-size: 21px;
+  line-height: 36px;
+}
+
+#new-business #business-7 .image-section h3 {
+  font-size: 18px;
+  line-height: 33px;
+}
+
 #caseSection {
+  padding-top: 15%;
   color: #ffffff;
 }
 
-.blue-card {
-  width: 350px;
-  height: 450px;
-  position: absolute;
-  background-color: #2266b0;
+#caseSection h2 {
+  font-weight: bold;
+  font-size: 65px;
+  line-height: 75px;
+}
+
+#caseSection h2:first-child {
+  color: #5acae6;
+}
+
+#caseSection h4 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.08em;
+  color: #f7f7f7;
+  padding-top: 7%;
+  width: 60%;
+}
+
+#caseSection img {
+  width: 50px;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.common-case-section .trend-update-img {
+  background-color: #ffffff;
+  margin-top: 10%;
+}
+
+.common-case-section .trend-update-img img {
+  width: 90%;
+}
+
+.common-case-section .trend-case {
+  position: relative;
   z-index: 1;
-  width: 22%;
-  height: 450px;
+  margin-top: 10%;
+  background-color: #ffffff;
+}
+
+.common-case-section .trend-case .case-bg h1 {
+  font-weight: bold;
+  font-size: 122px;
+  line-height: 143px;
+  color: #f7f7f7;
+  background-color: #5acae6;
+  padding: 20% 20% 0;
+  margin: 0;
+}
+
+.common-case-section .trend-case .case-bg h1 span {
+  color: #2266b0;
+}
+
+.common-case-section .trend-case .case-bg p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.08em;
+  color: #f7f7f7;
+  background-color: #5acae6;
+  padding: 10px 20% 20%;
+}
+
+.common-case-section .trend-case .case-bg .pattern-image {
   position: absolute;
-  margin-top: 17rem;
-  min-width: 340px;
-  left: 5%;
+  bottom: -10%;
+  left: -10%;
+  z-index: -1;
+}
+
+.common-case-section .trend-case img {
+  width: 100%;
+}
+
+.common-case-section .trend-case .container {
+  padding-top: 5%;
+}
+
+.common-case-section .trend-case .container p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #2266b0;
+}
+
+.common-case-section .trend-case .single-letter {
+  font-weight: 900;
+  font-size: 71.02px;
+  line-height: 83px;
+  color: #5bcae6;
+}
+
+.common-case-section .trend-case .line {
+  height: 0.2px;
+  background-color: #2266b0;
+  display: block;
+}
+
+.common-case-section .trend-case .letter-summary {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2266b0;
+  padding-right: 4%;
+}
+
+#marketSection .market-trend-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 40%;
+}
+
+#marketSection .market-trend-content h1 {
+  font-weight: bold;
+  font-size: 62.19px;
+  line-height: 78px;
+}
+
+.text1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 19px;
+  display: inline-block;
+  color: #2266B0;
+  position: relative;
+  width: 160px;
+  left: 15%;
+  top: 200px;
+}
+
+.text2 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 19px;
+  display: inline-block;
+  color: #2266B0;
+  position: relative;
+  width: 150px;
+  left: 15%;
+  bottom: 200px;
+}
+
+.nav-item.active {
+  position: relative;
+}
+
+.nav-item.active:after {
+  content: '';
+  position: absolute;
+  left: 30px;
+  right: 30px;
+  bottom: -5px;
+  border-bottom: solid 3px white;
 }

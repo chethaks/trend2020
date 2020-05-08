@@ -22,9 +22,9 @@ $("#hcs-connected-lifestyle").click(function () {
 });
 // HCS CLICK DOWN ARROW END
 
+
 // LS CLICK DOWN ARROW START
 $("#ls-cons-ptrns").click(function () {
-
   $("html, body").animate(
     {
       scrollTop: $("#consumer-pttrns").offset().top,
@@ -48,6 +48,67 @@ $("#vertical-darrow").click(function () {
   return false;
 });
 // PS CLICK DOWN ARROW END
+
+
+// CC CTAs START
+
+$("#cc-connectivity").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#connectivity-1").offset().top,
+    },
+    2000,
+  );
+  return false;
+});
+
+
+$("#cc-autonomous").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#autonomous-1").offset().top,
+    },
+    2000,
+  );
+  return false;
+});
+
+$("#cc-shared").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#shared-1").offset().top,
+    },
+    2000,
+  );
+  return false;
+});
+
+$("#cc-electrification").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#electrification-1").offset().top,
+    },
+    2000,
+  );
+  return false;
+});
+
+$("#new-busi-model").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#business-1").offset().top,
+    },
+    2000,
+  );
+  return false;
+});
+
+
+
+
+
+
+// CC CTAs END
 
 
 // PRO SOLUTION - END USER
@@ -151,6 +212,121 @@ $("#market").click(function () {
   return false;
 });
 
+$("#case").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#caseSection").offset().top,
+    },
+    2000,
+  );
+  return false;
+});
+
+$("#global").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#globalSection").offset().top,
+    },
+    2000,
+  );
+  return false;
+});
+
+$("#moveToConnectivity").click(function () {
+  $('#connectivity').show();
+  $('#autonomous').hide();
+  $('#shared').hide();
+  $('#electrification').hide();
+  $('#new-business').hide();
+  $("html, body").animate(
+    {
+      scrollTop: $("#connectivity").offset().top,
+    },
+    2000,
+  );
+  return false;
+});
+
+$("#moveToAutonomous").click(function () {
+  $('#connectivity').hide();
+  $('#autonomous').show();
+  $('#shared').hide();
+  $('#electrification').hide();
+  $('#new-business').hide();
+  $("html, body").animate(
+    {
+      scrollTop: $("#openAutonomous").offset().top,
+    },
+    2000,
+  );
+  return false;
+});
+
+$("#moveToMaas").click(function () {
+  $('#connectivity').hide();
+  $('#autonomous').hide();
+  $('#shared').show();
+  $('#electrification').hide();
+  $('#new-business').hide();
+  $("html, body").animate(
+    {
+      scrollTop: $("#openMaas").offset().top,
+    },
+    2000,
+  );
+  return false;
+});
+
+$("#moveToElectrification").click(function () {
+  $('#connectivity').hide();
+  $('#autonomous').hide();
+  $('#shared').hide();
+  $('#electrification').show();
+  $('#new-business').hide();
+  $("html, body").animate(
+    {
+      scrollTop: $("#openElectrification").offset().top,
+    },
+    2000,
+  );
+  return false;
+});
+
+$("#moveToNewbm").click(function () {
+  $('#connectivity').hide();
+  $('#autonomous').hide();
+  $('#shared').hide();
+  $('#electrification').hide();
+  $('#new-business').show();
+  $("html, body").animate(
+    {
+      scrollTop: $("#openNewbm").offset().top,
+    },
+    2000,
+  );
+  return false;
+});
+
+$("#showDown").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#openOutlook").offset().top,
+    },
+    2000,
+  );
+  return false;
+});
+
+$("#showCase").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#opencaseSection").offset().top,
+    },
+    2000,
+  );
+  return false;
+});
+
 $("#covid").click(function () {
   $("html, body").animate(
     {
@@ -231,43 +407,20 @@ window.onload = function () {
   lax.setup() // init
 
   const updateLax = () => {
-    lax.update(window.scrollY)
-    window.requestAnimationFrame(updateLax)
+      lax.update(window.scrollY)
+      window.requestAnimationFrame(updateLax)
   }
 
   window.requestAnimationFrame(updateLax)
 }
 
 /** Slide Section */
-
-$(function () {
-  $(".show-section-2").hide();
-
-  $(".prev, .next").bind("click", function () {
-    $(".show-section-1, .show-section-2").hide();
-
-    if ($(this).attr("class") == "prev") {
-      $(".show-section-1").show();
-    } else {
-      $(".show-section-2").show();
-    }
-  });
-});
-
-$(".btnNext").click(function () {
-  $(".nav-tabs > .active").next("li").find("a").trigger("click");
-});
-
-$(".btnPrevious").click(function () {
-  $(".nav-tabs > .active").prev("li").find("a").trigger("click");
-});
-
 $("#covidClick").click(function () {
-  $("#openCovideSection").slideDown("slow");
   $("html, body").animate(
     {
       scrollTop: $("#openCovideSection").offset().top,
     },
     2000,
   );
+  return false;
 });
