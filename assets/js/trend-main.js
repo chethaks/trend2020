@@ -1,6 +1,5 @@
 /** Page Jquery */
 
-/** Sticky Menu */
 $(window).on("scroll", function () {
   if ($(window).scrollTop() > 10) {
     $(".navbar").addClass("active");
@@ -119,3 +118,4 @@ $("#covidClick").click(function () {
     2000,
   );
 });
+

@@ -6,6 +6,7 @@ html {
   font-family: "Roboto", sans-serif;
   background-color: #f5f5f5;
   scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
 }
 
 section {
@@ -158,6 +159,7 @@ section {
   padding-left: 5px;
   -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
   animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  padding-top: 10px;
 }
 
 @-webkit-keyframes text-focus-in {
@@ -272,6 +274,8 @@ footer span {
       -ms-flex-align: center;
           align-items: center;
   position: absolute;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(19.58%, #0c4584), color-stop(49.79%, rgba(12, 69, 132, 0.79)), to(rgba(0, 114, 164, 0.09)));
+  background: linear-gradient(180deg, #0c4584 19.58%, rgba(12, 69, 132, 0.79) 49.79%, rgba(0, 114, 164, 0.09) 100%);
 }
 
 .intro-video .videobg-container div {
@@ -365,6 +369,13 @@ footer span {
   letter-spacing: 0.055em;
 }
 
+.source-text {
+  text-align: left !important;
+  position: absolute;
+  font-size: 12px !important;
+  color: #999999 !important;
+}
+
 .extra-text-on-img {
   text-align: right;
   font-weight: bold;
@@ -393,11 +404,11 @@ footer span {
 
 .home-parallax .parallax-content .extra-heading {
   font-weight: bold;
-  font-size: 18px;
-  line-height: 175.19%;
+  font-size: 21px;
+  line-height: 150%;
   letter-spacing: 0.09em;
   color: #15589a;
-  width: 75%;
+  width: 80%;
   padding-bottom: 5%;
 }
 
@@ -425,28 +436,6 @@ footer span {
   display: block;
   margin: 10%;
   border-right: 1px solid;
-}
-
-.home-parallax .parallax-content .pattern-image1 {
-  position: absolute;
-  top: 0;
-  background: url(../images/home/1background-pattern.png) no-repeat 0 0;
-  background-size: contain;
-  height: 70rem;
-  width: 40rem;
-  right: 0;
-  z-index: 1;
-}
-
-.home-parallax .parallax-content .pattern-image2 {
-  position: absolute;
-  bottom: 0;
-  background: url(../images/home/2background-pattern.png) no-repeat 0 0;
-  background-size: contain;
-  height: 70rem;
-  width: 40rem;
-  left: 0;
-  z-index: 1;
 }
 
 .home-parallax .parallax-content .parallax-graph {
@@ -554,6 +543,10 @@ footer span {
   background: linear-gradient(90deg, #00a1e8 0%, #00a1e8 0%, #1a75be 0.01%, #0f87cf 0.02%, #15589a 0.03%, #072d55 92.71%);
 }
 
+.gradient-bg.mt-40 {
+  margin-top: 40%;
+}
+
 .gradient-bg .new-pattern {
   position: absolute;
   right: 0;
@@ -574,7 +567,7 @@ footer span {
   position: relative;
   padding: 10% 0;
   left: 50%;
-  top: 20%;
+  top: 40%;
   width: 700px;
   z-index: 1;
 }
@@ -729,7 +722,6 @@ footer span {
 }
 
 .no-gradient-graph .closer-section .closer-summary {
-  padding-bottom: 30%;
   padding-top: 10%;
   position: relative;
 }
@@ -752,7 +744,6 @@ footer span {
 }
 
 .no-gradient-graph .closer-section .the-end {
-  padding-bottom: 20%;
   position: relative;
   z-index: 2;
 }
@@ -786,4 +777,40 @@ footer span {
   padding: 5%;
   display: block;
   margin-bottom: 10%;
+}
+
+.pattern-image1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.pattern-image1 img {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.pattern-image2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.pattern-image2 img {
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+}
+
+.pattern-image3 {
+  position: absolute;
+  bottom: -25%;
+  left: 0;
+  z-index: -1;
+}
+
+.pattern-image3 img {
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
 }

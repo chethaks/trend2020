@@ -52,5 +52,5 @@ slideAnimation.add(tl1, 0).add(tl2, 0);
 new ScrollMagic.Scene({
   triggerElement: intro,
   triggerHook: "onLeave",
-  duration: 9000
+  duration: 7000
 }).setPin(intro).setTween(slideAnimation).addTo(controller);
