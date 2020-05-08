@@ -1,54 +1,90 @@
-.bg.bg-banner {
-  /* The image used */
-  background-image: url("../images/ls/ls-top-banner.png");
-}
 
 .ls-page {
   background-color: #f7f7f7;
 }
 
-.ls-page .bg-home .bg-home-header {
+.nav-item.active{
+  position: relative;
+}
+
+.nav-item.active:after{
+  content: '';
   position: absolute;
-  top: 50%;
-  left: 45%;
-  right: 0;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%)
+  left: 30px;
+  right: 30px;
+  bottom: -5px;
+  border-bottom: solid 3px white;
 }
 
-.ls-page .bg-home .bg-home-header h1 {
+/* HERO BANNER TEXT STYLE START */
+.bg.bg-banner {
+  /* The image used */
+  background-image: url("../images/ls/ls-top-banner.png");
+}
+.bg {
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover
+}
+
+.bg-trend .hero-title-sec {
+  margin-left: 200px;
+}
+
+.bg-trend h1.hero-banner-title {
   color: #fff;
-  font-weight: 500;
-  font-size: 72px;
-  line-height: 101.19%;
-  letter-spacing: 0.02em;
-  padding: 10px 0;
-  -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-  width: 380px;
-}
-
-.ls-page .bg-home .bg-home-header h3 {
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 42px;
+  font-weight: bold;
+  font-size: 76px;
+  line-height: 90px;
   letter-spacing: 0.1em;
-  color: #fff;
-  padding-left: 5px;
+  margin-bottom: 20px;
   -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
   animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both
 }
 
-.ls-page .bg-home .bg-home-header h6 {
+.bg-trend h1.ls-title {
+  width: 510px;
+}
+
+.bg-trend h6.hero-banner-cont {
   color: #fff;
+  font-size: 16px;
+  line-height: 28px;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 21px;
-  letter-spacing: 0.1em;
-  padding-left: 5px;
   -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
   animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both
 }
+
+@-webkit-keyframes text-focus-in {
+  0% {
+      -webkit-filter: blur(12px);
+      filter: blur(12px);
+      opacity: 0
+  }
+
+  100% {
+      -webkit-filter: blur(0px);
+      filter: blur(0px);
+      opacity: 1
+  }
+}
+
+@keyframes text-focus-in {
+  0% {
+      -webkit-filter: blur(12px);
+      filter: blur(12px);
+      opacity: 0
+  }
+
+  100% {
+      -webkit-filter: blur(0px);
+      filter: blur(0px);
+      opacity: 1
+  }
+}
+
+/* HERO BANNER TEXT STYLE END */
 
 .trends-list-item {
   padding-top: 150px;
@@ -56,12 +92,12 @@
 
 .trends-list-item li {
   background-color: #2266b0;
-  padding: 2% !important;
+  padding: 20px !important;
   min-height: 100%;
   display: inline-block;
-  width: 16%;
+  width: 170px;
   height: 195px;
-  margin: 1%;
+  margin: 0;
   text-align: left;
   position: relative;
 }
@@ -69,8 +105,8 @@
 .trends-list-item li span {
   position: absolute;
   bottom: 25px;
-  left: 25px;
-  right: 25px;
+  left: 20px;
+  right: 20px;
   font-size: 16px;
   font-weight: bold;
   line-height: 24px;
@@ -1041,6 +1077,123 @@
 }
 
 /* HUMAN AUGMENTATION2 STYLES END */
+
+
+
+
+/* ROBOTICS STYLES START */
+.robotics-section {
+  background-image: url(../images/ls/lifestyle-bg-pattern.png);
+  background-position: center -780px;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.robotics-section .global-header {
+  padding: 130px 10% 45px 10%;
+}
+
+.robotics-section .global-title {
+  border-bottom: 1px solid #2266b0;
+  margin: 15px 0;
+}
+
+.robotics-section h1 {
+  color: #2266b0;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: 0.1em;
+  margin: 0;
+  border-bottom: 5px solid #2266b0;
+  display: inline-block;
+}
+
+.robotics-section .robotics {
+  min-height: 640px;
+  background: #F5F6F7;
+  position: relative;
+}
+
+.robotics-section .robotics .lft-column {
+  position: absolute;
+  left: 0;
+  width: 44%;
+  padding: 50px 10%;
+  background: #2367B1;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 155.19%;
+  /* or 26px */
+  color: #FFFFFF;
+}
+
+.robotics-section .robotics .title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 155%;
+  /* or 31px */
+  letter-spacing: 0.1em;
+  color: #5BCAE6;
+  text-align: left;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  width: 44%;
+  padding: 66px 10%;
+}
+
+.robotics .lft-column .game-esports-list {
+  margin-bottom: 0;
+}
+
+.robotics .lft-column .game-esports-list li {
+  padding-bottom: 30px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 155.19%;
+  color: #FFFFFF;
+}
+
+.robotics-section .robotics .rgt-column {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 56%;
+  text-align: left;
+  background: #fff;
+  padding: 60px 80px 20px 90px;
+  text-align: center;
+}
+
+.robotics-section .robotics .terms-flag-container {
+  position: absolute;
+  right: 0px;
+  bottom: 50px;
+  padding: 20px 80px 20px 60px;
+  width: 640px;
+  background-image: url(../images/ls/term-flag.svg);
+  background-color: #5BCAE6;
+  background-repeat: no-repeat;
+  background-position: 16px center;
+  color: #2266B0;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.robotics-section .robotics .terms-flag-container span {
+  color: #fff;
+}
+
+/* ROBOTICS STYLES END */
+
+
+
+
+
 
 
 

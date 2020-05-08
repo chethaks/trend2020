@@ -294,7 +294,7 @@ section {
 }
 
 #openCovideSection {
-  display: none;
+  // display: none;
   padding-top: 0;
   padding-bottom: 0;
 }
@@ -851,3 +851,23 @@ footer {
 }
 
 /* PARTNERSHIP STYLES END */
+.show-section {
+  display: block !important;
+}
+
+.hide-section {
+  display: none !important;
+}
+
+.nav-item.active{
+  position: relative;
+}
+
+.nav-item.active:after{
+  content: '';
+  position: absolute;
+  left: 30px;
+  right: 30px;
+  bottom: -5px;
+  border-bottom: solid 3px white;
+}

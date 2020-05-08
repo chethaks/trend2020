@@ -82,14 +82,13 @@
 
 .car-page .bg-trend-cta .harman-leader-cta {
   padding: 2% 15% 0 3%;
-  background-image: url(../images/cc/cta-bg.png);
-  background-repeat: no-repeat;
   height: 120px;
   cursor: pointer;
   font-size: 18px;
   font-weight: bold;
   line-height: 28px;
   letter-spacing: 0.06em;
+  background: #15589A;
 }
 
 .car-page .bg-trend-cta .harman-leader-cta span {
@@ -261,12 +260,24 @@
   width: 50%;
 }
 
+.common-tab-section .car-global-header .global-title h1.w55 {
+  width: 55%;
+}
+
 .common-tab-section .car-global-header .global-title h1.w60 {
   width: 60%;
 }
 
+.common-tab-section .car-global-header .global-title h1.w65 {
+  width: 65%;
+}
+
 .common-tab-section .car-global-header .global-title h1.w85 {
   width: 85%;
+}
+
+.common-tab-section .car-global-header .global-title h1.w80 {
+  width: 80%;
 }
 
 .common-tab-section .car-global-header .global-subtitle {
@@ -349,8 +360,8 @@
 .common-tab-section .content-section h2 {
   font-weight: 900;
   font-size: 18px;
-  line-height: 21px;
-  letter-spacing: 0.08em;
+  line-height: 24px;
+  letter-spacing: 0.07em;
   padding: 10% 20% 5%;
 }
 
@@ -953,6 +964,7 @@
   position: relative;
   z-index: 1;
   margin-top: 10%;
+  background-color: #ffffff;
 }
 
 .common-case-section .trend-case .case-bg h1 {
@@ -1035,4 +1047,43 @@
   font-weight: bold;
   font-size: 62.19px;
   line-height: 78px;
+}
+
+.text1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 19px;
+  display: inline-block;
+  color: #2266B0;
+  position: relative;
+  width: 160px;
+  left: 15%;
+  top: 200px;
+}
+
+.text2 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 19px;
+  display: inline-block;
+  color: #2266B0;
+  position: relative;
+  width: 150px;
+  left: 15%;
+  bottom: 200px;
+}
+
+.nav-item.active {
+  position: relative;
+}
+
+.nav-item.active:after {
+  content: '';
+  position: absolute;
+  left: 30px;
+  right: 30px;
+  bottom: -5px;
+  border-bottom: solid 3px white;
 }
