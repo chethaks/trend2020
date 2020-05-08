@@ -22,9 +22,9 @@ $("#hcs-connected-lifestyle").click(function () {
 });
 // HCS CLICK DOWN ARROW END
 
+
 // LS CLICK DOWN ARROW START
 $("#ls-cons-ptrns").click(function () {
-
   $("html, body").animate(
     {
       scrollTop: $("#consumer-pttrns").offset().top,
@@ -48,6 +48,67 @@ $("#vertical-darrow").click(function () {
   return false;
 });
 // PS CLICK DOWN ARROW END
+
+
+// CC CTAs START
+
+$("#cc-connectivity").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#connectivity-1").offset().top,
+    },
+    2000,
+  );
+  return false;
+});
+
+
+$("#cc-autonomous").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#autonomous-1").offset().top,
+    },
+    2000,
+  );
+  return false;
+});
+
+$("#cc-shared").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#shared-1").offset().top,
+    },
+    2000,
+  );
+  return false;
+});
+
+$("#cc-electrification").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#electrification-1").offset().top,
+    },
+    2000,
+  );
+  return false;
+});
+
+$("#new-busi-model").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#business-1").offset().top,
+    },
+    2000,
+  );
+  return false;
+});
+
+
+
+
+
+
+// CC CTAs END
 
 
 // PRO SOLUTION - END USER
