@@ -186,6 +186,10 @@ section {
   }
 }
 
+.home-page .home-intro {
+  position: relative;
+}
+
 .home-page .home-intro .intro-content {
   padding: 20% 20% 10% 0;
 }
@@ -225,7 +229,7 @@ section {
 footer {
   background-color: #2c2c2c;
   padding: 2% 5%;
-  color: #f5f5f5;
+  color: #9A9999;
 }
 
 footer span {
@@ -458,6 +462,7 @@ footer span {
 .home-parallax .parallax-content .parallax-graph .parallax-graph-image {
   background-color: #ffffff;
   text-align: center;
+  position: relative;
 }
 
 .home-parallax .parallax-content .parallax-graph .parallax-graph-image span {
@@ -504,27 +509,26 @@ footer span {
 }
 
 .parallax-covid .covid-header {
-  font-weight: 500;
+  font-weight: normal;
   font-size: 130px;
   text-align: center;
-  letter-spacing: 0.055em;
-  color: #98e1f3;
+  letter-spacing: -5px;
+  color: #ffffff;
   position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  font-size: 90px;
 }
 
 .parallax-covid .covid-header h1 {
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #98e1f3;
-  font-weight: 500;
+  font-weight: normal;
   font-size: 130px;
   text-align: center;
-  letter-spacing: 0.055em;
+  letter-spacing: -5px;
   display: inline-block;
+  font-size: 90px;
 }
 
 .parallax-covid .covid-header h2 {
@@ -571,7 +575,7 @@ footer span {
 }
 
 .gradient-bg .year-100 h1 span {
-  color: #98e1f3;
+  color: #ffffff;
 }
 
 .gradient-bg .year-100 h2 {
@@ -678,6 +682,7 @@ footer span {
   text-align: center;
   padding: 5%;
   margin-bottom: 10%;
+  position: relative;
 }
 
 .no-gradient-graph .saviours {
@@ -767,11 +772,11 @@ footer span {
 }
 
 .new-h1 {
-  font-weight: 900;
+  font-weight: normal;
   font-size: 33px;
   line-height: 124.2%;
   text-align: center;
-  color: #5BCAE6;
+  color: #ffffff;
   padding: 5%;
   display: block;
   margin-bottom: 10%;
@@ -844,4 +849,27 @@ footer span {
   opacity: 1;
   filter: "alpha(opacity=100)";
   -ms-filter: "alpha(opacity=100)";
+}
+
+.parallax-image {
+  z-index: 1;
+  position: relative;
+}
+
+.super-circle {
+  position: absolute;
+  bottom: -5%;
+  left: -20%;
+}
+
+.img-src {
+  position: absolute;
+  left: 8%;
+  bottom: 15%;
+}
+
+.img-src2 {
+  position: absolute;
+  left: 12%;
+  bottom: 10%;
 }

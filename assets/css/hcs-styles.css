@@ -38,12 +38,16 @@ html {
 }
 
 .bg-trend h6.hero-banner-cont {
-  color: #fff;
-  font-size: 16px;
-  line-height: 28px;
-  font-weight: normal;
-  -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both
+  color: #ffffff;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 0.1em;
+        padding-left: 5px;
+        -webkit-animation: text-focus-in 1s
+          cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+        animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+        padding-top: 10px;
 }
 
 @-webkit-keyframes text-focus-in {

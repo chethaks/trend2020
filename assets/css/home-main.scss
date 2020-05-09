@@ -190,6 +190,7 @@ section {
   }
 
   .home-intro {
+    position: relative;
     .intro-content {
       padding: 20% 20% 10% 0;
       h1 {
@@ -227,7 +228,7 @@ section {
 footer {
   background-color: #2c2c2c;
   padding: 2% 5%;
-  color: $background;
+  color: #9A9999;
   span {
     float: right;
   }
@@ -421,6 +422,7 @@ footer {
       .parallax-graph-image {
         background-color: $white;
         text-align: center;
+        position: relative;
         span{
           display: block;
           text-align: right;
@@ -470,24 +472,23 @@ footer {
 
 .parallax-covid {
   .covid-header {
-    font-weight: 500;
+    font-weight: normal;
     font-size: 130px;
     text-align: center;
-    letter-spacing: 0.055em;
-    color: #98e1f3;
+    letter-spacing: -5px;
+    color: #ffffff;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 90px;
     h1 {
-      -webkit-text-fill-color: transparent;
-      -webkit-text-stroke-width: 2px;
-      -webkit-text-stroke-color: #98e1f3;
-      font-weight: 500;
+      font-weight: normal;
       font-size: 130px;
       text-align: center;
-      letter-spacing: 0.055em;
+      letter-spacing: -5px;
       display: inline-block;
+      font-size: 90px;
     }
     h2 {
       font-weight: 500;
@@ -533,7 +534,7 @@ footer {
       width: 700px;
       z-index: 1;
       span {
-        color: #98e1f3;
+        color: #ffffff;
       }
     }
     h2 {
@@ -632,6 +633,7 @@ footer {
     text-align: center;
     padding: 5%;
     margin-bottom: 10%;
+    position: relative;
   }
   .saviours {
     margin: 0 15%;
@@ -709,11 +711,11 @@ footer {
 }
 
 .new-h1{
-  font-weight: 900;
+  font-weight: normal;
     font-size: 33px;
     line-height: 124.2%;
     text-align: center;
-    color: #5BCAE6;
+    color: #ffffff;
     padding: 5%;
     display: block;
     margin-bottom: 10%;
@@ -782,4 +784,27 @@ footer {
     filter: "alpha(opacity=100)";
     -ms-filter: "alpha(opacity=100)";
   }
+}
+
+.parallax-image{
+  z-index: 1;
+  position: relative;
+}
+
+.super-circle{
+  position: absolute;
+  bottom: -5%;
+  left: -20%;
+}
+
+.img-src{
+  position: absolute;
+    left: 8%;
+    bottom: 15%;
+}
+
+.img-src2{
+  position: absolute;
+    left: 12%;
+    bottom: 10%;
 }

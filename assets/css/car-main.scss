@@ -62,9 +62,16 @@ $new-bg-color: #00a1e8;
       width: 75%;
     }
     h6 {
-      font-weight: normal;
-      font-size: 24px;
-      line-height: 28px;
+      color: $white;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 0.1em;
+        padding-left: 5px;
+        -webkit-animation: text-focus-in 1s
+          cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+        animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+        padding-top: 10px;
     }
   }
   .bg-trend-cta {
