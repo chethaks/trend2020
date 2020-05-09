@@ -20,7 +20,8 @@ html {
 }
 
 .bg-trend .hero-title-sec {
-  margin-left: 200px;
+  padding-top: 10px;
+  margin-left: 15%;
 }
 
 .bg-trend h1.hero-banner-title {
@@ -40,7 +41,7 @@ html {
 
 .bg-trend h6.hero-banner-cont {
   color: #fff;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 28px;
   font-weight: normal;
   -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
@@ -310,7 +311,7 @@ html {
 }
 
 .con-lifestyle2 .conn-lifestyle .cont-whitebg .cont-listitem li {
-  padding-bottom: 15px;
+  padding-bottom: 25px;
 }
 
 .con-lifestyle2 .cont-whitebg .source,
@@ -811,9 +812,9 @@ html {
 
 .platform-innovation-section .img-container .source {
   position: absolute;
-  right: 0;
-  text-align: right;
-  bottom: -80px;
+  left: 5px;
+  text-align: left;
+  bottom: -40px;
   font-style: italic;
   font-size: 10px;
   font-weight: 900;

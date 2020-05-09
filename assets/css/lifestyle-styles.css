@@ -38,7 +38,8 @@ html {
 }
 
 .bg-trend .hero-title-sec {
-  margin-left: 200px;
+  padding-top: 10px;
+  margin-left: 15%;
 }
 
 .bg-trend h1.hero-banner-title {
@@ -58,7 +59,7 @@ html {
 
 .bg-trend h6.hero-banner-cont {
   color: #fff;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 28px;
   font-weight: normal;
   -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
@@ -661,6 +662,7 @@ html {
   font-size: 24px;
   line-height: 155.19%;
   font-weight: bold;
+  background: #fff;
 }
 
 .multisen-exp-section3 .multisensry-exp3 .title {
@@ -841,6 +843,7 @@ html {
   font-size: 24px;
   line-height: 155.19%;
   font-weight: bold;
+  background: #fff;
 }
 
 .gaming-esports-section2 .gaming-esports2 .title {
@@ -1035,6 +1038,7 @@ html {
   font-size: 24px;
   line-height: 155.19%;
   font-weight: bold;
+  background: #fff;
 }
 
 .human-augumentation-section2 .human-aug2 .title {
@@ -1251,16 +1255,6 @@ html {
 /* CLOSING CONTENT STYLES END */
 
 
-
-
-
-
-
-
-
-
-
-
 /* SCROLL TOP ANIMATION STYLES START */
 #scrollTop {
   position: fixed;
@@ -1295,3 +1289,18 @@ html {
 }
 
 /* SCROLL TOP ANIMATION STYLES END */
+
+.footer-link {
+  font-size: 16px;
+  color: #fff;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #716f71;
+  text-decoration: none;
+}
