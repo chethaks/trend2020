@@ -835,7 +835,8 @@ $new-bg-color: #00a1e8;
         padding-top: 5%;
       }
       h2 {
-        padding: 10%;
+        padding: 10% 10% 0 10%;
+        font-weight: 600;
       }
     }
     .image-section {
@@ -876,7 +877,7 @@ $new-bg-color: #00a1e8;
         line-height: 36px;
       }
       h2 {
-        padding: 10%;
+        padding: 10% 10% 5%;
         font-size: 21px;
         line-height: 36px;
       }
@@ -1117,4 +1118,23 @@ position: absolute;
     width: 30%;
     right: 10%;
     top: 10%;
+}
+
+.span3{
+  font-weight: bold;
+font-size: 20px;
+line-height: 26px;
+color: #2266B0;
+display: block;
+    width: 30%;
+}
+
+.span4{
+  font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+color: #2266B0;
+width: 40%;
+    display: inline-block;
+    padding-top: 2%;
 }

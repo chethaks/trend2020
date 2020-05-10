@@ -846,7 +846,8 @@
 }
 
 #new-business #business-3 .content-section h2 {
-  padding: 10%;
+  padding: 10% 10% 0 10%;
+  font-weight: 600;
 }
 
 #new-business #business-3 .image-section h3 {
@@ -881,7 +882,7 @@
 }
 
 #new-business #business-5 .content-section h2 {
-  padding: 10%;
+  padding: 10% 10% 5%;
   font-size: 21px;
   line-height: 36px;
 }
@@ -1126,4 +1127,23 @@
   width: 30%;
   right: 10%;
   top: 10%;
+}
+
+.span3 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  color: #2266B0;
+  display: block;
+  width: 30%;
+}
+
+.span4 {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #2266B0;
+  width: 40%;
+  display: inline-block;
+  padding-top: 2%;
 }
