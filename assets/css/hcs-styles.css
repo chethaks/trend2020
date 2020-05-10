@@ -11,6 +11,7 @@ html {
 .bg.bg-banner {
   background-image: url("../images/hcs/hcs-top-banner.png");
 }
+
 .bg {
   height: 100vh;
   background-position: center;
@@ -19,7 +20,8 @@ html {
 }
 
 .bg-trend .hero-title-sec {
-  margin-left: 200px;
+  padding-top: 10px;
+  margin-left: 15%;
 }
 
 .bg-trend h1.hero-banner-title {
@@ -38,53 +40,49 @@ html {
 }
 
 .bg-trend h6.hero-banner-cont {
-  color: #ffffff;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 21px;
-        letter-spacing: 0.1em;
-        padding-left: 5px;
-        -webkit-animation: text-focus-in 1s
-          cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-        animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-        padding-top: 10px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: normal;
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both
 }
 
 @-webkit-keyframes text-focus-in {
   0% {
-      -webkit-filter: blur(12px);
-      filter: blur(12px);
-      opacity: 0
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0
   }
 
   100% {
-      -webkit-filter: blur(0px);
-      filter: blur(0px);
-      opacity: 1
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1
   }
 }
 
 @keyframes text-focus-in {
   0% {
-      -webkit-filter: blur(12px);
-      filter: blur(12px);
-      opacity: 0
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0
   }
 
   100% {
-      -webkit-filter: blur(0px);
-      filter: blur(0px);
-      opacity: 1
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1
   }
 }
 
 /* HERO BANNER TEXT STYLE END */
 
-.nav-item.active{
+.nav-item.active {
   position: relative;
 }
 
-.nav-item.active:after{
+.nav-item.active:after {
   content: '';
   position: absolute;
   left: 30px;
@@ -93,11 +91,11 @@ html {
   border-bottom: solid 3px white;
 }
 
-.hcs-market-trends{
+.hcs-market-trends {
   position: relative;
 }
 
-.mrkt-trends{
+.mrkt-trends {
   position: absolute;
   top: 107px;
   right: 220px;
@@ -313,7 +311,7 @@ html {
 }
 
 .con-lifestyle2 .conn-lifestyle .cont-whitebg .cont-listitem li {
-  padding-bottom: 15px;
+  padding-bottom: 25px;
 }
 
 .con-lifestyle2 .cont-whitebg .source,
@@ -814,9 +812,9 @@ html {
 
 .platform-innovation-section .img-container .source {
   position: absolute;
-  right: 0;
-  text-align: right;
-  bottom: -80px;
+  left: 5px;
+  text-align: left;
+  bottom: -40px;
   font-style: italic;
   font-size: 10px;
   font-weight: 900;
@@ -914,4 +912,5 @@ html {
   filter: "alpha(opacity=100)";
   -ms-filter: "alpha(opacity=100)"
 }
+
 /* SCROLL TOP ANIMATION STYLES END */

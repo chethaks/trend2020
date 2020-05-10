@@ -11,11 +11,11 @@ html {
   background-color: #f7f7f7;
 }
 
-.nav-item.active{
+.nav-item.active {
   position: relative;
 }
 
-.nav-item.active:after{
+.nav-item.active:after {
   content: '';
   position: absolute;
   left: 30px;
@@ -29,6 +29,7 @@ html {
   /* The image used */
   background-image: url("../images/ls/ls-top-banner.png");
 }
+
 .bg {
   height: 100vh;
   background-position: center;
@@ -37,7 +38,8 @@ html {
 }
 
 .bg-trend .hero-title-sec {
-  margin-left: 200px;
+  padding-top: 10px;
+  margin-left: 15%;
 }
 
 .bg-trend h1.hero-banner-title {
@@ -56,43 +58,39 @@ html {
 }
 
 .bg-trend h6.hero-banner-cont {
-  color: #ffffff;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 21px;
-        letter-spacing: 0.1em;
-        padding-left: 5px;
-        -webkit-animation: text-focus-in 1s
-          cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-        animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-        padding-top: 10px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: normal;
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both
 }
 
 @-webkit-keyframes text-focus-in {
   0% {
-      -webkit-filter: blur(12px);
-      filter: blur(12px);
-      opacity: 0
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0
   }
 
   100% {
-      -webkit-filter: blur(0px);
-      filter: blur(0px);
-      opacity: 1
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1
   }
 }
 
 @keyframes text-focus-in {
   0% {
-      -webkit-filter: blur(12px);
-      filter: blur(12px);
-      opacity: 0
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0
   }
 
   100% {
-      -webkit-filter: blur(0px);
-      filter: blur(0px);
-      opacity: 1
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1
   }
 }
 
@@ -664,6 +662,7 @@ html {
   font-size: 24px;
   line-height: 155.19%;
   font-weight: bold;
+  background: #fff;
 }
 
 .multisen-exp-section3 .multisensry-exp3 .title {
@@ -844,6 +843,7 @@ html {
   font-size: 24px;
   line-height: 155.19%;
   font-weight: bold;
+  background: #fff;
 }
 
 .gaming-esports-section2 .gaming-esports2 .title {
@@ -1038,6 +1038,7 @@ html {
   font-size: 24px;
   line-height: 155.19%;
   font-weight: bold;
+  background: #fff;
 }
 
 .human-augumentation-section2 .human-aug2 .title {
@@ -1254,16 +1255,6 @@ html {
 /* CLOSING CONTENT STYLES END */
 
 
-
-
-
-
-
-
-
-
-
-
 /* SCROLL TOP ANIMATION STYLES START */
 #scrollTop {
   position: fixed;
@@ -1298,3 +1289,18 @@ html {
 }
 
 /* SCROLL TOP ANIMATION STYLES END */
+
+.footer-link {
+  font-size: 16px;
+  color: #fff;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #716f71;
+  text-decoration: none;
+}

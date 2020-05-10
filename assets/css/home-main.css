@@ -760,6 +760,7 @@ footer span {
   padding: 20% 15%;
   border: 1px solid #98e1f3;
   margin-bottom: 15px;
+  min-height: 300px;
 }
 
 .no-gradient-graph .closer-section .the-end .col-sm-12 h1 {
@@ -767,7 +768,7 @@ footer span {
   font-size: 40px;
   line-height: 47px;
   text-align: center;
-  color: #98e1f3;
+  color: #ffffff;
   width: 100%;
 }
 
@@ -872,4 +873,60 @@ footer span {
   position: absolute;
   left: 12%;
   bottom: 10%;
+}
+
+.bg-trend .hero-title-sec {
+  padding-top: 10px;
+  margin-left: 15%;
+  position: relative;
+}
+
+.bg-trend h1.home-banner-title {
+  width: 695px;
+}
+
+.bg-trend h1.hero-banner-title {
+  color: #fff;
+  font-weight: bold;
+  font-size: 76px;
+  line-height: 90px;
+  letter-spacing: 0.1em;
+  margin-bottom: 20px;
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+.bg-trend h6.hero-banner-cont {
+  color: #fff;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: normal;
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+.year-2020 {
+  position: absolute;
+  left: 0;
+  top: -30px;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.1em;
+  color: #fff;
+  padding-left: 5px;
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+.footer-link {
+  font-size: 16px;
+  color: #9A9999;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #9A9999;
+  text-decoration: none;
 }

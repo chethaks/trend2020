@@ -806,8 +806,6 @@ footer span {
   padding: 50px;
 }
 
-/* COMPETITION MEETING SPACENG STYLES END */
-/* PARTNERSHIP STYLES START */
 .strategic-partnership-section .stragic-partnership {
   background: #fff;
   position: relative;
@@ -826,7 +824,6 @@ footer span {
   padding-bottom: 40px !important;
 }
 
-/* PARTNERSHIP STYLES END */
 .show-section {
   display: block !important;
 }
@@ -849,7 +846,8 @@ footer span {
 }
 
 .bg-trend .hero-title-sec {
-  margin-left: 200px;
+  padding-top: 10px;
+  margin-left: 15%;
 }
 
 .bg-trend h1.hero-banner-title {
@@ -868,15 +866,12 @@ footer span {
 }
 
 .bg-trend h6.hero-banner-cont {
-  color: #ffffff;
-  font-weight: normal;
+  color: #fff;
   font-size: 18px;
-  line-height: 21px;
-  letter-spacing: 0.1em;
-  padding-left: 5px;
+  line-height: 28px;
+  font-weight: normal;
   -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
   animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-  padding-top: 10px;
 }
 
 .common-section .global-header.pro-solution-title {
@@ -885,4 +880,20 @@ footer span {
 
 .bg-trend h1.pro-sol-title {
   width: 650px;
+}
+
+.prosol-mrkt-trends {
+  padding-right: 250px;
+}
+
+.footer-link {
+  font-size: 16px;
+  color: #fff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #716f71;
+  text-decoration: none;
 }
