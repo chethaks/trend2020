@@ -59,7 +59,7 @@ section {
   background-size: cover;
 
   &.bg-banner {
-    background-image: url("../images/ps/TB_PS-header-image-01.png");
+    background-image: url("../images/ps/TB_PS-header-image-01-new.jpg");
   }
 
   &.market-bg-1 {
@@ -922,5 +922,35 @@ footer {
   &:hover {
     color: #9A9999;
     text-decoration: none;
+  }
+}
+
+/**
+ * ----------------------------------------
+ * animation text-focus-in
+ * ----------------------------------------
+ */
+ @-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
   }
 }
