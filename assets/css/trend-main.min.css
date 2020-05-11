@@ -151,11 +151,11 @@ section {
     font-weight: bold;
     line-height: 28px;
     letter-spacing: 0.06em;
-    padding: 2rem 7rem 2rem 2rem
+    padding: 2rem
 }
 
 .bg-trend .bg-trend-cta .market-trend-cta span.split-txt {
-    display: inline-block
+    display: block
 }
 
 .bg-trend .bg-trend-cta .market-trend-cta span.banner-arrow {
@@ -179,11 +179,11 @@ section {
     font-weight: bold;
     line-height: 28px;
     letter-spacing: 0.06em;
-    padding: 2rem 10rem 2rem 2rem
+    padding: 2rem
 }
 
 .bg-trend .bg-trend-cta .covid-19-cta .split-txt {
-    display: inline-block
+    display: block
 }
 
 .bg-trend .bg-trend-cta .covid-19-cta span.banner-arrow {
@@ -489,6 +489,9 @@ section {
     padding-bottom: 10px;
     display: inline-block
 }
+
+
+
 
 .common-section .global-header .global-title h1.prod-glbl-title {
     width: 54%
@@ -890,7 +893,7 @@ footer span {
     width: 650px
 }
 
-.prosol-mrkt-trends{
+.prosol-mrkt-trends {
     padding-right: 250px;
 }
 
@@ -907,4 +910,36 @@ footer span {
 .footer-link:hover {
     color: #716f71;
     text-decoration: none;
+}
+
+.enduser-betterexp-title {
+    width: 280px;
+}
+
+.enduser-monetization-title {
+    width: 320px;
+}
+
+.ver-meetingspace-title{
+    width: 440px;
+}
+
+.ver-fillgap-title{
+    width: 440px;
+}
+
+.comp-scaling-title{
+    width: 370px;
+}
+
+.chan-players-title{
+    width: 380px;
+}
+
+.prod-network-title{
+    width: 600px;
+}
+
+.prod-platform-title{
+    width: 540px;
 }
