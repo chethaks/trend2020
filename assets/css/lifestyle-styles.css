@@ -1304,3 +1304,21 @@ html {
   color: #9A9999;
   text-decoration: none;
 }
+
+@media (max-width: 1024px) {
+  .navbar {
+    background: #2266b0;
+    color: #ffffff;
+  }
+  .navbar-brand {
+    color: #ffffff;
+    font-size: 16px;
+  }
+
+  .navbar-brand img{
+    width: 60px;
+  }
+  .fa{
+    color: #ffffff;
+  }
+}

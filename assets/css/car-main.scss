@@ -371,7 +371,7 @@ $new-bg-color: #00a1e8;
 }
 .closing-text-car {
   h1 {
-    font-weight: 900;
+    font-weight: normal;
     font-size: 30px;
     line-height: 36px;
     letter-spacing: 0.1em;
@@ -1128,4 +1128,88 @@ color: #2266B0;
 width: 40%;
     display: inline-block;
     padding-top: 2%;
+}
+
+#scrollTopCar {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background-color: #2266b0;
+  text-indent: -9999px;
+  display: none;
+  border-radius: 60px;
+  z-index: 9999;
+
+  span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -8px;
+    margin-top: -12px;
+    height: 0;
+    width: 0;
+    border: 8px solid transparent;
+    border-bottom-color: #ffffff;
+  }
+
+  &:hover {
+    background-color: #5bcae6;
+    opacity: 1;
+    filter: "alpha(opacity=100)";
+    -ms-filter: "alpha(opacity=100)";
+  }
+}
+
+.bg-trend {
+  .hero-title-sec {
+    padding-top: 10px;
+    margin-left: 15%;
+  }
+
+  h1 {
+    &.hero-banner-title {
+      color: #fff;
+      font-weight: bold;
+      font-size: 76px;
+      line-height: 90px;
+      letter-spacing: 0.1em;
+      margin-bottom: 20px;
+      -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+      animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+    }
+
+    &.hcs-title {
+      width: 510px;
+    }
+  }
+
+  h6.hero-banner-cont {
+    color: #fff;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    padding-left: 5px;
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+    animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  }
+}
+
+@media (max-width: 1024px) {
+  .navbar {
+    background: $secondary-color;
+    color: $white;
+    .navbar-brand {
+      color: $white;
+      font-size: 16px;
+      img{
+        width: 60px;
+      }
+    }
+    .fa{
+      color: $white;
+    }
+  }
 }

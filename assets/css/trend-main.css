@@ -1,3 +1,4 @@
+/* Color Variables*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 body, html {
   font-family: "Roboto", sans-serif;
@@ -226,7 +227,6 @@ section {
 .common-tabs {
   background-color: #fff;
   width: 22%;
-  /* height: 450px; */
   position: absolute;
   margin-top: 10rem;
   z-index: 2;
@@ -436,7 +436,7 @@ section {
 }
 
 .common-section .global-header {
-  padding: 100px 10% 1%;
+  padding: 140px 10% 1%;
 }
 
 .mtop-0 {
@@ -771,16 +771,6 @@ footer span {
   float: right;
 }
 
-@media (max-width: 991.98px) {
-  .navbar {
-    background: #fff;
-  }
-  .navbar .navbar-brand, .navbar .nav-link {
-    color: #000;
-  }
-}
-
-/* COMPETITION MEETING SPACE STYLES START */
 .comp-meeting-space-section .meeting-space {
   height: 80vh;
   background: #fff;
@@ -869,8 +859,9 @@ footer span {
 .bg-trend h6.hero-banner-cont {
   color: #fff;
   font-size: 18px;
-  line-height: 28px;
-  font-weight: normal;
+  line-height: 21px;
+  letter-spacing: 0.1em;
+  padding-left: 5px;
   -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
   animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }
@@ -899,11 +890,6 @@ footer span {
   text-decoration: none;
 }
 
-/**
- * ----------------------------------------
- * animation text-focus-in
- * ----------------------------------------
- */
 @-webkit-keyframes text-focus-in {
   0% {
     -webkit-filter: blur(12px);
@@ -927,5 +913,22 @@ footer span {
     -webkit-filter: blur(0px);
     filter: blur(0px);
     opacity: 1;
+  }
+}
+
+@media (max-width: 1024px) {
+  .navbar {
+    background: #2266b0;
+    color: #ffffff;
+  }
+  .navbar .navbar-brand {
+    color: #ffffff;
+    font-size: 16px;
+  }
+  .navbar .navbar-brand img {
+    width: 60px;
+  }
+  .navbar .fa {
+    color: #ffffff;
   }
 }

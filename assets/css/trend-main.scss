@@ -1,3 +1,14 @@
+/* Color Variables*/
+$background: #f5f5f5;
+$primary-color: #5bcae6;
+$secondary-color: #2266b0;
+$white: #ffffff;
+$black: #000000;
+$sub-head: #f7f7f7;
+$car-tab-color: #6d6d6d;
+$new-bg-color: #00a1e8;
+
+
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 body, html {
@@ -233,8 +244,6 @@ section {
 .common-tabs {
   background-color: #fff;
   width: 22%;
-
-  /* height: 450px; */
   position: absolute;
   margin-top: 10rem;
   z-index: 2;
@@ -294,7 +303,6 @@ section {
 }
 
 #openCovideSection {
-  // display: none;
   padding-top: 0;
   padding-bottom: 0;
 }
@@ -447,7 +455,7 @@ section {
 }
 
 .common-section .global-header {
-  padding: 100px 10% 1%;
+  padding: 140px 10% 1%;
 }
 
 .mtop-0 {
@@ -759,6 +767,7 @@ img.plr-0 {
   display: none;
   border-radius: 60px;
   z-index: 9999;
+
   span {
     position: absolute;
     top: 50%;
@@ -789,17 +798,6 @@ footer {
   }
 }
 
-@media (max-width: 991.98px) {
-  .navbar {
-    background: #fff;
-
-    .navbar-brand, .nav-link {
-      color: #000;
-    }
-  }
-}
-
-/* COMPETITION MEETING SPACE STYLES START */
 .comp-meeting-space-section .meeting-space {
   height: 80vh;
   background: #fff;
@@ -891,8 +889,9 @@ footer {
   h6.hero-banner-cont {
     color: #fff;
     font-size: 18px;
-    line-height: 28px;
-    font-weight: normal;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    padding-left: 5px;
     -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
     animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
   }
@@ -914,9 +913,6 @@ footer {
   font-size: 16px;
   color: #9A9999;
   -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 
   &:hover {
@@ -925,32 +921,47 @@ footer {
   }
 }
 
-/**
- * ----------------------------------------
- * animation text-focus-in
- * ----------------------------------------
- */
- @-webkit-keyframes text-focus-in {
+@-webkit-keyframes text-focus-in {
   0% {
     -webkit-filter: blur(12px);
     filter: blur(12px);
     opacity: 0;
   }
+
   100% {
     -webkit-filter: blur(0px);
     filter: blur(0px);
     opacity: 1;
   }
 }
+
 @keyframes text-focus-in {
   0% {
     -webkit-filter: blur(12px);
     filter: blur(12px);
     opacity: 0;
   }
+
   100% {
     -webkit-filter: blur(0px);
     filter: blur(0px);
     opacity: 1;
+  }
+}
+
+@media (max-width: 1024px) {
+  .navbar {
+    background: $secondary-color;
+    color: $white;
+    .navbar-brand {
+      color: $white;
+      font-size: 16px;
+      img{
+        width: 60px;
+      }
+    }
+    .fa{
+      color: $white;
+    }
   }
 }

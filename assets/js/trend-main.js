@@ -424,3 +424,24 @@ $("#covidClick").click(function () {
   );
   return false;
 });
+
+
+$(window).scroll(function () {
+  if ($(this).scrollTop() > 12000) {
+    $("#scrollTopCar").fadeIn();
+  } else {
+    $("#scrollTopCar").fadeOut();
+  }
+  return false;
+});
+
+$("#scrollTopCar").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#marketSection").offset().top,
+    },
+    2000,
+  );
+  return false;
+});
+

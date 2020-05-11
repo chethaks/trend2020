@@ -188,10 +188,11 @@ section {
 
 .home-page .home-intro {
   position: relative;
+  height: 100%;
 }
 
 .home-page .home-intro .intro-content {
-  padding: 20% 20% 10% 0;
+  padding: 15% 10% 10% 0;
 }
 
 .home-page .home-intro .intro-content h1 {
@@ -207,7 +208,7 @@ section {
   line-height: 189.19%;
   letter-spacing: 0.08em;
   color: #ffffff;
-  margin: 5% 0;
+  margin: 4% 0;
 }
 
 .home-page .home-intro .intro-content h4 {
@@ -383,7 +384,7 @@ footer span {
   font-weight: bold;
   font-size: 20px;
   color: #15589A;
-  padding: 2% 10%;
+  padding: 2% 5%;
 }
 
 .home-parallax .parallax-bgimg {
@@ -508,6 +509,10 @@ footer span {
   color: #15589a;
 }
 
+.home-parallax .parallax-content .parallax-graph .parallax-graph-image img {
+  width: 90%;
+}
+
 .parallax-covid .covid-header {
   font-weight: normal;
   font-size: 130px;
@@ -611,6 +616,8 @@ footer span {
 .gradient-bg .gragh-section {
   padding: 10% 0 30%;
   margin: 10% 15% 0;
+  position: relative;
+  z-index: 2;
 }
 
 .gradient-bg .gragh-section h1 {
@@ -636,7 +643,7 @@ footer span {
 }
 
 .gradient-bg .gragh-section img {
-  width: 70%;
+  width: 100%;
   background-color: #ffffff;
   position: absolute;
   z-index: 1;
@@ -644,8 +651,13 @@ footer span {
 
 .no-gradient-graph .relative-div {
   position: relative;
-  z-index: 0;
+  z-index: 1;
   bottom: 175px;
+  width: 50%;
+}
+
+.no-gradient-graph .relative-div img {
+  width: 100%;
 }
 
 .no-gradient-graph .new-pattern {
@@ -685,9 +697,15 @@ footer span {
   position: relative;
 }
 
+.no-gradient-graph .final-graphs img {
+  width: 85%;
+}
+
 .no-gradient-graph .saviours {
   margin: 0 15%;
   position: absolute;
+  width: 70%;
+  z-index: 1;
 }
 
 .no-gradient-graph .saviours h1 {
@@ -724,15 +742,20 @@ footer span {
   color: #F5F5F5;
 }
 
+.no-gradient-graph .closer-section .col-sm-3 img {
+  width: 100%;
+}
+
 .no-gradient-graph .closer-section .closer-summary {
-  padding-top: 10%;
+  padding-top: 20%;
   position: relative;
 }
 
 .no-gradient-graph .closer-section .closer-summary img {
-  position: relative;
-  top: 260px;
-  left: 350px;
+  position: absolute;
+  left: 21%;
+  top: 59%;
+  width: 25%;
 }
 
 .no-gradient-graph .closer-section .closer-summary p {
@@ -792,7 +815,7 @@ footer span {
   position: absolute;
   top: 0;
   right: 0;
-  z-index: 1;
+  z-index: 0;
 }
 
 .pattern-image1 img {
@@ -829,8 +852,7 @@ footer span {
   right: 10px;
   bottom: 10px;
   cursor: pointer;
-  width: 50px;
-  height: 50px;
+  padding: 2%;
   background-color: #2266b0;
   text-indent: -9999px;
   display: none;
@@ -866,28 +888,32 @@ footer span {
   position: absolute;
   bottom: -5%;
   left: -20%;
+  width: 65%;
 }
 
 .img-src {
   position: absolute;
   left: 8%;
   bottom: 15%;
+  width: 30% !important;
 }
 
 .img-src2 {
   position: absolute;
   left: 12%;
   bottom: 10%;
+  width: 30% !important;
 }
 
 .bg-trend .hero-title-sec {
   padding-top: 10px;
   margin-left: 15%;
   position: relative;
+  width: 80%;
 }
 
 .bg-trend h1.home-banner-title {
-  width: 695px;
+  width: 100%;
 }
 
 .bg-trend h1.hero-banner-title {
@@ -904,7 +930,9 @@ footer span {
 .bg-trend h6.hero-banner-cont {
   color: #fff;
   font-size: 18px;
-  line-height: 28px;
+  line-height: 21px;
+  letter-spacing: 0.1em;
+  padding-left: 5px;
   font-weight: normal;
   -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
   animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
@@ -919,7 +947,6 @@ footer span {
   line-height: 42px;
   letter-spacing: 0.1em;
   color: #fff;
-  padding-left: 5px;
   -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
   animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }
@@ -951,4 +978,151 @@ footer span {
 .the-end a:hover {
   color: #ffffff;
   text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+  .navbar {
+    background: #2266b0;
+    color: #ffffff;
+  }
+  .navbar .navbar-brand {
+    color: #ffffff;
+    font-size: 16px;
+  }
+  .navbar .navbar-brand img {
+    width: 60px;
+  }
+  .navbar .fa {
+    color: #ffffff;
+  }
+  .home-parallax .parallax-content .parallax-graph h1 {
+    font-size: 20px;
+  }
+  .home-parallax .parallax-content .parallax-graph .parallax-graph-image .graph-text1 {
+    font-size: 16px;
+  }
+  .home-parallax .parallax-content .parallax-graph .parallax-graph-image .graph-text2 {
+    font-size: 16px;
+  }
+  .home-parallax .parallax-content .parallax-graph .parallax-graph-image p {
+    font-size: 12px;
+  }
+  .home-parallax .parallax-content .white-box span {
+    font-size: 30px;
+    line-height: initial;
+    min-height: 80px;
+  }
+  .home-parallax .parallax-content .extra-heading {
+    font-size: 14px;
+  }
+  .gradient-bg .gragh-section h1 {
+    font-size: 20px;
+  }
+  .gradient-bg .year-100 h1 {
+    width: 400px;
+    font-size: 16px;
+    line-height: inherit;
+  }
+  .gradient-bg .year-100 h2 {
+    width: 400px;
+    font-size: 16px;
+    line-height: inherit;
+  }
+  .gradient-bg .year-100 h3 {
+    width: 400px;
+    font-size: 16px;
+    line-height: inherit;
+  }
+  .no-gradient-graph h1 {
+    font-size: 20px;
+  }
+  .no-gradient-graph .saviours h1 {
+    font-size: 20px;
+  }
+  .no-gradient-graph .closer-section .closer-summary p {
+    font-size: 12px;
+  }
+  .no-gradient-graph .closer-section .flat-bg h5 {
+    font-size: 12px;
+  }
+  .no-gradient-graph .closer-section .the-end .col-sm-12 {
+    font-size: 26px;
+    min-height: 200px;
+    line-height: inherit;
+  }
+  .extra-text-on-img {
+    font-size: 16px;
+  }
+  .new-h1 {
+    font-size: 24px;
+  }
+  .bg-trend h1.hero-banner-title {
+    font-size: 48px;
+    line-height: initial;
+  }
+  .bg-trend h6.hero-banner-cont {
+    font-size: 12px;
+  }
+  .parallax-image img {
+    width: 70%;
+  }
+  .home-page .home-intro .intro-content {
+    padding: 10%;
+  }
+  .home-page .home-intro .intro-content h1 {
+    font-size: 16px;
+  }
+  .home-page .home-intro .intro-content p {
+    font-size: 10px;
+  }
+  .home-page .home-intro .intro-content h4 {
+    font-size: 12px;
+  }
+  .home-page .home-intro .intro-content span {
+    font-size: 12px;
+  }
+  .parallax-covid .covid-header {
+    font-size: 50px;
+    letter-spacing: 0;
+  }
+  .parallax-covid .covid-header h1 {
+    font-size: 50px;
+  }
+  .intro-video .videobg-container div {
+    font-size: 50px !important;
+  }
+  .intro-video .videobg-container div h1 {
+    font-size: 50px !important;
+  }
+  .intro-video .videobg-container div h2 {
+    font-size: 24px;
+    line-height: initial;
+  }
+  .intro-video .videobg-container div h3 {
+    font-size: 50px !important;
+  }
+}
+
+/* 4. Handling resize and small devices
+--------------------------------------- */
+.error {
+  display: none;
+  position: fixed;
+  width: 80%;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+  top: 30%;
+  left: 10%;
+}
+
+@media all and (max-width: 768px) {
+  .container-fluid {
+    display: none;
+  }
+  .error {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+  }
 }
