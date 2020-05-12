@@ -159,26 +159,31 @@ html {
 
 .trends-list-item {
   padding-top: 150px;
+  padding-left: 50px;
 }
 
 .trends-list-item li {
   background-color: #2266b0;
-  padding: 2% !important;
+  padding: 20px !important;
   min-height: 100%;
   display: inline-block;
-  width: 16%;
+  width: 170px;
   height: 195px;
-  margin: 1%;
+  margin: 0;
   text-align: left;
   position: relative;
+}
+
+.trends-list-item li:last-child {
+  margin-right: 8px;
 }
 
 .trends-list-item li span {
   position: absolute;
   bottom: 25px;
-  left: 25px;
-  right: 25px;
-  font-size: 18px;
+  left: 20px;
+  right: 20px;
+  font-size: 16px;
   font-weight: bold;
   line-height: 24px;
   letter-spacing: 0.06em;

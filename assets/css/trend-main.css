@@ -97,10 +97,14 @@ section {
 
 .bg.market-bg-svg1 {
   background-image: url("../images/ps/graph_gif.gif");
-  background-position: center 190px;
+  background-position: center 220px;
   background-color: #fff;
   background-size: contain;
-  height: 110vh;
+  height: 800px;
+}
+
+.prosol-hero-ctas {
+  padding: 0 15%;
 }
 
 .covid-bg {
@@ -148,11 +152,11 @@ section {
   font-weight: bold;
   line-height: 28px;
   letter-spacing: 0.06em;
-  padding: 2rem 7rem 2rem 2rem;
+  padding: 2rem;
 }
 
 .bg-trend .bg-trend-cta .market-trend-cta span.split-txt {
-  display: inline-block;
+  display: block;
 }
 
 .bg-trend .bg-trend-cta .market-trend-cta span.banner-arrow {
@@ -176,11 +180,11 @@ section {
   font-weight: bold;
   line-height: 28px;
   letter-spacing: 0.06em;
-  padding: 2rem 10rem 2rem 2rem;
+  padding: 2rem;
 }
 
 .bg-trend .bg-trend-cta .covid-19-cta .split-txt {
-  display: inline-block;
+  display: block;
 }
 
 .bg-trend .bg-trend-cta .covid-19-cta span.banner-arrow {
@@ -393,23 +397,23 @@ section {
 }
 
 .common-image-bg .market-trend-content h3.vertical-sec {
-  width: 30%;
+  width: 345px;
 }
 
 .common-image-bg .market-trend-content h3.enduser-sec {
-  width: 18%;
+  width: 210px;
 }
 
 .common-image-bg .market-trend-content h3.competitors-sec {
-  width: 20%;
+  width: 275px;
 }
 
 .common-image-bg .market-trend-content h3.channel-sec {
-  width: 25%;
+  width: 285px;
 }
 
 .common-image-bg .market-trend-content h3.product-sec {
-  width: 40%;
+  width: 440px;
 }
 
 .common-image-bg .market-trend-content h3:after {
@@ -425,6 +429,7 @@ section {
   position: relative;
   left: -10px;
   top: 40px;
+  cursor: pointer;
 }
 
 .common-section {
@@ -500,11 +505,7 @@ section {
   width: 40%;
 }
 
-.common-section .global-header .global-title h1.w40 {
-  width: 28%;
-}
-
-.common-section .global-header .global-title h1.w35 {
+.common-section .global-header .global-title h1.w40, .common-section .global-header .global-title h1.w35 {
   width: 35%;
 }
 
@@ -603,7 +604,7 @@ img.plr-0 {
 .common-covid-section .covid-left-section ul {
   background-color: #fff;
   margin: 0 18% 10% 10%;
-  padding: 4%;
+  padding: 4% 6% 4% 4%;
 }
 
 .common-covid-section .covid-left-section ul li {
@@ -739,7 +740,6 @@ img.plr-0 {
   text-indent: -9999px;
   display: none;
   border-radius: 60px;
-  z-index: 9999;
 }
 
 #scrollTop span {
@@ -919,16 +919,44 @@ footer span {
 @media (max-width: 1024px) {
   .navbar {
     background: #2266b0;
-    color: #ffffff;
+    color: #fff;
   }
   .navbar .navbar-brand {
-    color: #ffffff;
+    color: #fff;
     font-size: 16px;
   }
   .navbar .navbar-brand img {
     width: 60px;
   }
   .navbar .fa {
-    color: #ffffff;
+    color: #fff;
   }
+}
+
+.enduser-betterexp-title {
+  width: 280px;
+}
+
+.enduser-monetization-title {
+  width: 320px;
+}
+
+.ver-meetingspace-title, .ver-fillgap-title {
+  width: 440px;
+}
+
+.comp-scaling-title {
+  width: 370px;
+}
+
+.chan-players-title {
+  width: 380px;
+}
+
+.prod-network-title {
+  width: 600px;
+}
+
+.prod-platform-title {
+  width: 540px;
 }

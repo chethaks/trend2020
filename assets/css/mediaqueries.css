@@ -1,0 +1,109 @@
+@media (min-width: 960px) and (max-width: 1199.98px) {
+
+  /* LIFESTYLE STYLES START */
+  .consumer-ptrn-section .ls-cont-sec {
+    min-height: 700px;
+  }
+
+  .ls-cont-sec .rgt-column .box-cont1,
+  .ls-cont-sec .rgt-column .box-cont2 {
+    height: inherit;
+  }
+
+  .ls-cont-sec .rgt-column .subcont-box {
+    top: 20px;
+  }
+
+  .emerging-tech-section .emerging-techlgy,
+  .human-augumentation-section2 .human-aug2 {
+    min-height: 700px;
+  }
+
+  .emerging-tech-section .emerging-techlgy .term-flag-box {
+    right: 0;
+  }
+
+  .gaming-esports-section .gaming-esports .terms-flag-container,
+  .human-augumentation-section .human-aug .terms-flag-container,
+  .robotics-section .robotics .terms-flag-container {
+    width: 56%;
+  }
+
+  .gaming-esports-section2 .gaming-esports2 .title,
+  .multisen-exp-section3 .multisensry-exp3 .title{
+    padding: 66px 5% 66px 10%;
+  }
+
+  .gaming-esports-section .gaming-esports .lft-column,
+  .gaming-esports-section2 .gaming-esports2 .rgt-column,
+  .human-augumentation-section .human-aug .lft-column,
+  .human-augumentation-section2 .human-aug2 .rgt-column,
+  .robotics-section .robotics .lft-column{
+    padding-top: 150px;
+  }
+
+  /* LIFESTYLE STYLES END */
+
+
+
+
+  /* PROSOLUTION STYLES START */
+
+  #market-trend-tab .market-trend-content {
+    left: 55%;
+  }
+
+  .prosol-hero-ctas {
+    padding: 0 5%;
+  }
+
+  .prosolution .bg.market-bg-svg1 {
+    height: 650px;
+  }
+
+  .common-covid-section .covid-left-section ul {
+    margin-right: 26%;
+  }
+
+  .common-covid-section .covid-middle-section .covid-middle-card {
+    width: 335px;
+  }
+
+  .common-covid-section .covid-middle-section .covid-middle-card .title-cont {
+    width: 335px;
+  }
+
+  .common-covid-section .covid-right-section ul {
+    padding: 4% 5% 4% 25%;
+  }
+
+  .prosol-mrkt-trends {
+    padding-right: 50px;
+  }
+  /* PROSOLUTION STYLES END */
+
+
+
+
+  /* MAIN NAV LINK STYLES START */
+  .navbar .nav-link {
+    padding-left: 0.8rem !important;
+    padding-right: 0.8rem !important;
+  }
+
+  .nav-item.active:after {
+    left: 12px;
+    right: 12px;
+  }
+
+  /* MAIN NAV LINK STYLES END */
+
+
+}
+
+
+@media (min-width: 1200px) {
+  .prosol-mrkt-trends {
+    padding-right: 190px;
+  }
+}

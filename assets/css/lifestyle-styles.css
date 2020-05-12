@@ -98,6 +98,7 @@ html {
 
 .trends-list-item {
   padding-top: 150px;
+  padding-left: 50px;
 }
 
 .trends-list-item li {
@@ -110,6 +111,11 @@ html {
   margin: 0;
   text-align: left;
   position: relative;
+  margin-bottom: 5px;
+}
+
+.trends-list-item li:last-child {
+  margin-right: 8px;
 }
 
 .trends-list-item li span {
@@ -318,7 +324,7 @@ html {
   padding: 15px 30px 15px 60px;
   margin-left: 210px;
   position: relative;
-  height: 110px;
+  /* height: 110px; */
   color: #2367B1;
   font-size: 15px;
   line-height: 130%;
@@ -385,7 +391,7 @@ html {
 }
 
 .emerging-tech-section .emerging-techlgy {
-  min-height: 600px;
+  min-height: 650px;
   background: #F5F6F7;
   position: relative;
 }
@@ -409,10 +415,10 @@ html {
 
 .emerging-tech-section .emerging-techlgy .term-flag-box {
   position: absolute;
-  left: -143px;
-  bottom: -120px;
-  padding: 20px 80px 20px 140px;
-  width: 520px;
+  left: 0;
+  bottom: 30px;
+  padding: 20px 80px 20px 23%;
+  right: 50px;
   background-image: url(../images/ls/term-flag.svg);
   background-color: #5BCAE6;
   background-repeat: no-repeat;
@@ -421,6 +427,10 @@ html {
   font-weight: bold;
   font-size: 16px;
   line-height: 155.19%;
+}
+
+.emerging-tech-section .emerging-techlgy .term-flag-box span {
+  color: #fff;
 }
 
 
@@ -535,7 +545,7 @@ html {
   position: absolute;
   right: 0px;
   padding: 20px 30px 20px 70px;
-  width: 410px;
+  width: 420px;
   background-image: url(../images/ls/term-flag.svg);
   background-color: #5BCAE6;
   background-repeat: no-repeat;
@@ -1032,7 +1042,7 @@ html {
 .human-augumentation-section2 .human-aug2 .lft-column {
   position: absolute;
   left: 0;
-  width: 56%;
+  width: 52%;
   padding: 60px 80px 20px 90px;
   color: #fff;
   font-size: 24px;
@@ -1053,8 +1063,8 @@ html {
   position: absolute;
   right: 0;
   top: 0px;
-  width: 44%;
-  padding: 66px 10%;
+  width: 48%;
+  padding: 66px 5% 66px 10%;
 }
 
 .human-augumentation-section2 .human-aug2 .title span {
@@ -1065,7 +1075,7 @@ html {
   position: absolute;
   top: 0;
   right: 0;
-  width: 44%;
+  width: 48%;
   text-align: left;
   background: #2367B1;
   padding: 50px 10%;
@@ -1185,7 +1195,7 @@ html {
 .robotics-section .robotics .terms-flag-container {
   position: absolute;
   right: 0px;
-  bottom: 50px;
+  bottom: 30px;
   padding: 20px 80px 20px 60px;
   width: 640px;
   background-image: url(../images/ls/term-flag.svg);
