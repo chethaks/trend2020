@@ -960,3 +960,27 @@ footer span {
 .prod-platform-title {
   width: 540px;
 }
+
+/* Handling resize and small devices
+--------------------------------------- */
+.error {
+  display: none;
+  position: fixed;
+  width: 80%;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+  top: 30%;
+  left: 10%;
+}
+
+@media all and (max-width: 768px) {
+  .container-fluid {
+    display: none;
+  }
+  .error {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+  }
+}

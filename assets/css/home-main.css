@@ -1103,7 +1103,7 @@ footer span {
   }
 }
 
-/* 4. Handling resize and small devices
+/* Handling resize and small devices
 --------------------------------------- */
 .error {
   display: none;
