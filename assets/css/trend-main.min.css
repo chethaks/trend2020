@@ -103,7 +103,11 @@ section {
     background-position: center 220px;
     background-color: #fff;
     background-size: contain;
-    height: 110vh
+    height: 800px
+}
+
+.prosol-hero-ctas{
+    padding: 0 15%;
 }
 
 .covid-bg {
@@ -613,7 +617,7 @@ img.plr-0 {
 .common-covid-section .covid-left-section ul {
     background-color: #fff;
     margin: 0 18% 10% 10%;
-    padding: 4%
+    padding: 4% 6% 4% 4%;
 }
 
 .common-covid-section .covid-left-section ul li {

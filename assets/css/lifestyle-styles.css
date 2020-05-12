@@ -98,6 +98,7 @@ html {
 
 .trends-list-item {
   padding-top: 150px;
+  padding-left: 50px;
 }
 
 .trends-list-item li {
@@ -110,6 +111,7 @@ html {
   margin: 0;
   text-align: left;
   position: relative;
+  margin-bottom: 5px;
 }
 
 .trends-list-item li:last-child {
@@ -427,6 +429,10 @@ html {
   line-height: 155.19%;
 }
 
+.emerging-tech-section .emerging-techlgy .term-flag-box span {
+  color: #fff;
+}
+
 
 .emerging-tech-section .emerging-techlgy .rgt-column {
   position: absolute;
@@ -539,7 +545,7 @@ html {
   position: absolute;
   right: 0px;
   padding: 20px 30px 20px 70px;
-  width: 410px;
+  width: 420px;
   background-image: url(../images/ls/term-flag.svg);
   background-color: #5BCAE6;
   background-repeat: no-repeat;

@@ -159,6 +159,7 @@ html {
 
 .trends-list-item {
   padding-top: 150px;
+  padding-left: 50px;
 }
 
 .trends-list-item li {
@@ -483,7 +484,7 @@ html {
 }
 
 .edge-cloud-computing .cloud-computing {
-  height: 70vh;
+  height: 550px;
   background: #fff;
   position: relative;
 }
