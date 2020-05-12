@@ -394,12 +394,17 @@
   line-height: 24px;
   letter-spacing: 0.07em;
   color: #f7f7f7;
-  padding: 0 20%;
+  padding: 0 15% 0 20%;
 }
 
 .common-tab-section .content-section img {
   width: 100%;
   padding: 10px 0;
+}
+
+.closing-text-car {
+  text-align: center;
+  padding: 15%;
 }
 
 .closing-text-car h1 {
@@ -408,6 +413,7 @@
   line-height: 36px;
   letter-spacing: 0.1em;
   color: #ffffff;
+  padding-top: 2%;
 }
 
 .closing-text-car h3 {
@@ -415,6 +421,7 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 33px;
+  padding-bottom: 2%;
 }
 
 .closing-text-car .padding-t10 {
@@ -532,6 +539,14 @@
 
 .global-connectivity #connectivity-5 .content-section img {
   padding: 5%;
+}
+
+.global-connectivity #connectivity-5 .image-section {
+  text-align: center;
+}
+
+.global-connectivity #connectivity-5 .image-section img {
+  width: 70%;
 }
 
 .global-connectivity #connectivity-6 .content-section {
@@ -725,6 +740,7 @@
 
 .global-electrification #electrification-2 .content-section {
   color: #2266b0;
+  padding-top: 15%;
 }
 
 .global-electrification #electrification-2 .content-section p {

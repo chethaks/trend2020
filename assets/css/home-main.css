@@ -819,7 +819,6 @@ footer span {
   line-height: 47px;
   text-align: center;
   color: #ffffff;
-  padding: 20% 15%;
   border: 1px solid #98e1f3;
   margin-bottom: 30px;
   min-height: 300px;
@@ -1010,11 +1009,12 @@ footer span {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -12%);
-          transform: translate(-50%, -12%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   font-weight: normal;
   height: 100%;
   width: 100%;
+  padding: 20%;
 }
 
 .the-end a:hover {

@@ -362,7 +362,7 @@ $new-bg-color: #00a1e8;
       line-height: 24px;
       letter-spacing: 0.07em;
       color: $sub-head;
-      padding: 0 20%;
+      padding: 0 15% 0 20%
     }
     img {
       width: 100%;
@@ -371,18 +371,22 @@ $new-bg-color: #00a1e8;
   }
 }
 .closing-text-car {
+  text-align: center;
+  padding: 15%;
   h1 {
     font-weight: normal;
     font-size: 30px;
     line-height: 36px;
     letter-spacing: 0.1em;
     color: $white;
+    padding-top: 2%;
   }
   h3 {
     color: $white;
     font-weight: normal;
     font-size: 18px;
     line-height: 33px;
+    padding-bottom: 2%;
   }
   .padding-t10 {
     padding-top: 10%;
@@ -499,6 +503,12 @@ $new-bg-color: #00a1e8;
       }
       img {
         padding: 5%;
+      }
+    }
+    .image-section{
+      text-align: center;
+      img{
+        width: 70%;
       }
     }
   }
@@ -688,6 +698,7 @@ $new-bg-color: #00a1e8;
   #electrification-2 {
     .content-section {
       color: $secondary-color;
+      padding-top: 15%;
       p {
         color: $secondary-color;
       }
