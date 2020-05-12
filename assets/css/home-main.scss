@@ -68,22 +68,22 @@ section {
   }
 }
 
-.bg-footer{
+.bg-footer {
   background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    &.bg-cc {
-      background-image: url("../images/home/TB-home-CC.png");
-    }
-    &.bg-cs {
-      background-image: url("../images/home/TB-home-CS.png");
-    }
-    &.bg-ps {
-      background-image: url("../images/home/TB-home-PS.png");
-    }
-    &.bg-la {
-      background-image: url("../images/home/TB-home-LS.png");
-    }
+  background-repeat: no-repeat;
+  background-size: cover;
+  &.bg-cc {
+    background-image: url("../images/home/TB-home-CC.png");
+  }
+  &.bg-cs {
+    background-image: url("../images/home/TB-home-CS.png");
+  }
+  &.bg-ps {
+    background-image: url("../images/home/TB-home-PS.png");
+  }
+  &.bg-la {
+    background-image: url("../images/home/TB-home-LS.png");
+  }
 }
 
 .bg {
@@ -229,7 +229,7 @@ section {
 footer {
   background-color: #2c2c2c;
   padding: 2% 5%;
-  color: #9A9999;
+  color: #9a9999;
   span {
     float: right;
   }
@@ -239,16 +239,16 @@ footer {
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  
+
   video {
     height: 100%;
     width: 100%;
     object-fit: cover;
   }
-  .white-line{
+  .white-line {
     display: block;
     height: 1px;
-    background-color: #5DC9E5;
+    background-color: #5dc9e5;
     position: relative;
     bottom: 10%;
     z-index: 10;
@@ -262,7 +262,15 @@ footer {
     justify-content: center;
     align-items: center;
     position: absolute;
-    background: linear-gradient(180deg, #00A1E8 0%, #00A1E8 0%, #1A75BE 0.01%, #0F87CF 0.02%, rgba(21, 88, 154, 0.02) 0.03%, #1E026C50.52%);
+    background: linear-gradient(
+      180deg,
+      #00a1e8 0%,
+      #00a1e8 0%,
+      #1a75be 0.01%,
+      #0f87cf 0.02%,
+      rgba(21, 88, 154, 0.02) 0.03%,
+      #1E026C50.52%
+    );
     div {
       position: absolute;
       opacity: 0;
@@ -270,9 +278,9 @@ footer {
       text-align: center;
       color: $white;
       &:nth-child(1) {
-      font-size: 96px;
-      line-height: 80px;
-      letter-spacing: 0.055em;
+        font-size: 96px;
+        line-height: 80px;
+        letter-spacing: 0.055em;
       }
       &:nth-child(2) {
         font-weight: 900;
@@ -345,19 +353,19 @@ footer {
   }
 }
 
-.source-text{
+.source-text {
   text-align: left !important;
   position: absolute;
   font-size: 12px !important;
   color: #999999 !important;
 }
 
-.extra-text-on-img{
+.extra-text-on-img {
   text-align: right;
-    font-weight: bold;
-    font-size: 20px;
-    color: #15589A;
-    padding: 2% 5%;
+  font-weight: bold;
+  font-size: 20px;
+  color: #15589a;
+  padding: 2% 5%;
 }
 .home-parallax {
   .parallax-bgimg {
@@ -424,7 +432,7 @@ footer {
         background-color: $white;
         text-align: center;
         position: relative;
-        span{
+        span {
           display: block;
           text-align: right;
           font-weight: bold;
@@ -511,7 +519,7 @@ footer {
     #15589a 0.03%,
     #072d55 92.71%
   );
-  &.mt-40{
+  &.mt-40 {
     margin-top: 40%;
   }
   .new-pattern {
@@ -605,7 +613,7 @@ footer {
     z-index: 1;
     bottom: 175px;
     width: 50%;
-    img{
+    img {
       width: 100%;
     }
   }
@@ -640,8 +648,8 @@ footer {
     padding: 5%;
     margin-bottom: 10%;
     position: relative;
-    img{
-      width: 85%
+    img {
+      width: 85%;
     }
   }
   .saviours {
@@ -660,52 +668,93 @@ footer {
       z-index: 3;
     }
   }
-  .closer-section{
+  .closer-section {
     position: relative;
-    background: linear-gradient(90deg, #00A1E8 0%, #00A1E8 0%, #1A75BE 0.01%, #0F87CF 0.02%, #15589A 0.03%, #072D55 92.71%);
-    .flat-bg{
-      background-color: #15589A;
+    background: linear-gradient(
+      90deg,
+      #00a1e8 0%,
+      #00a1e8 0%,
+      #1a75be 0.01%,
+      #0f87cf 0.02%,
+      #15589a 0.03%,
+      #072d55 92.71%
+    );
+    .flat-bg {
+      background-color: #15589a;
       height: 350px;
       margin-top: 10%;
       position: relative;
-    z-index: 1;
-      h5{
+      z-index: 1;
+      h5 {
         font-weight: bold;
         font-size: 18px;
         line-height: 120%;
         letter-spacing: 0.07em;
-        color: #F5F5F5;
+        color: #f5f5f5;
       }
     }
-    .col-sm-3{
-      img{
+    .col-sm-3 {
+      img {
         width: 100%;
       }
     }
-    .closer-summary{
+    .closer-summary {
       padding-top: 20%;
       position: relative;
-      img{
+      img {
         position: absolute;
         left: 21%;
         top: 59%;
         width: 25%;
       }
-      p{
+      p {
         background-color: rgba(7, 45, 85, 0.5);
         font-weight: bold;
         font-size: 22px;
         line-height: 159.5%;
         letter-spacing: 0.07em;
-        color: #F5F5F5;
+        color: #f5f5f5;
         padding: 5% 10% 5% 15%;
         margin-left: 34%;
       }
     }
-    .the-end{
+    .closer-summary-2 {
+      padding-top: 20%;
+      position: relative;
+      img {
+        position: absolute;
+        right: 20%;
+        top: 44%;
+        width: 25%;
+      }
+      p {
+        background-color: rgba(7, 45, 85, 0.5);
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 159.5%;
+        letter-spacing: 0.07em;
+        color: #f5f5f5;
+        padding: 5% 20% 7% 15%;
+        margin-right: 34%;
+      }
+      span {
+        color: #ffffff;
+        display: block;
+        position: absolute;
+        bottom: 10px;
+        font-size: 14px;
+        img {
+          position: relative;
+          transform: rotate(180deg);
+          bottom: 35px;
+          left: -2px;
+        }
+      }
+    }
+    .the-end {
       position: relative;
       z-index: 2;
-      .col-sm-12{
+      .col-sm-12 {
         font-weight: 900;
         font-size: 40px;
         line-height: 47px;
@@ -715,32 +764,33 @@ footer {
         border: 1px solid #98e1f3;
         margin-bottom: 30px;
         min-height: 300px;
-        &:hover{
-          background-color: #00B8E7;
+        &:hover {
+          background-color: #00b8e7;
           background-image: none;
         }
-        h1{
+        h1 {
           font-weight: normal;
-        font-size: 40px;
-        line-height: 47px;
-        text-align: center;
-        color: #ffffff;
-        width: 100%;
+          font-size: 40px;
+          line-height: 47px;
+          text-align: center;
+          color: #ffffff;
+          width: 100%;
         }
       }
     }
   }
 }
 
-.new-h1{
+.new-h1 {
   font-weight: normal;
-    font-size: 33px;
-    line-height: 124.2%;
-    text-align: center;
-    color: #ffffff;
-    padding: 5%;
-    display: block;
-    margin-bottom: 10%;
+  font-size: 33px;
+  line-height: 124.2%;
+  text-align: center;
+  color: #ffffff;
+  padding: 5%;
+  display: block;
+  margin-bottom: 10%;
+  margin-top: 10%;
 }
 
 .pattern-image1 {
@@ -748,7 +798,7 @@ footer {
   top: 0;
   right: 0;
   z-index: 0;
-  img{
+  img {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
   }
@@ -758,7 +808,7 @@ footer {
   bottom: 0;
   left: 0;
   z-index: 1;
-  img{
+  img {
     -webkit-transform: scaleY(-1);
     transform: scaleY(-1);
   }
@@ -769,7 +819,7 @@ footer {
   bottom: -25%;
   left: 0;
   z-index: -1;
-  img{
+  img {
     -webkit-transform: scaleY(-1);
     transform: scaleY(-1);
   }
@@ -807,30 +857,30 @@ footer {
   }
 }
 
-.parallax-image{
+.parallax-image {
   z-index: 1;
   position: relative;
 }
 
-.super-circle{
+.super-circle {
   position: absolute;
   bottom: -5%;
   left: -20%;
   width: 65%;
 }
 
-.img-src{
+.img-src {
   position: absolute;
-    left: 8%;
-    bottom: 15%;
-    width: 30% !important;
+  left: 8%;
+  bottom: 15%;
+  width: 30% !important;
 }
 
-.img-src2{
+.img-src2 {
   position: absolute;
-    left: 12%;
-    bottom: 10%;
-    width: 30% !important;
+  left: 12%;
+  bottom: 10%;
+  width: 30% !important;
 }
 
 .bg-trend .hero-title-sec {
@@ -852,7 +902,7 @@ footer {
   letter-spacing: 0.1em;
   margin-bottom: 20px;
   -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }
 
 .bg-trend h6.hero-banner-cont {
@@ -863,7 +913,7 @@ footer {
   padding-left: 5px;
   font-weight: normal;
   -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }
 
 .year-2020 {
@@ -876,12 +926,12 @@ footer {
   letter-spacing: 0.1em;
   color: #fff;
   -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both
-} 
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
 
 .footer-link {
   font-size: 16px;
-  color: #9A9999;
+  color: #9a9999;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
@@ -890,22 +940,23 @@ footer {
 }
 
 .footer-link:hover {
-  color: #9A9999;
+  color: #9a9999;
   text-decoration: none;
 }
 
-.the-end{
-
-  a{
+.the-end {
+  a {
     color: #ffffff;
-      text-decoration: none;
-      cursor: pointer;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      font-weight: normal;
-    &:hover{
+    text-decoration: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -12%);
+    font-weight: normal;
+    height: 100%;
+    width: 100%;
+    &:hover {
       color: #ffffff;
       text-decoration: none;
     }
@@ -919,90 +970,90 @@ footer {
     .navbar-brand {
       color: $white;
       font-size: 16px;
-      img{
+      img {
         width: 60px;
       }
     }
-    .fa{
+    .fa {
       color: $white;
     }
   }
-  .home-parallax{
-    .parallax-content{
-      .parallax-graph{
-        h1{
+  .home-parallax {
+    .parallax-content {
+      .parallax-graph {
+        h1 {
           font-size: 20px;
         }
-        .parallax-graph-image{
-          .graph-text1{
+        .parallax-graph-image {
+          .graph-text1 {
             font-size: 16px;
           }
-          .graph-text2{
+          .graph-text2 {
             font-size: 16px;
           }
-          p{
+          p {
             font-size: 12px;
           }
         }
       }
-      .white-box{
-        span{
+      .white-box {
+        span {
           font-size: 30px;
           line-height: initial;
           min-height: 80px;
         }
       }
-      .extra-heading{
+      .extra-heading {
         font-size: 14px;
       }
     }
   }
-  .gradient-bg{
-    .gragh-section{
-      h1{
+  .gradient-bg {
+    .gragh-section {
+      h1 {
         font-size: 20px;
       }
     }
-    .year-100{
-      h1{
+    .year-100 {
+      h1 {
         width: 400px;
         font-size: 16px;
         line-height: inherit;
       }
-      h2{
+      h2 {
         width: 400px;
         font-size: 16px;
         line-height: inherit;
       }
-      h3{
+      h3 {
         width: 400px;
         font-size: 16px;
         line-height: inherit;
       }
     }
   }
-  .no-gradient-graph{
-    h1{
+  .no-gradient-graph {
+    h1 {
       font-size: 20px;
     }
-    .saviours{
-      h1{
+    .saviours {
+      h1 {
         font-size: 20px;
       }
     }
-    .closer-section{
-      .closer-summary{
-        p{
+    .closer-section {
+      .closer-summary {
+        p {
           font-size: 12px;
         }
       }
-      .flat-bg{
-        h5{
+      .flat-bg {
+        h5 {
           font-size: 12px;
         }
       }
-      .the-end{
-        .col-sm-12{
+      .the-end {
+        .col-sm-12 {
           font-size: 26px;
           min-height: 200px;
           line-height: inherit;
@@ -1010,38 +1061,38 @@ footer {
       }
     }
   }
-  .extra-text-on-img{
+  .extra-text-on-img {
     font-size: 16px;
   }
-  .new-h1{
+  .new-h1 {
     font-size: 24px;
   }
-  .bg-trend h1.hero-banner-title{
+  .bg-trend h1.hero-banner-title {
     font-size: 48px;
     line-height: initial;
   }
-  .bg-trend h6.hero-banner-cont{
+  .bg-trend h6.hero-banner-cont {
     font-size: 12px;
   }
-  .parallax-image{
-    img{
+  .parallax-image {
+    img {
       width: 70%;
     }
   }
-  .home-page{
-    .home-intro{
-      .intro-content{
+  .home-page {
+    .home-intro {
+      .intro-content {
         padding: 10%;
-        h1{
+        h1 {
           font-size: 16px;
         }
-        p{
+        p {
           font-size: 10px;
         }
-        h4{
+        h4 {
           font-size: 12px;
         }
-        span{
+        span {
           font-size: 12px;
         }
       }
@@ -1051,23 +1102,23 @@ footer {
     .covid-header {
       font-size: 50px;
       letter-spacing: 0;
-      h1{
+      h1 {
         font-size: 50px;
       }
     }
   }
-  .intro-video{
-    .videobg-container{
-      div{
+  .intro-video {
+    .videobg-container {
+      div {
         font-size: 50px !important;
-        h1{
+        h1 {
           font-size: 50px !important;
-        } 
-        h2{
+        }
+        h2 {
           font-size: 24px;
           line-height: initial;
         }
-        h3{
+        h3 {
           font-size: 50px !important;
         }
       }
@@ -1097,4 +1148,8 @@ footer {
     font-size: 24px;
     font-weight: bold;
   }
+}
+
+.iframe-center {
+  // text-align: center;
 }

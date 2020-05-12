@@ -131,6 +131,10 @@
   padding: 15%;
 }
 
+.global-outlook .padding-15-7 {
+  padding: 15% 7%;
+}
+
 .global-outlook .image-section h2 {
   padding-left: 5%;
 }
@@ -205,6 +209,7 @@
   line-height: 21px;
   color: #f7f7f7;
   vertical-align: top;
+  min-width: 175px;
 }
 
 .common-tab-section .car-global-header {
@@ -1221,6 +1226,14 @@
   .navbar .fa {
     color: #ffffff;
   }
+  .global-outlook h1 {
+    font-size: 54px;
+    line-height: 70px;
+  }
+  .global-outlook h3 {
+    font-size: 54px;
+    line-height: 70px;
+  }
 }
 
 /* Handling resize and small devices
@@ -1236,7 +1249,7 @@
   left: 10%;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
   .container-fluid {
     display: none;
   }

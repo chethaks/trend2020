@@ -230,7 +230,7 @@ section {
 footer {
   background-color: #2c2c2c;
   padding: 2% 5%;
-  color: #9A9999;
+  color: #9a9999;
 }
 
 footer span {
@@ -253,7 +253,7 @@ footer span {
 .intro-video .white-line {
   display: block;
   height: 1px;
-  background-color: #5DC9E5;
+  background-color: #5dc9e5;
   position: relative;
   bottom: 10%;
   z-index: 10;
@@ -277,8 +277,8 @@ footer span {
       -ms-flex-align: center;
           align-items: center;
   position: absolute;
-  background: -webkit-gradient(linear, left top, left bottom, from(#00A1E8), color-stop(0%, #00A1E8), color-stop(0.01%, #1A75BE), color-stop(0.02%, #0F87CF), color-stop(0.03%, rgba(21, 88, 154, 0.02)), color-stop(0.52%, #1E026C50));
-  background: linear-gradient(180deg, #00A1E8 0%, #00A1E8 0%, #1A75BE 0.01%, #0F87CF 0.02%, rgba(21, 88, 154, 0.02) 0.03%, #1E026C50 0.52%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#00a1e8), color-stop(0%, #00a1e8), color-stop(0.01%, #1a75be), color-stop(0.02%, #0f87cf), color-stop(0.03%, rgba(21, 88, 154, 0.02)), color-stop(0.52%, #1E026C50));
+  background: linear-gradient(180deg, #00a1e8 0%, #00a1e8 0%, #1a75be 0.01%, #0f87cf 0.02%, rgba(21, 88, 154, 0.02) 0.03%, #1E026C50 0.52%);
 }
 
 .intro-video .videobg-container div {
@@ -383,7 +383,7 @@ footer span {
   text-align: right;
   font-weight: bold;
   font-size: 20px;
-  color: #15589A;
+  color: #15589a;
   padding: 2% 5%;
 }
 
@@ -722,12 +722,12 @@ footer span {
 
 .no-gradient-graph .closer-section {
   position: relative;
-  background: -webkit-gradient(linear, left top, right top, from(#00A1E8), color-stop(0%, #00A1E8), color-stop(0.01%, #1A75BE), color-stop(0.02%, #0F87CF), color-stop(0.03%, #15589A), color-stop(92.71%, #072D55));
-  background: linear-gradient(90deg, #00A1E8 0%, #00A1E8 0%, #1A75BE 0.01%, #0F87CF 0.02%, #15589A 0.03%, #072D55 92.71%);
+  background: -webkit-gradient(linear, left top, right top, from(#00a1e8), color-stop(0%, #00a1e8), color-stop(0.01%, #1a75be), color-stop(0.02%, #0f87cf), color-stop(0.03%, #15589a), color-stop(92.71%, #072d55));
+  background: linear-gradient(90deg, #00a1e8 0%, #00a1e8 0%, #1a75be 0.01%, #0f87cf 0.02%, #15589a 0.03%, #072d55 92.71%);
 }
 
 .no-gradient-graph .closer-section .flat-bg {
-  background-color: #15589A;
+  background-color: #15589a;
   height: 350px;
   margin-top: 10%;
   position: relative;
@@ -739,7 +739,7 @@ footer span {
   font-size: 18px;
   line-height: 120%;
   letter-spacing: 0.07em;
-  color: #F5F5F5;
+  color: #f5f5f5;
 }
 
 .no-gradient-graph .closer-section .col-sm-3 img {
@@ -764,9 +764,48 @@ footer span {
   font-size: 22px;
   line-height: 159.5%;
   letter-spacing: 0.07em;
-  color: #F5F5F5;
+  color: #f5f5f5;
   padding: 5% 10% 5% 15%;
   margin-left: 34%;
+}
+
+.no-gradient-graph .closer-section .closer-summary-2 {
+  padding-top: 20%;
+  position: relative;
+}
+
+.no-gradient-graph .closer-section .closer-summary-2 img {
+  position: absolute;
+  right: 20%;
+  top: 44%;
+  width: 25%;
+}
+
+.no-gradient-graph .closer-section .closer-summary-2 p {
+  background-color: rgba(7, 45, 85, 0.5);
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 159.5%;
+  letter-spacing: 0.07em;
+  color: #f5f5f5;
+  padding: 5% 20% 7% 15%;
+  margin-right: 34%;
+}
+
+.no-gradient-graph .closer-section .closer-summary-2 span {
+  color: #ffffff;
+  display: block;
+  position: absolute;
+  bottom: 10px;
+  font-size: 14px;
+}
+
+.no-gradient-graph .closer-section .closer-summary-2 span img {
+  position: relative;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  bottom: 35px;
+  left: -2px;
 }
 
 .no-gradient-graph .closer-section .the-end {
@@ -787,7 +826,7 @@ footer span {
 }
 
 .no-gradient-graph .closer-section .the-end .col-sm-12:hover {
-  background-color: #00B8E7;
+  background-color: #00b8e7;
   background-image: none;
 }
 
@@ -809,6 +848,7 @@ footer span {
   padding: 5%;
   display: block;
   margin-bottom: 10%;
+  margin-top: 10%;
 }
 
 .pattern-image1 {
@@ -953,13 +993,13 @@ footer span {
 
 .footer-link {
   font-size: 16px;
-  color: #9A9999;
+  color: #9a9999;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
 .footer-link:hover {
-  color: #9A9999;
+  color: #9a9999;
   text-decoration: none;
 }
 
@@ -970,9 +1010,11 @@ footer span {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -12%);
+          transform: translate(-50%, -12%);
   font-weight: normal;
+  height: 100%;
+  width: 100%;
 }
 
 .the-end a:hover {

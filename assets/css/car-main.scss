@@ -134,6 +134,9 @@ $new-bg-color: #00a1e8;
   .padding-15 {
     padding: 15%;
   }
+  .padding-15-7{
+    padding: 15% 7%;
+  }
   .image-section {
     h2 {
       padding-left: 5%;
@@ -201,6 +204,7 @@ $new-bg-color: #00a1e8;
       line-height: 21px;
       color: $sub-head;
       vertical-align: top;
+      min-width: 175px;
     }
   }
 }
@@ -1209,6 +1213,16 @@ width: 40%;
       color: $white;
     }
   }
+  .global-outlook {
+    h1{
+      font-size: 54px;
+      line-height: 70px;
+    }
+    h3{
+      font-size: 54px;
+      line-height: 70px;
+    }
+  }
 }
 /* Handling resize and small devices
 --------------------------------------- */
@@ -1223,7 +1237,7 @@ width: 40%;
   left: 10%;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
   .container-fluid {
     display: none;
   }
