@@ -12,44 +12,42 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/home-main.min.css">
-    <!-- Embed this script tag in the header section of your HTML -->
-    <script type="text/javascript" src="https://cdn.intelligence.weforum.org/latest.js"></script>
-
+    <link rel="stylesheet" href="assets/css/mainnav.css">
     <title>TRENDS - 2020</title>
 </head>
-
 <body>
-    <!-- Navbar-->
-    <header class="header">
-        <nav class="navbar navbar-expand-lg fixed-top">
-            <div class="container-fluid"><a href="index.html" class="navbar-brand text-uppercase">
-                    <img src="assets/images/harman-logo.png" alt="" width="120px" />
-                    TRENDS<strong>&nbsp;2020</strong></a>
-                <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
-                    class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
 
-                <div id="navbarSupportedContent" class="collapse navbar-collapse">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active"><a href="connected-car.html"
-                                class="nav-link text-uppercase font-weight-bold">Connected
-                                Car<span class="sr-only">(current)</span></a></li>
-                        <li class="nav-item"><a href="lifestyle.html"
-                                class="nav-link text-uppercase font-weight-bold">CONSUMER</a>
-                        </li>
-                        <li class="nav-item"><a href="pro-solution.html"
-                                class="nav-link text-uppercase font-weight-bold">Professional
-                                Solutions</a>
-                        </li>
-                        <li class="nav-item"><a href="connected-services.html"
-                                class="nav-link text-uppercase font-weight-bold">Connected
-                                Services</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
+    <!-- HEADER START -->
+    <nav class="navbar navbar-expand-xl navbar-dark fixed-top bg-faded">
+        <a class="harman-logo navbar-brand" href="index.html"><img id="harman-logo" src="assets/images/harman-logo.png"
+                title="Harman" alt="Harman"></a>
+        <button class="navbar-toggler navbar-toggle collapsed" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active"><a href="index.html"
+                        class="nav-link text-uppercase font-weight-bold">MACRO TRENDS 2020</a></li>
+                <li class="nav-item"><a href="connected-car.html"
+                        class="nav-link text-uppercase font-weight-bold">Connected Car</a>
+                </li>
+                <li class="nav-item"><a href="lifestyle.html"
+                        class="nav-link text-uppercase font-weight-bold">CONSUMER</a>
+                </li>
+                <li class="nav-item"><a href="pro-solution.html"
+                        class="nav-link text-uppercase font-weight-bold">Professional Solutions</a>
+                </li>
+                <li class="nav-item"><a href="connected-services.html"
+                        class="nav-link text-uppercase font-weight-bold">Connected Services</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- HEADER END -->
 
     <div class="container-fluid p-0 home-page">
         <!-- Page Banner-->
@@ -68,14 +66,14 @@
         <section class="home-intro bg bg-intro">
             <div class="row m-0">
                 <div class="col-sm-5 p-0">
-                    <div class="parallax-image lax" data-lax-preset="driftRight">
+                    <!-- <div class="parallax-image lax" data-lax-preset="driftRight">
                         <img src="assets/images/home/supergirl.png" alt="">
-                    </div>
-                    <img class="super-circle" src="assets/images/home/supergirl-circle.png" alt="" />
+                    </div> -->
+                    <h1 class="dear-reader">Dear<br /> Reader,</h1>
+                    <img class="super-circle" src="assets/images/home/Dear-reader-Circles.png" alt="" />
                 </div>
                 <div class="col-sm-7">
                     <div class="intro-content lax" data-lax-preset="fadeIn">
-                        <h1>Dear Reader,</h1>
                         <p>Seeing around corners 2.0 - Industry Trends & Dynamics is shared around trends in the spirit
                             of providing you thought starters as you engage with your partners and team members, develop
                             new ideas (box 3) or drive to continue linear innovation (box 1) in your organizations.</p>
@@ -114,7 +112,7 @@
             </div>
         </section>
         <div id="homeWrapper">
-            <section class="home-parallax">
+            <section id="mt-economic-rebalance" class="home-parallax">
                 <div class="parallax-bgimg lax" data-lax-preset=""><img
                         src="assets/images/home/EConomic rebalance-banner.png" alt="" /></div>
                 <div class="parallax-content">
@@ -279,7 +277,7 @@
                 </div>
             </section>
 
-            <section class="parallax-covid">
+            <section id="mt-covid-impact" class="parallax-covid">
                 <div class="bg bg-intro-covid">
                     <div class="covid-header">COVID <h1>- 19</h1><br />
                         IMPACT
@@ -476,8 +474,6 @@
                 href="https://www.harman.com/cookies-statement" class="footer-link" target="_blank">Cookies</a> | <a
                 href="https://www.harman.com/terms-use" class="footer-link" target="_blank">Terms of Use</a></span>
     </footer>
-    <div class="iframe-container"><intelligence-widget apikey="7379d80f-c932-4321-8b3c-cce8ad22535a" text="text" language="en">
-    </intelligence-widget></div>
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

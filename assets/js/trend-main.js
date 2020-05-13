@@ -4,11 +4,21 @@
 $(window).on("scroll", function () {
   if ($(window).scrollTop() > 10) {
     $(".navbar").addClass("active");
+    $("#harman-logo").addClass("pagescroll-logo-size");
   } else {
     $(".navbar").removeClass("active");
+    $("#harman-logo").removeClass("pagescroll-logo-size");
   }
   return false;
 });
+
+$(".navbar-toggler").click(function () {
+  if ($(this).hasClass("collapsed")) {
+    $(".navbar").addClass("navbar-bgcolor");
+  } else {
+    $(".navbar").removeClass("navbar-bgcolor");
+  }
+})
 
 // HCS CLICK DOWN ARROW START
 $("#hcs-connected-lifestyle").click(function () {
